@@ -1,0 +1,544 @@
+{
+	"questions": [
+		{
+			"id": 1,
+			"type": "mc",
+			"text": "A partir do que estudamos e, considerando a metodologia de projetos como potencializadora de experiencias de aprendizagem colaborativas, conectadas com o desenvolvimento das competencias profissionais do seculo XXI, responda:<br>Qual e a diferenca entre competencias tecnicas e competencias comportamentais?",
+			"alternatives": [
+				{
+					"description": "A. Competencias tecnicas referem-se a conhecimentos teoricos, enquanto competencias comportamentais envolvem habilidades praticas.",
+					"correct": false
+				},
+				{
+					"description": "B. Competencias tecnicas sao relacionadas a habilidades interpessoais, enquanto competencias comportamentais sao especificas de uma area de conhecimento.",
+					"correct": false
+				},
+				{
+					"description": "C. Competencias tecnicas sao habilidades especificas relacionadas a conhecimentos tecnicos, ferramentas e tecnicas, enquanto competencias comportamentais sao caracteristicas e comportamentos pessoais.",
+					"correct": true
+				},
+				{
+					"description": "D. Competencias tecnicas referem-se a habilidades praticas, enquanto competencias comportamentais estao relacionadas a conhecimentos teoricos.",
+					"correct": false
+				},
+				{
+					"description": "E. Competencias tecnicas sao adquiridas por meio de treinamentos, enquanto competencias comportamentais sao desenvolvidas por meio de experiencias profissionais.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 2,
+			"type": "mc",
+			"text": "Dentre as alternativas a seguir, qual e a metodologia de aprendizagem que coloca o academico no centro do processo de aprendizagem e o desafia a aplicar o conhecimento teorico na pratica?",
+			"alternatives": [
+				{
+					"description": "A. Aprendizagem baseada em projetos.",
+					"correct": true
+				},
+				{
+					"description": "B. Aprendizagem expositiva tradicional.",
+					"correct": false
+				},
+				{
+					"description": "C. Aprendizagem individualizada.",
+					"correct": false
+				},
+				{
+					"description": "D. Aprendizagem baseada em competencias tecnicas.",
+					"correct": false
+				},
+				{
+					"description": "E. Aprendizagem padronizada.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 3,
+			"type": "mc",
+			"text": "A aprendizagem baseada em projetos (ABP) e a autonomia discente sao abordagens complementares que podem transformar a educacao em uma experiencia mais envolvente e significativa. A ABP oferece aos alunos a oportunidade de exercer autonomia em um contexto pratico, o que, por sua vez, ajuda a desenvolver suas habilidades de autorregulacao, autodirecao e responsabilidade pelo aprendizado. Considerando o que estudamos, qual e o objetivo da ABP em relacao a autonomia dos alunos?",
+			"alternatives": [
+				{
+					"description": "A. Restringir sua liberdade de escolha.",
+					"correct": false
+				},
+				{
+					"description": "B. Torna-los responsaveis pelo seu proprio desenvolvimento academico e pessoal.",
+					"correct": true
+				},
+				{
+					"description": "C. Fornecer diretrizes rigidas para o aprendizado.",
+					"correct": false
+				},
+				{
+					"description": "D. Limitar suas opcoes de temas a serem explorados.",
+					"correct": false
+				},
+				{
+					"description": "E. Controlar seu percurso de aprendizagem.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 4,
+			"type": "mc",
+			"text": "Qual e a importancia da colaboracao na aprendizagem baseada em projetos (ABP)?",
+			"alternatives": [
+				{
+					"description": "A. Reduzir o trabalho individual dos alunos.",
+					"correct": false
+				},
+				{
+					"description": "B. Evitar o conflito entre os membros do grupo.",
+					"correct": false
+				},
+				{
+					"description": "C. Promover a competicao entre os alunos.",
+					"correct": false
+				},
+				{
+					"description": "D. Estimular a troca de experiencias e a cooperacao entre os membros do grupo.",
+					"correct": true
+				},
+				{
+					"description": "E. Minimizar a interacao entre os membros do grupo.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 5,
+			"type": "mc",
+			"text": "Da segunda metade da decada de 1970 ate o comeco da decada de 1980, a inteligencia artificial viveu um periodo de calmaria, que ficou conhecido como o inverno da inteligencia artificial. Quais as causas que levaram a IA a entrar nesse periodo de calmaria?",
+			"alternatives": [
+				{
+					"description": "A. A IA viveu uma era de crise mundial, os empresarios, apesar de empolgados com as solucoes de IA, nao tinham verbas suficientes para investir.",
+					"correct": false
+				},
+				{
+					"description": "B. Apesar de muitos estudos academicos na area de IA, nao existiam profissionais habilitados para implantar as solucoes de IA.",
+					"correct": false
+				},
+				{
+					"description": "C. A IA viveu uma era de negacao das solucoes de IA. Por nao acreditarem que fosse realidade, pensavam que nao tinham condicoes de investir nas maquinas, pois na epoca ainda nao eram populares.",
+					"correct": false
+				},
+				{
+					"description": "D. A IA viveu nesse periodo uma era de poucas novidades, reducao nos investimentos, baixa produtividade, alem de nao existir nada em concreto ou com aplicabilidade.",
+					"correct": true
+				},
+				{
+					"description": "E. Apesar de muitos estudos academicos na area de IA, os resultados nao eram satisfatorios para a comunidade academica e muitos cientistas ficaram desacreditados.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 6,
+			"type": "mc",
+			"text": "Segundo Russell e Norvig, as definicoes de inteligencia artificial encontradas na literatura cientifica podem ser agrupadas em quatro linhas de pensamento:",
+			"alternatives": [
+				{
+					"description": "A. Sistemas inteligentes, sistemas autonomos, sistemas especialistas e aprendizado de maquina.",
+					"correct": false
+				},
+				{
+					"description": "B. Sistemas que pensam como humanos, sistemas que agem como humanos, sistemas que pensam racionalmente e sistemas que agem racionalmente.",
+					"correct": true
+				},
+				{
+					"description": "C. Sistemas que pensam como humanos, sistemas inteligentes, sistemas que pensam racionalmente e sistemas especialistas.",
+					"correct": false
+				},
+				{
+					"description": "D. Sistemas que pensam como humanos, sistemas que agem como humanos, sistemas que pensam inteligente e sistemas que agem inteligente.",
+					"correct": false
+				},
+				{
+					"description": "E. Sistemas inteligentes, sistemas que agem como humanos, sistemas autonomos e sistemas que agem racionalmente.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 7,
+			"type": "mc",
+			"text": "A inteligencia artificial possui varios paradigmas, incluindo o paradigma conexionista e o paradigma simbolico. Entre os metodos desses paradigmas, quais estao relacionados, respectivamente?",
+			"alternatives": [
+				{
+					"description": "A. Redes neurais e algoritmos geneticos estao mais associados ao paradigma conexionista, enquanto o algoritmo naive bayes ao paradigma simbolico.",
+					"correct": false
+				},
+				{
+					"description": "B. Redes neurais e algoritmos geneticos estao mais associados ao paradigma conexionista, enquanto o uso de linguagens como Prolog e Lisp esta relacionado ao paradigma simbolico.",
+					"correct": false
+				},
+				{
+					"description": "C. Redes neurais estao mais associadas ao paradigma conexionista, enquanto a arvore de decisao ao paradigma simbolico.",
+					"correct": true
+				},
+				{
+					"description": "D. Redes neurais e algoritmos geneticos estao mais associados ao paradigma simbolico, enquanto o uso de linguagens como Prolog e Lisp esta relacionado ao paradigma conexionista.",
+					"correct": false
+				},
+				{
+					"description": "E. Arvore de decisao esta mais associada ao paradigma conexionista, enquanto redes neurais artificiais ao paradigma simbolico.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 8,
+			"type": "mc",
+			"text": "De acordo com os paradigmas de inteligencia artificial, pode-se afirmar que um modelo simbolista:",
+			"alternatives": [
+				{
+					"description": "A. nao possui conhecimento representado explicitamente.",
+					"correct": false
+				},
+				{
+					"description": "B. e um modelo que aprende a partir dos dados.",
+					"correct": false
+				},
+				{
+					"description": "C. lida apenas com simbolos graficos.",
+					"correct": false
+				},
+				{
+					"description": "D. lida com conhecimento explicito e representado simbolicamente.",
+					"correct": true
+				},
+				{
+					"description": "E. e um modelo que aprende a partir dos dados e generaliza o conhecimento apreendido.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 9,
+			"type": "mc",
+			"text": "Sobre as aplicacoes da inteligencia artificial, identifique entre as opcoes quais ja fazem parte da nossa rotina.",
+			"alternatives": [
+				{
+					"description": "A. Carros autonomos.",
+					"correct": false
+				},
+				{
+					"description": "B. Robotizacao do policiamento das ruas (policial robo).",
+					"correct": false
+				},
+				{
+					"description": "C. Tradutores por leitura cerebral usando redes neurais artificiais.",
+					"correct": false
+				},
+				{
+					"description": "D. Aeronaves autonomas.",
+					"correct": false
+				},
+				{
+					"description": "E. Casas inteligentes.",
+					"correct": true
+				}
+			]
+		},
+		{
+			"id": 10,
+			"type": "mc",
+			"text": "Em relacao a aplicacao adequada de inteligencia artificial, avalie as afirmacoes e marque a alternativa correta.",
+			"alternatives": [
+				{
+					"description": "A. A aplicacao da inteligencia artificial nos sistemas que fazem parte da nossa rotina ainda nao tem uma grande produtividade.",
+					"correct": false
+				},
+				{
+					"description": "B. A inteligencia artificial tem crescido bastante nos ultimos anos, porem ainda esta nos centros academicos por nao apresentar uma boa aplicabilidade nos negocios.",
+					"correct": false
+				},
+				{
+					"description": "C. Existem muitas aplicacoes da inteligencia artificial nas empresas, desde o financeiro, o RH, o marketing e a producao, entre outros.",
+					"correct": true
+				},
+				{
+					"description": "D. Somente o setor de financas ainda nao tem aplicacoes com o uso de IA por causa da nao confiabilidade dos metodos de IA.",
+					"correct": false
+				},
+				{
+					"description": "E. Atualmente, o setor de medicina e o unico a estar totalmente inserido na aplicabilidade da IA em todos os seus segmentos.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 11,
+			"type": "mc",
+			"text": "A inteligencia artificial e uma area da ciencia da computacao criada com o proposito de desenvolver sistemas que simulem a capacidade humana na percepcao de um problema, identificando seus componentes e, com isso, resolvendo situacoes, propondo solucoes e, ate mesmo, tomando decisoes. Nesse contexto, a IA pode ser apresentada em linhas de pensamento. Dentre as opcoes, assinale a que contem essas linhas de pensamento:",
+			"alternatives": [
+				{
+					"description": "A. Sistemas que imitam os seres humanos; sistemas que substituem os seres humanos.",
+					"correct": false
+				},
+				{
+					"description": "B. Sistemas inteligentes; sistemas semi-inteligentes; sistemas nao inteligentes.",
+					"correct": false
+				},
+				{
+					"description": "C. Sistemas que pensam e agem como seres humanos.",
+					"correct": false
+				},
+				{
+					"description": "D. Sistemas que pensam como seres humanos; sistemas que pensam racionalmente; sistemas que agem como seres humanos; sistemas que agem racionalmente.",
+					"correct": true
+				},
+				{
+					"description": "E. Sistemas que seguem as instrucoes programadas; sistemas que criam as instrucoes; sistemas que reconhecem imagens; sistemas que otimizam a programacao.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 12,
+			"type": "mc",
+			"text": "A partir das definicoes de inteligencia artificial e machine learning, podemos concluir que:",
+			"alternatives": [
+				{
+					"description": "A. Machine learning e sinonimo de inteligencia artificial.",
+					"correct": false
+				},
+				{
+					"description": "B. Inteligencia artificial nao tem nada a ver com machine learning.",
+					"correct": false
+				},
+				{
+					"description": "C. Inteligencia artificial e uma ciencia que se utiliza de quatro linhas de pensamento, uma das quais e o machine learning.",
+					"correct": false
+				},
+				{
+					"description": "D. Machine learning e o termo ingles para inteligencia artificial.",
+					"correct": false
+				},
+				{
+					"description": "E. Inteligencia artificial e uma ciencia composta por varias areas, e uma delas e o machine learning.",
+					"correct": true
+				}
+			]
+		},
+		{
+			"id": 13,
+			"type": "mc",
+			"text": "Identifique, dentre as opcoes a seguir, que metodo do aprendizado de maquina nao se baseia em experiencias predefinidas a serem utilizadas como referencia para aprender:",
+			"alternatives": [
+				{
+					"description": "A. Aprendizado supervisionado.",
+					"correct": false
+				},
+				{
+					"description": "B. Aprendizado nao supervisionado.",
+					"correct": true
+				},
+				{
+					"description": "C. Aprendizado semissupervisionado.",
+					"correct": false
+				},
+				{
+					"description": "D. Aprendizado por reforco.",
+					"correct": false
+				},
+				{
+					"description": "E. Aprendizado max-supervisionado.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 14,
+			"type": "mc",
+			"text": "Identifique, dentre as opcoes a seguir, que metodo do AM avalia como a maquina deve agir em determinados ambientes de acordo com as recompensas ou punicoes recebidas e acumuladas com o tempo:",
+			"alternatives": [
+				{
+					"description": "A. Aprendizado supervisionado.",
+					"correct": false
+				},
+				{
+					"description": "B. Aprendizado nao supervisionado.",
+					"correct": false
+				},
+				{
+					"description": "C. Aprendizado semissupervisionado.",
+					"correct": false
+				},
+				{
+					"description": "D. Aprendizado por reforco.",
+					"correct": true
+				},
+				{
+					"description": "E. Aprendizado max-supervisionado.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 15,
+			"type": "mc",
+			"text": "O aprendizado de maquina supervisionado utiliza os dados rotulados para aprender como resolver determinado problema. Identifique as categorias que resolvem esse problema de AM:",
+			"alternatives": [
+				{
+					"description": "A. Clustering e regressao.",
+					"correct": false
+				},
+				{
+					"description": "B. Reducao dimensional e estimativas de densidade.",
+					"correct": false
+				},
+				{
+					"description": "C. Classificacao e regressao.",
+					"correct": true
+				},
+				{
+					"description": "D. Associacao e regressao.",
+					"correct": false
+				},
+				{
+					"description": "E. Classificacao e clusterizacao.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 16,
+			"type": "mc",
+			"text": "O aprendizado de maquina nao supervisionado utiliza os dados nao rotulados com foco em identificar e indicar similaridades no conjunto de dados. Identifique as categorias que resolvem problemas de aprendizado nao supervisionado:",
+			"alternatives": [
+				{
+					"description": "A. Clustering e regressao.",
+					"correct": false
+				},
+				{
+					"description": "B. Reducao dimensional e estimativas de densidade.",
+					"correct": true
+				},
+				{
+					"description": "C. Classificacao e regressao.",
+					"correct": false
+				},
+				{
+					"description": "D. Associacao e regressao.",
+					"correct": false
+				},
+				{
+					"description": "E. Classificacao e clusterizacao.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 17,
+			"type": "mc",
+			"text": "A inteligencia artificial e uma area da ciencia da computacao criada com o proposito de desenvolver sistemas que simulem a capacidade humana na percepcao de um problema, identificando seus componentes e, com isso, resolvendo situacoes, propondo solucoes e, ate mesmo, tomando decisoes. Nesse contexto, a IA pode ser apresentada em linhas de pensamento. Dentre as opcoes, assinale a que contem essas linhas de pensamento:",
+			"alternatives": [
+				{
+					"description": "A. Sistemas que imitam os seres humanos; sistemas que substituem os seres humanos.",
+					"correct": false
+				},
+				{
+					"description": "B. Sistemas inteligentes; sistemas semi-inteligentes; sistemas nao inteligentes.",
+					"correct": false
+				},
+				{
+					"description": "C. Sistemas que pensam e agem como seres humanos.",
+					"correct": false
+				},
+				{
+					"description": "D. Sistemas que pensam como seres humanos; sistemas que pensam racionalmente; sistemas que agem como seres humanos; sistemas que agem racionalmente.",
+					"correct": true
+				},
+				{
+					"description": "E. Sistemas que seguem as instrucoes programadas; sistemas que criam as instrucoes; sistemas que reconhecem imagens; sistemas que otimizam a programacao.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 18,
+			"type": "mc",
+			"text": "A partir das definicoes de inteligencia artificial e machine learning, podemos concluir que:",
+			"alternatives": [
+				{
+					"description": "A. Machine learning e sinonimo de inteligencia artificial.",
+					"correct": false
+				},
+				{
+					"description": "B. Inteligencia artificial nao tem nada a ver com machine learning.",
+					"correct": false
+				},
+				{
+					"description": "C. Inteligencia artificial e uma ciencia que se utiliza de quatro linhas de pensamento, uma das quais e o machine learning.",
+					"correct": false
+				},
+				{
+					"description": "D. Machine learning e o termo ingles para inteligencia artificial.",
+					"correct": false
+				},
+				{
+					"description": "E. Inteligencia artificial e uma ciencia composta por varias areas, e uma delas e o machine learning.",
+					"correct": true
+				}
+			]
+		},
+		{
+			"id": 19,
+			"type": "mc",
+			"text": "Redes neurais artificiais sao tecnicas computacionais que apresentam um modelo matematico inspirado na estrutura neural de organismos inteligentes e que adquirem conhecimento por meio da experiencia. Como e chamada a primeira camada de uma rede neural artificial?",
+			"alternatives": [
+				{
+					"description": "A. Camada de entrada (input layer).",
+					"correct": true
+				},
+				{
+					"description": "B. Feedback layer (camada de retorno).",
+					"correct": false
+				},
+				{
+					"description": "C. Camada de saida (output layer).",
+					"correct": false
+				},
+				{
+					"description": "D. Activation layer (camada de ativacao).",
+					"correct": false
+				},
+				{
+					"description": "E. Camada de pesos (weight layer).",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 20,
+			"type": "mc",
+			"text": "As redes neurais artificiais sao muito utilizadas para encontrar solucoes e escalar processos para facilitar a tomada de decisoes. Indique uma vantagem das redes neurais artificiais.",
+			"alternatives": [
+				{
+					"description": "A. Requer muitos dados de treinamento limpos.",
+					"correct": false
+				},
+				{
+					"description": "B. Ter arquitetura facilmente adaptavel a varios dominios de problemas.",
+					"correct": true
+				},
+				{
+					"description": "C. Requer alto poder computacional.",
+					"correct": false
+				},
+				{
+					"description": "D. Apresentar dificuldade de interpretacao dos resultados.",
+					"correct": false
+				},
+				{
+					"description": "E. Pouca quantidade de dados disponiveis atualmente.",
+					"correct": false
+				}
+			]
+		}
+	]
+}
