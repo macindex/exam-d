@@ -30,6 +30,16 @@ body {
   border-color: #28a745;
 }
 
+.multi-choice-item.selected-correct {
+  background: #d4edda;
+  border-color: #28a745;
+}
+
+.multi-choice-item.selected-incorrect {
+  background: #f8d7da;
+  border-color: #dc3545;
+}
+
 .multi-choice-letter {
   display: flex;
   gap: 10px;
@@ -41,8 +51,14 @@ body {
   margin-top: 4px;
 }
 
-.page-navigation-bar .btn {
-  margin-left: 8px;
+.question-action-bar {
+  margin-top: 12px;
+  gap: 8px;
+}
+
+.question-action-bar > .mx-2 {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 #answerFeedback {

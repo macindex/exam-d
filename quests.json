@@ -539,6 +539,276 @@
 					"correct": false
 				}
 			]
+		},
+		{
+			"id": 21,
+			"type": "mc",
+			"text": "Redes perceptron de multicamadas sao redes diretas que possuem uma ou mais camadas de neuronios entre as camadas de entrada e saida, chamada de camada oculta. Essa camada adiciona um poder maior em relacao as redes perceptron de camada unica, que classificam apenas padroes linearmente separaveis, sendo os neuronios ocultos responsaveis por capturar a nao linearidade dos dados. Essa descricao corresponde a(o).",
+			"alternatives": [
+				{
+					"description": "A. funcao de ativacao.",
+					"correct": false
+				},
+				{
+					"description": "B. feed backward networks (redes recorrentes).",
+					"correct": false
+				},
+				{
+					"description": "C. feed forward.",
+					"correct": true
+				},
+				{
+					"description": "D. backpropagation.",
+					"correct": false
+				},
+				{
+					"description": "E. rede competitiva.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 22,
+			"type": "mc",
+			"text": "Em quais redes a saida de um neuronio e aplicada como entrada no proprio neuronio e/ou em outros neuronios de camadas anteriores, ou seja, ha ocorrencia de realimentacao? Estas sao identificadas por seus loops de feedback?",
+			"alternatives": [
+				{
+					"description": "A. Feed forward (redes diretas).",
+					"correct": false
+				},
+				{
+					"description": "B. Rede competitiva.",
+					"correct": false
+				},
+				{
+					"description": "C. Backpropagation.",
+					"correct": false
+				},
+				{
+					"description": "D. Feed backward networks (redes recorrentes).",
+					"correct": true
+				},
+				{
+					"description": "E. Funcao de ativacao.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 23,
+			"type": "mc",
+			"text": "Dentre os tipos de redes neurais existentes e a arquitetura mais simples, apresentando apenas um conjunto de neuronios de entrada e um conjunto de neuronios de saida, sem haver nenhuma camada de neuronio intermediaria. Qual opcao de rede atende a essas caracteristicas?",
+			"alternatives": [
+				{
+					"description": "A. Perceptron de multiplas camadas.",
+					"correct": false
+				},
+				{
+					"description": "B. Aprendizagem de maquina (machine learning).",
+					"correct": false
+				},
+				{
+					"description": "C. Perceptron.",
+					"correct": true
+				},
+				{
+					"description": "D. Inteligencia Artificial.",
+					"correct": false
+				},
+				{
+					"description": "E. Aprendizagem supervisionada.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 24,
+			"type": "mc",
+			"text": "As redes perceptrons de multiplas camadas (multilayer perceptron) sao uma generalizacao da rede perceptron e, assim como esta, e treinada de que forma?",
+			"alternatives": [
+				{
+					"description": "A. De pesos e sinapses.",
+					"correct": false
+				},
+				{
+					"description": "B. Supervisionada.",
+					"correct": true
+				},
+				{
+					"description": "C. Com a funcao de ativacao.",
+					"correct": false
+				},
+				{
+					"description": "D. Nao supervisionada.",
+					"correct": false
+				},
+				{
+					"description": "E. Camada oculta (hidden layer).",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 25,
+			"type": "mc",
+			"text": "Um modelo de rede neural e a equacao final gerada por meio de um algoritmo de machine learning, que sera utilizada para definir os valores de saida a partir de novos dados apresentados, sendo esses dados inseridos em uma equacao e retornando o resultado do modelo. Assim, podemos ver que o que determina o desempenho de um modelo e o desenvolvimento dessa equacao, que acontece por meio do algoritmo utilizado. Em qual etapa da implementacao de uma solucao utilizando a tecnologia de redes neurais e definido o referido algoritmo?",
+			"alternatives": [
+				{
+					"description": "A. Teste do modelo",
+					"correct": false
+				},
+				{
+					"description": "B. Avaliacao o modelo",
+					"correct": false
+				},
+				{
+					"description": "C. Selecao do modelo",
+					"correct": true
+				},
+				{
+					"description": "D. Treinamento do modelo",
+					"correct": false
+				},
+				{
+					"description": "E. Relatorio de classificacao",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 26,
+			"type": "mc",
+			"text": "As redes neurais sao compostas por neuronios que calculam funcoes matematicas, sendo um metodo para ser usado quando nao ha uma forma deterministica de se resolver um problema em qualquer area do conhecimento. Um projeto de redes neurais possui determinadas etapas, analise as afirmativas a seguir.<br><br>I. No pre-processamento, vamos dividir os dados em treino e teste, para treinar o modelo e depois testar sua performance.<br><br>II. A escolha do modelo mais adequado deve ser feita de acordo com o objetivo proposto inicialmente.<br><br>III. A etapa do teste e fundamental nao apenas para preparar a maquina, mas para aprimorar constantemente suas habilidades de previsao.<br><br>Assinale a seguir a alternativa correta.",
+			"alternatives": [
+				{
+					"description": "A. As opcoes I, II e III.",
+					"correct": false
+				},
+				{
+					"description": "B. Apenas as opcoes II e III.",
+					"correct": false
+				},
+				{
+					"description": "C. Apenas as opcoes I e II.",
+					"correct": true
+				},
+				{
+					"description": "D. Apenas as opcoes I e III.",
+					"correct": false
+				},
+				{
+					"description": "E. Apenas a opcao III.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 27,
+			"type": "mc",
+			"text": "Deep Learning, ou aprendizagem profunda, em portugues, nada mais e do que um ramo do Machine Learning, ou seja, e um aprendizado de maquina que visa ensinar as maquinas a agirem e interpretarem dados de uma maneira mais natural. Qual o relacionamento entre Inteligencia Artificial (AI), Machine Learning (ML) e Deep Learning (DL)? Considere o simbolo > como relacionamento possui a subarea.",
+			"alternatives": [
+				{
+					"description": "A. AI > ML > DL",
+					"correct": true
+				},
+				{
+					"description": "B. Nao existe relacionamento entre AI, ML e DL",
+					"correct": false
+				},
+				{
+					"description": "C. DL > AI > ML",
+					"correct": false
+				},
+				{
+					"description": "D. ML > AI > DL",
+					"correct": false
+				},
+				{
+					"description": "E. DL > ML > AI",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 28,
+			"type": "mc",
+			"text": "O engenheiro de Machine Learning e responsavel pela definicao, implementacao e manutencao de modelos de ML. Por meio do aprendizado dos computadores, sera possivel encontrar solucoes e escalar processos para facilitar a tomada de decisoes. Quais foram os principais fatores na adocao massiva do Deep Learning na ultima decada?",
+			"alternatives": [
+				{
+					"description": "A. Educacao em Deep Learning.",
+					"correct": false
+				},
+				{
+					"description": "B. Computacao mais rapida e eficiente (GPUs) e maior quantidade de dados.",
+					"correct": true
+				},
+				{
+					"description": "C. Facilidade de implantacao de projetos de Deep Learning.",
+					"correct": false
+				},
+				{
+					"description": "D. Numero de cientistas de dados.",
+					"correct": false
+				},
+				{
+					"description": "E. Pouca quantidade de dados disponiveis atualmente",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 29,
+			"type": "mc",
+			"text": "Uma empresa de analise de seguranca e transporte deseja usar as imagens internas dos funcionarios de seus clientes para classificar se os funcionarios devem passar pelo portao de seguranca nos escritorios dos clientes. Qual algoritmo eles devem usar para criar esse modelo de Deep Learning?",
+			"alternatives": [
+				{
+					"description": "A. Long Short-Term Memory Network (LSTM)",
+					"correct": false
+				},
+				{
+					"description": "B. Recurrent Neural Network (RNN)",
+					"correct": false
+				},
+				{
+					"description": "C. Convolutional Neural Network (CNN)",
+					"correct": true
+				},
+				{
+					"description": "D. Autoencoders",
+					"correct": false
+				},
+				{
+					"description": "E. Adversarial Generative Networks (GANs)",
+					"correct": false
+				}
+			]
+		},
+		{
+			"id": 30,
+			"type": "mc",
+			"text": "Uma famosa empresa de entretenimento planeja sintetizar novas imagens de personagens com base em outras imagens de treinamento do seu respectivo banco de dados de imagens. Qual algoritmo eles devem usar para criar esse modelo de Deep Learning?",
+			"alternatives": [
+				{
+					"description": "A. Recurrent Neural Network (RNN)",
+					"correct": false
+				},
+				{
+					"description": "B. Convolutional Neural Network (CNN)",
+					"correct": false
+				},
+				{
+					"description": "C. Autoencoders",
+					"correct": false
+				},
+				{
+					"description": "D. Adversarial Generative Networks (GANs)",
+					"correct": true
+				},
+				{
+					"description": "E. Long Short-Term Memory Network (LSTM)",
+					"correct": false
+				}
+			]
 		}
 	]
 }

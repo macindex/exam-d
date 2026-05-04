@@ -32,6 +32,25 @@ function setHtml(selector, value) {
   if (el) el.innerHTML = value;
 }
 
+function updateSelectedAlternativeState(questionId) {
+  const alternativesList = byId('alternativesList');
+  if (!alternativesList) return;
+
+  alternativesList
+    .querySelectorAll('li.multi-choice-item')
+    .forEach(item => item.classList.remove('selected-correct', 'selected-incorrect'));
+
+  const question = getQuestionById(questionId);
+  const selectedAnswer = answers.find(answer => answer.id === questionId);
+  if (!question || !selectedAnswer) return;
+
+  const selectedItem = byId(`q${selectedAnswer.selected}`)?.closest('li.multi-choice-item');
+  if (!selectedItem) return;
+
+  const isCorrect = question.alternatives[selectedAnswer.selected]?.correct === true;
+  selectedItem.classList.add(isCorrect ? 'selected-correct' : 'selected-incorrect');
+}
+
 function updateAnswerFeedback(questionId) {
   const feedback = byId('answerFeedback');
   if (!feedback) return;
@@ -62,6 +81,50 @@ function addQuestionsToAnswerArray(questionSelected) {
   answers.splice(answerIndex, 1, questionSelected);
 }
 
+function calculatePerformanceStats() {
+  const totalQuestions = questions.length;
+  const answeredQuestions = answers.length;
+  let totalCorrectAnswers = 0;
+
+  answers.forEach(answer => {
+    const question = getQuestionById(answer.id);
+    if (!question) return;
+
+    if (question.alternatives[answer.selected]?.correct === true) {
+      totalCorrectAnswers += 1;
+    }
+  });
+
+  const totalIncorrectAnswers = answeredQuestions - totalCorrectAnswers;
+  const unansweredQuestions = totalQuestions - answeredQuestions;
+  const score = totalQuestions > 0 ? Math.floor((totalCorrectAnswers / totalQuestions) * 100) : 0;
+  const correctPercentage = answeredQuestions > 0 ? Math.round((totalCorrectAnswers / answeredQuestions) * 100) : 0;
+  const incorrectPercentage = answeredQuestions > 0 ? 100 - correctPercentage : 0;
+
+  return {
+    totalQuestions,
+    answeredQuestions,
+    totalCorrectAnswers,
+    totalIncorrectAnswers,
+    unansweredQuestions,
+    score,
+    correctPercentage,
+    incorrectPercentage,
+  };
+}
+
+function updateProgressFeedback() {
+  const feedback = byId('progressFeedback');
+  if (!feedback) return;
+
+  const stats = calculatePerformanceStats();
+  feedback.classList.remove('d-none');
+  feedback.innerHTML =
+    `Percentual de acertos: <strong>${stats.correctPercentage}%</strong> | ` +
+    `Percentual de erros: <strong>${stats.incorrectPercentage}%</strong> ` +
+    `(Respondidas: ${stats.answeredQuestions}/${stats.totalQuestions})`;
+}
+
 function renderAlternatives(question) {
   const alternativesList = byId('alternativesList');
   if (!alternativesList) return;
@@ -86,7 +149,9 @@ function renderAlternatives(question) {
     if (selected) selected.checked = true;
   }
 
+  updateSelectedAlternativeState(question.id);
   updateAnswerFeedback(question.id);
+  updateProgressFeedback();
 }
 
 function getQuestion(index) {
@@ -155,29 +220,14 @@ function closeResultModal() {
 }
 
 function showScoreModal() {
-  const totalQuestions = questions.length;
-  const answeredQuestions = answers.length;
-  let totalCorrectAnswers = 0;
-
-  answers.forEach(answer => {
-    const question = getQuestionById(answer.id);
-    if (!question) return;
-
-    if (question.alternatives[answer.selected]?.correct === true) {
-      totalCorrectAnswers += 1;
-    }
-  });
-
-  const totalIncorrectAnswers = answeredQuestions - totalCorrectAnswers;
-  const unansweredQuestions = totalQuestions - answeredQuestions;
-  const score = totalQuestions > 0 ? Math.floor((totalCorrectAnswers / totalQuestions) * 100) : 0;
+  const stats = calculatePerformanceStats();
 
   setHtml(
     '.modal-body',
-    `Aproveitamento geral: <strong>${score}%</strong><br>` +
-    `Corretas: <strong>${totalCorrectAnswers}</strong><br>` +
-    `Incorretas: <strong>${totalIncorrectAnswers}</strong><br>` +
-    `Nao respondidas: <strong>${unansweredQuestions}</strong>`
+    `Aproveitamento geral: <strong>${stats.score}%</strong><br>` +
+    `Corretas: <strong>${stats.totalCorrectAnswers}</strong><br>` +
+    `Incorretas: <strong>${stats.totalIncorrectAnswers}</strong><br>` +
+    `Nao respondidas: <strong>${stats.unansweredQuestions}</strong>`
   );
 
   openResultModal();
@@ -216,6 +266,7 @@ function startQuiz() {
   getQuestion(countQuestions);
   updateNavigationButtons();
   actualQuestion.id = questions[0].id;
+  updateProgressFeedback();
   byId('startScreen')?.classList.add('d-none');
   byId('quizSection')?.classList.remove('d-none');
 }
@@ -274,7 +325,25 @@ function bindEvents() {
 
     const radioId = Number(target.id.replace('q', ''));
     addQuestionsToAnswerArray({ id: actualQuestion.id, selected: radioId });
+    updateSelectedAlternativeState(actualQuestion.id);
     updateAnswerFeedback(actualQuestion.id);
+    updateProgressFeedback();
+  });
+
+  byId('alternativesList')?.addEventListener('click', event => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+
+    const item = target.closest('li.multi-choice-item');
+    if (!item) return;
+
+    const radio = item.querySelector('input[type="radio"][name="selecao"]');
+    if (!(radio instanceof HTMLInputElement)) return;
+
+    if (!radio.checked) {
+      radio.checked = true;
+      radio.dispatchEvent(new Event('change', { bubbles: true }));
+    }
   });
 
   byId('resultCloseX')?.addEventListener('click', closeResultModal);

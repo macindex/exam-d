@@ -10,7 +10,7 @@
 	<!--<base href="https://www.examtopics.com/exams/microsoft/az-204/view/1/">-->
 	<!-- meta tag -->
 
-	<title>AZ-204 Exam - Free Actual Q&amp;As, Page 1 | ExamTopics</title>
+	<title>Questões de estudo</title>
 	<meta name="description" content="Free, Actual and Latest Practice Test for those who are preparing for Developing Solutions for Microsoft Azure
 		.">
 	<!-- responsive tag -->
@@ -96,12 +96,19 @@
 									<ul id="alternativesList"></ul>
 								</div>
 								<p id="answerFeedback" class="mt-3 mb-3 d-none"></p>
+								<p id="progressFeedback" class="mt-2 mb-3 text-muted"></p>
 
 								<!-- exam-view410 -->
-								<div onclick="showSolution()" class="btn btn-primary reveal-solution d-print-none">
-									Reveal Solution</div>
-								<div onclick="hideSolution()" class="btn btn-primary hide-solution d-none d-print-none">
-									Hide Solution</div>
+								<div class="question-action-bar d-flex justify-content-between align-items-center flex-wrap">
+									<button id="prevBtn" type="button" class="btn btn-success">Prev Question</button>
+									<div class="mx-2">
+										<div onclick="showSolution()" class="btn btn-primary reveal-solution d-print-none">
+											Reveal Solution</div>
+										<div onclick="hideSolution()" class="btn btn-primary hide-solution d-none d-print-none">
+											Hide Solution</div>
+									</div>
+									<button id="nextBtn" type="button" class="btn btn-success">Next Question</button>
+								</div>
 
 								<!-- <p class="card-text question-answer bg-light white-text">
 									<span class="correct-answer-box"><strong>Correct Answer:</strong>
@@ -144,12 +151,6 @@
 								</div>
 								</p> -->
 							</div>
-						</div>
-					</div>
-					<div class="page-navigation-bar" style="padding-bottom:20px;">
-						<div class="col-12" style="padding-bottom:20px;margin-bottom:20px;">
-							<div id="prevBtn" class="btn btn-success pull-right">Prev Question</div>
-							<div id="nextBtn" class="btn btn-success pull-right">Next Question</div>
 						</div>
 					</div>
 				</div>
