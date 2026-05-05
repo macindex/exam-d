@@ -261,7 +261,15 @@ async function loadQuestions() {
   throw lastError || new Error('Falha ao carregar as questoes.');
 }
 
+function shuffleQuestions() {
+  for (let i = questions.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [questions[i], questions[j]] = [questions[j], questions[i]];
+  }
+}
+
 function startQuiz() {
+  shuffleQuestions();
   countQuestions = 0;
   getQuestion(countQuestions);
   updateNavigationButtons();
