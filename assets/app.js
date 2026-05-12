@@ -125,6 +125,27 @@ function updateProgressFeedback() {
     `(Respondidas: ${stats.answeredQuestions}/${stats.totalQuestions})`;
 }
 
+function saveResult() {
+  const stats = calculatePerformanceStats();
+  const result = {
+    timestamp: Date.now(),
+    totalQuestions: stats.totalQuestions,
+    answeredQuestions: stats.answeredQuestions,
+    totalCorrectAnswers: stats.totalCorrectAnswers,
+    totalIncorrectAnswers: stats.totalIncorrectAnswers,
+    unansweredQuestions: stats.unansweredQuestions,
+    score: stats.score,
+    correctPercentage: stats.correctPercentage,
+    incorrectPercentage: stats.incorrectPercentage,
+  };
+
+  let results = JSON.parse(localStorage.getItem('quizResults') || '[]');
+  results.push(result);
+  localStorage.setItem('quizResults', JSON.stringify(results));
+
+  console.log('Resultado salvo com sucesso!', result);
+}
+
 function renderAlternatives(question) {
   const alternativesList = byId('alternativesList');
   if (!alternativesList) return;
@@ -221,6 +242,9 @@ function closeResultModal() {
 
 function showScoreModal() {
   const stats = calculatePerformanceStats();
+  
+  // Salvar o resultado antes de exibir o modal
+  saveResult();
 
   setHtml(
     '.modal-body',
@@ -304,6 +328,10 @@ function bindEvents() {
     const loaded = await ensureQuestionsLoaded();
     if (!loaded) return;
     startQuiz();
+  });
+
+  byId('historyBtn')?.addEventListener('click', () => {
+    window.location.href = 'results.html';
   });
 
   byId('prevBtn')?.addEventListener('click', () => {
