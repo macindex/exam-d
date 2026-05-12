@@ -10,6 +10,7 @@ let countQuestions = 0;
 let actualQuestion = { id: 0 };
 let answers = [];
 let questions = [];
+const completionHistory = [];
 
 const QUESTIONS_FILE = './quests.json';
 const QUESTIONS_FALLBACK_PATHS = ['quests.json', '/quests.json'];
@@ -81,6 +82,22 @@ function addQuestionsToAnswerArray(questionSelected) {
   answers.splice(answerIndex, 1, questionSelected);
 }
 
+function getQuestionIndexById(questionId) {
+  return questions.findIndex(question => question.id === questionId);
+}
+
+function restartQuiz() {
+  shuffleQuestions();
+  answers = [];
+  countQuestions = getQuestionIndexById(1);
+  if (countQuestions === -1) countQuestions = 0;
+  getQuestion(countQuestions);
+  updateNavigationButtons();
+  actualQuestion.id = questions[countQuestions].id;
+  updateProgressFeedback();
+  closeResultModal();
+}
+
 function calculatePerformanceStats() {
   const totalQuestions = questions.length;
   const answeredQuestions = answers.length;
@@ -125,6 +142,11 @@ function updateProgressFeedback() {
     `(Respondidas: ${stats.answeredQuestions}/${stats.totalQuestions})`;
 }
 
+function loadCompletionHistory() {
+  const stored = JSON.parse(localStorage.getItem('quizResults') || '[]');
+  completionHistory.splice(0, completionHistory.length, ...stored);
+}
+
 function saveResult() {
   const stats = calculatePerformanceStats();
   const result = {
@@ -139,10 +161,8 @@ function saveResult() {
     incorrectPercentage: stats.incorrectPercentage,
   };
 
-  let results = JSON.parse(localStorage.getItem('quizResults') || '[]');
-  results.push(result);
-  localStorage.setItem('quizResults', JSON.stringify(results));
-
+  completionHistory.push(result);
+  localStorage.setItem('quizResults', JSON.stringify(completionHistory));
   console.log('Resultado salvo com sucesso!', result);
 }
 
@@ -384,6 +404,7 @@ function bindEvents() {
 
   byId('resultCloseX')?.addEventListener('click', closeResultModal);
   byId('resultCloseBtn')?.addEventListener('click', closeResultModal);
+  byId('restartBtn')?.addEventListener('click', restartQuiz);
 
   byId('exampleModal')?.addEventListener('click', event => {
     if (event.target === byId('exampleModal')) {
@@ -397,6 +418,7 @@ async function initializeApp() {
   appInitialized = true;
 
   bindEvents();
+  loadCompletionHistory();
 
   const startBtn = byId('startBtn');
   if (startBtn) {
