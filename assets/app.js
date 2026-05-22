@@ -10,10 +10,15 @@ let countQuestions = 0;
 let actualQuestion = { id: 0 };
 let answers = [];
 let questions = [];
+let currentTrack = '';
 const completionHistory = [];
 
 const QUESTIONS_FILE = './quests.json';
 const QUESTIONS_FALLBACK_PATHS = ['quests.json', '/quests.json'];
+const TRACK_LABELS = {
+  'ia-devs': 'Inteligencia Artificial para Devs',
+  algoritmos: 'Algoritmos e Complexidade',
+};
 
 function byId(id) {
   return document.getElementById(id);
@@ -31,6 +36,24 @@ function setText(selector, value) {
 function setHtml(selector, value) {
   const el = document.querySelector(selector);
   if (el) el.innerHTML = value;
+}
+
+function setCurrentTrack(track) {
+  currentTrack = track;
+  const label = TRACK_LABELS[track] || '-';
+  setText('#selectedTrackInfo', `Tema selecionado: ${label}`);
+
+  const quizTopic = byId('quizTopic');
+  if (!quizTopic) return;
+
+  if (label === '-') {
+    quizTopic.classList.add('d-none');
+    quizTopic.textContent = '';
+    return;
+  }
+
+  quizTopic.textContent = label;
+  quizTopic.classList.remove('d-none');
 }
 
 function updateSelectedAlternativeState(questionId) {
@@ -151,6 +174,8 @@ function saveResult() {
   const stats = calculatePerformanceStats();
   const result = {
     timestamp: Date.now(),
+    track: currentTrack,
+    trackLabel: TRACK_LABELS[currentTrack] || 'Nao informado',
     totalQuestions: stats.totalQuestions,
     answeredQuestions: stats.answeredQuestions,
     totalCorrectAnswers: stats.totalCorrectAnswers,
@@ -344,10 +369,16 @@ async function ensureQuestionsLoaded() {
 }
 
 function bindEvents() {
-  byId('startBtn')?.addEventListener('click', async () => {
-    const loaded = await ensureQuestionsLoaded();
-    if (!loaded) return;
-    startQuiz();
+  document.querySelectorAll('.start-track-btn').forEach(button => {
+    button.addEventListener('click', async () => {
+      const track = button.getAttribute('data-track') || '';
+      setCurrentTrack(track);
+
+      const loaded = await ensureQuestionsLoaded();
+      if (!loaded) return;
+
+      startQuiz();
+    });
   });
 
   byId('historyBtn')?.addEventListener('click', () => {
@@ -419,13 +450,12 @@ async function initializeApp() {
 
   bindEvents();
   loadCompletionHistory();
+  setCurrentTrack('');
 
-  const startBtn = byId('startBtn');
-  if (startBtn) {
-    startBtn.disabled = false;
-    startBtn.classList.remove('btn-secondary');
-    startBtn.classList.add('btn-success');
-  }
+  document.querySelectorAll('.start-track-btn').forEach(button => {
+    if (!(button instanceof HTMLButtonElement)) return;
+    button.disabled = false;
+  });
 
   try {
     await loadQuestions();

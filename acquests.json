@@ -1,0 +1,117 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "mc",
+      "text": "Das opcoes apresentadas abaixo, marque a que apresenta apenas partes obrigatorias para que uma funcao execute alguma tarefa, sem considerar simbolos como chaves e parenteses.",
+      "alternatives": [
+        { "description": "A. Tipo de retorno, nome e corpo da funcao", "correct": true },
+        { "description": "B. Tipo de retorno, parametro e corpo da funcao", "correct": false },
+        { "description": "C. Tipo de retorno, nome e parametros", "correct": false },
+        { "description": "D. Tipo de retorno, nome, parametros e corpo da funcao", "correct": false }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mc",
+      "text": "A modularizacao de algoritmos e importante para organizar melhor o codigo e facilitar manutencao. Sobre funcoes e procedimentos, assinale a alternativa correta.",
+      "alternatives": [
+        { "description": "A. O procedimento sempre retorna um valor ao programa.", "correct": false },
+        { "description": "B. A funcao retorna um valor ao programa.", "correct": true },
+        { "description": "C. As variaveis definidas no escopo de cada funcao sao acessiveis em todo o programa.", "correct": false },
+        { "description": "D. As variaveis locais sao declaradas no escopo do programa inteiro.", "correct": false }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mc",
+      "text": "Analise o trecho de codigo abaixo e selecione o que sera exibido apos a execucao.<br><br>Algoritmo questao;<br>var<br>&nbsp;&nbsp;&nbsp;&nbsp;a, b, d : inteiro;<br>&nbsp;&nbsp;&nbsp;&nbsp;v[4] : inteiro;<br>inicio<br>&nbsp;&nbsp;&nbsp;&nbsp;a <- 3;<br>&nbsp;&nbsp;&nbsp;&nbsp;b <- 2;<br>&nbsp;&nbsp;&nbsp;&nbsp;v[4] <- {6,7,8,9};<br>&nbsp;&nbsp;&nbsp;&nbsp;a = (v[2] - v[0]) + a;<br>&nbsp;&nbsp;&nbsp;&nbsp;d <- a * v[b];<br>&nbsp;&nbsp;&nbsp;&nbsp;escreva(\"a saida e:\", d, \" \", v[1], a+2);<br>fim.",
+      "alternatives": [
+        { "description": "A. A saida e: 24 75", "correct": false },
+        { "description": "B. A saida e: 40 77", "correct": true },
+        { "description": "C. A saida e: 21 67", "correct": false },
+        { "description": "D. A saida e: 40 75", "correct": false }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "mc",
+      "text": "Em relacao aos ponteiros nas linguagens de programacao, selecione a opcao que justifica sua aplicacao.",
+      "alternatives": [
+        { "description": "A. Flexibilidade de enderecamento e controle do gerenciamento de armazenamento dinamico.", "correct": true },
+        { "description": "B. Aumento da legibilidade dos programas.", "correct": false },
+        { "description": "C. Facilidade de implementacao no gerenciamento dinamico.", "correct": false },
+        { "description": "D. Dificuldade na implementacao de tipos primitivos.", "correct": false }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "mc",
+      "text": "Considere a comparacao entre os metodos de Cramer e de Gauss para calculo de determinantes. Analisando a tabela de tempos apresentada no enunciado original, marque a opcao correta sobre a analise.",
+      "alternatives": [
+        { "description": "A. O metodo de Gauss e o melhor algoritmo para todos os conjuntos de entrada possiveis.", "correct": false },
+        { "description": "B. O metodo de Cramer e o melhor algoritmo para todos os conjuntos de entrada possiveis.", "correct": false },
+        { "description": "C. Os metodos de Cramer e Gauss sao equivalentes em esforco para os casos mais comuns.", "correct": false },
+        { "description": "D. O algoritmo de Gauss e melhor para calculo de determinantes em matrizes de ordem maior ou igual a 4.", "correct": true }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "mc",
+      "text": "Em uma competicao de programacao, vence o time com melhor algoritmo no pior caso. Considerando as complexidades da tabela (Branco O(n20), Amarelo O(nlogn), Azul O(1), Verde O(n!), Vermelho O(2n)), escolha a colocacao correta do melhor para o pior.",
+      "alternatives": [
+        { "description": "A. Amarelo, Azul, Branco, Vermelho, Verde", "correct": false },
+        { "description": "B. Vermelho, Verde, Branco, Amarelo", "correct": false },
+        { "description": "C. Azul, Amarelo, Vermelho, Branco, Verde", "correct": false },
+        { "description": "D. Azul, Amarelo, Branco, Vermelho, Verde", "correct": true }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "mc",
+      "text": "Gere a complexidade pessimista do algoritmo de ordenacao apresentado (selection sort).",
+      "alternatives": [
+        { "description": "A. O(n)", "correct": false },
+        { "description": "B. O(n2)", "correct": true },
+        { "description": "C. O(n3)", "correct": false },
+        { "description": "D. O(nlogn)", "correct": false }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "mc",
+      "text": "A definicao recursiva e fundamental para resolver diversos problemas matematicos. Quais afirmacoes estao corretas?<br><br>I. Os matematicos tambem a denominam definicao indutiva.<br>II. Um passo indutivo ou recursivo determina outros casos em termos de novos casos inseridos pelo usuario.<br>III. Existe uma base para determinacao de casos simples do item.",
+      "alternatives": [
+        { "description": "A. Apenas a I", "correct": false },
+        { "description": "B. Apenas a II", "correct": false },
+        { "description": "C. Apenas a I e a II", "correct": false },
+        { "description": "D. Apenas a I e a III", "correct": true },
+        { "description": "E. Apenas a III", "correct": false }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "mc",
+      "text": "O algoritmo e executado utilizando a formula recursiva fn = fn-1 + fn-2. Considerando f(0) = 0 e f(1) = 1, indique a serie correta ate f(7).",
+      "alternatives": [
+        { "description": "A. 0, 1, 1, 2, 3, 5, 8", "correct": false },
+        { "description": "B. 0, 1, 1, 2, 3, 5, 8, 13", "correct": true },
+        { "description": "C. 1, 2, 3, 5, 8, 13", "correct": false },
+        { "description": "D. 0, 2, 3, 8, 13, 21", "correct": false },
+        { "description": "E. 1, 2, 3, 5, 7, 11", "correct": false }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "mc",
+      "text": "Suponha que voce precisa escrever uma funcao recursiva para calcular o fatorial de um numero. Qual e o caso basico (condicao de parada) mais apropriado?",
+      "alternatives": [
+        { "description": "A. n == 0", "correct": false },
+        { "description": "B. n == 1", "correct": false },
+        { "description": "C. n >= 0", "correct": false },
+        { "description": "D. n <= 1", "correct": true },
+        { "description": "E. n == 2", "correct": false }
+      ]
+    }
+  ]
+}

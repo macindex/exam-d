@@ -61,11 +61,31 @@
 							Início
 						</div>
 						<div class="card-body">
-							<h1 class="mb-3">Inteligência Artificial para Devs</h1>
-							<p class="mb-4">Prepare-se para iniciar a resolução das questões.</p>
+							<h1 class="mb-3">Escolha o Tema do Simulado</h1>
+							<p class="mb-4">Selecione um dos temas abaixo para começar a resolver as questões.</p>
+							<div class="row start-layouts">
+								<div class="col-12 col-md-6 mb-3">
+									<div class="card start-option-card h-100">
+										<div class="card-body">
+											<h5 class="card-title">Inteligência Artificial para Devs</h5>
+											<p class="card-text text-muted">Foco em fundamentos e aplicações de IA no contexto de desenvolvimento.</p>
+											<button class="btn btn-success start-track-btn" data-track="ia-devs" disabled>Começar IA para Devs</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-6 mb-3">
+									<div class="card start-option-card h-100">
+										<div class="card-body">
+											<h5 class="card-title">Algoritmos e Complexidade</h5>
+											<p class="card-text text-muted">Treine raciocínio lógico, análise de desempenho e estruturação de soluções.</p>
+											<button class="btn btn-warning start-track-btn" data-track="algoritmos" disabled>Começar Algoritmos e Complexidade</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<p id="selectedTrackInfo" class="mb-2 text-primary font-weight-bold">Tema selecionado: -</p>
 							<p id="startInfo" class="text-muted mb-4">Carregando questões...</p>
 						<div class="d-flex justify-content-center">
-							<button id="startBtn" class="btn btn-success mr-2" disabled>Iniciar Resolução</button>
 								<button id="historyBtn" class="btn btn-info" title="Ver histórico de resultados">Ver Histórico</button>
 							</div>
 						</div>
@@ -86,6 +106,7 @@
 						<div class="card exam-question-card">
 							<div class="card-header text-white bg-primary">
 								<span id="numQuestion">Questão 1</span>
+								<span id="quizTopic" class="badge badge-light ml-2 d-none"></span>
 							</div>
 							<div class="card-body question-body" data-id="816230">
 								<p id="questao" class="card-text">
