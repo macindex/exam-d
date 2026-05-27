@@ -11,14 +11,35 @@ let actualQuestion = { id: 0 };
 let answers = [];
 let questions = [];
 let currentTrack = '';
+let loadedTrack = '';
 const completionHistory = [];
 
-const QUESTIONS_FILE = './quests.json';
-const QUESTIONS_FALLBACK_PATHS = ['quests.json', '/quests.json'];
 const TRACK_LABELS = {
   'ia-devs': 'Inteligencia Artificial para Devs',
   algoritmos: 'Algoritmos e Complexidade',
 };
+const TRACK_QUESTIONS_SOURCE = {
+  'ia-devs': {
+    file: './quests.json',
+    fallbackPaths: ['quests.json', '/quests.json'],
+  },
+  algoritmos: {
+    file: './acquests.json',
+    fallbackPaths: ['acquests.json', '/acquests.json'],
+  },
+};
+
+function getSelectedTrack() {
+  if (TRACK_QUESTIONS_SOURCE[currentTrack]) return currentTrack;
+  return 'ia-devs';
+}
+
+function getTrackFileName(track) {
+  const source = TRACK_QUESTIONS_SOURCE[track];
+  if (!source) return 'quests.json';
+
+  return source.file.replace('./', '');
+}
 
 function byId(id) {
   return document.getElementById(id);
@@ -302,8 +323,9 @@ function showScoreModal() {
   openResultModal();
 }
 
-async function loadQuestions() {
-  const pathsToTry = [QUESTIONS_FILE, ...QUESTIONS_FALLBACK_PATHS];
+async function loadQuestions(track = getSelectedTrack()) {
+  const source = TRACK_QUESTIONS_SOURCE[track] || TRACK_QUESTIONS_SOURCE['ia-devs'];
+  const pathsToTry = [source.file, ...source.fallbackPaths];
   let lastError = null;
 
   for (const path of pathsToTry) {
@@ -321,6 +343,7 @@ async function loadQuestions() {
       }
 
       questions = loadedQuestions;
+      loadedTrack = track;
       return;
     } catch (error) {
       lastError = error;
@@ -349,19 +372,22 @@ function startQuiz() {
 }
 
 async function ensureQuestionsLoaded() {
-  if (questions.length > 0) return true;
+  const selectedTrack = getSelectedTrack();
+  if (questions.length > 0 && loadedTrack === selectedTrack) return true;
 
   try {
-    await loadQuestions();
+    answers = [];
+    await loadQuestions(selectedTrack);
     setText('#startInfo', `Total de ${questions.length} questoes.`);
     return true;
   } catch (error) {
     console.error(error);
     const isFileProtocol = window.location.protocol === 'file:';
+    const fileName = getTrackFileName(selectedTrack);
     setText(
       '#startInfo',
       isFileProtocol
-        ? 'Nao foi possivel carregar quests.json no modo local. Abra com um servidor (ex.: Live Server).'
+        ? `Nao foi possivel carregar ${fileName} no modo local. Abra com um servidor (ex.: Live Server).`
         : 'Nao foi possivel carregar as questoes agora. Clique em Iniciar novamente para tentar recarregar.'
     );
     return false;
@@ -458,7 +484,8 @@ async function initializeApp() {
   });
 
   try {
-    await loadQuestions();
+    await loadQuestions('ia-devs');
+    loadedTrack = 'ia-devs';
     setText('#startInfo', `Total de ${questions.length} questoes.`);
   } catch (error) {
     console.error(error);
