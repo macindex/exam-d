@@ -15,6 +15,51 @@ body {
   border: 1px solid #dde2e8;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.start-option-card .card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+}
+
+.start-option-card .card-text {
+  flex: 1;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.start-layouts {
+  display: flex;
+  align-items: stretch;
+}
+
+.start-layouts > [class*='col-'] {
+  display: flex;
+}
+
+.start-track-btn {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  margin-top: auto;
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 0.6rem 0.7rem;
+  line-height: 1.3;
 }
 
 .start-option-card:hover {
@@ -24,10 +69,107 @@ body {
 
 .start-option-card .card-title {
   min-height: 48px;
+  font-size: clamp(1.05rem, 1.6vw, 1.55rem);
+  line-height: 1.3;
 }
 
 #selectedTrackInfo {
   min-height: 24px;
+}
+
+@media (max-width: 1024px) {
+  .start-option-card .card-title {
+    font-size: 1rem;
+  }
+
+  .start-track-btn {
+    font-size: 0.72rem;
+    padding: 0.6rem 0.7rem;
+    line-height: 1.35;
+  }
+
+  .btn-info.start-track-btn[data-track='python-dados'] {
+    font-size: 0.68rem;
+    padding: 0.6rem 0.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-info.start-track-btn[data-track='python-dados'] {
+    font-size: 0.7rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #startScreen {
+    padding: 20px 0 !important;
+  }
+
+  #startScreen .card-body {
+    padding: 1rem;
+  }
+
+  #startScreen h1 {
+    font-size: 1.7rem;
+    margin-bottom: 0.75rem !important;
+  }
+
+  #startScreen p {
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+
+  .start-layouts > [class*='col-'] {
+    margin-bottom: 0.75rem !important;
+  }
+
+  .start-option-card {
+    min-height: 0;
+  }
+
+  .start-option-card .card-body {
+    padding: 0.9rem;
+  }
+
+  .start-option-card .card-title {
+    min-height: auto;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .start-option-card .card-text {
+    font-size: 0.82rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .start-track-btn {
+    font-size: 0.8rem;
+    padding: 0.6rem 0.75rem;
+    line-height: 1.3;
+  }
+
+  #historyBtn {
+    width: 100%;
+    max-width: 220px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #startScreen h1 {
+    font-size: 1.5rem;
+  }
+
+  .start-option-card .card-title {
+    font-size: 0.95rem;
+  }
+
+  .start-track-btn {
+    font-size: 0.75rem;
+    padding: 0.55rem 0.65rem;
+  }
 }
 
 .question-choices-container ul {

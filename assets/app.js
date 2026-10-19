@@ -17,6 +17,7 @@ const completionHistory = [];
 const TRACK_LABELS = {
   'ia-devs': 'Inteligencia Artificial para Devs',
   algoritmos: 'Algoritmos e Complexidade',
+  'python-dados': 'Programação Python e Análise de Dados',
 };
 const TRACK_QUESTIONS_SOURCE = {
   'ia-devs': {
@@ -27,11 +28,15 @@ const TRACK_QUESTIONS_SOURCE = {
     file: './acquests.json',
     fallbackPaths: ['acquests.json', '/acquests.json'],
   },
+  'python-dados': {
+    file: './pydata.json',
+    fallbackPaths: ['pydata.json'],
+  },
 };
 
 function getSelectedTrack() {
   if (TRACK_QUESTIONS_SOURCE[currentTrack]) return currentTrack;
-  return 'ia-devs';
+  return '';
 }
 
 function getTrackFileName(track) {
@@ -324,7 +329,41 @@ function showScoreModal() {
 }
 
 async function loadQuestions(track = getSelectedTrack()) {
-  const source = TRACK_QUESTIONS_SOURCE[track] || TRACK_QUESTIONS_SOURCE['ia-devs'];
+  const source = TRACK_QUESTIONS_SOURCE[track];
+
+  if (!source) {
+    throw new Error(`Tema invalido: ${track}.`);
+  }
+
+  if (track === 'python-dados') {
+    const allowedPaths = ['/pydata.json', '../pydata.json', './pydata.json', 'pydata.json'];
+    let lastError = null;
+
+    for (const path of allowedPaths) {
+      try {
+        const response = await fetch(path, { cache: 'no-store' });
+        if (!response.ok) {
+          throw new Error(`Falha ao carregar ${path}.`);
+        }
+
+        const payload = await response.json();
+        const loadedQuestions = Array.isArray(payload) ? payload : payload.questions;
+
+        if (!Array.isArray(loadedQuestions) || loadedQuestions.length === 0) {
+          throw new Error(`Arquivo ${path} invalido ou vazio.`);
+        }
+
+        questions = loadedQuestions;
+        loadedTrack = track;
+        return;
+      } catch (error) {
+        lastError = error;
+      }
+    }
+
+    throw lastError || new Error('Falha ao carregar as questoes do tema Python e Analise de Dados.');
+  }
+
   const pathsToTry = [source.file, ...source.fallbackPaths];
   let lastError = null;
 
@@ -350,7 +389,7 @@ async function loadQuestions(track = getSelectedTrack()) {
     }
   }
 
-  throw lastError || new Error('Falha ao carregar as questoes.');
+  throw lastError || new Error(`Falha ao carregar as questoes do tema ${track}.`);
 }
 
 function shuffleQuestions() {
@@ -371,19 +410,26 @@ function startQuiz() {
   byId('quizSection')?.classList.remove('d-none');
 }
 
-async function ensureQuestionsLoaded() {
-  const selectedTrack = getSelectedTrack();
-  if (questions.length > 0 && loadedTrack === selectedTrack) return true;
+async function ensureQuestionsLoaded(track = getSelectedTrack()) {
+  if (!track || !TRACK_QUESTIONS_SOURCE[track]) {
+    setText('#startInfo', 'Selecione um tema para iniciar o quiz.');
+    return false;
+  }
+
+  if (questions.length > 0 && loadedTrack === track) return true;
+
+  questions = [];
+  loadedTrack = '';
 
   try {
     answers = [];
-    await loadQuestions(selectedTrack);
+    await loadQuestions(track);
     setText('#startInfo', `Total de ${questions.length} questoes.`);
     return true;
   } catch (error) {
     console.error(error);
     const isFileProtocol = window.location.protocol === 'file:';
-    const fileName = getTrackFileName(selectedTrack);
+    const fileName = getTrackFileName(track);
     setText(
       '#startInfo',
       isFileProtocol
@@ -398,9 +444,15 @@ function bindEvents() {
   document.querySelectorAll('.start-track-btn').forEach(button => {
     button.addEventListener('click', async () => {
       const track = button.getAttribute('data-track') || '';
-      setCurrentTrack(track);
+      if (!track || !TRACK_QUESTIONS_SOURCE[track]) return;
 
-      const loaded = await ensureQuestionsLoaded();
+      if (track === 'python-dados') {
+        window.location.href = 'http://localhost:8000/python-analise-dados';
+        return;
+      }
+
+      setCurrentTrack(track);
+      const loaded = await ensureQuestionsLoaded(track);
       if (!loaded) return;
 
       startQuiz();
@@ -477,31 +529,26 @@ async function initializeApp() {
   bindEvents();
   loadCompletionHistory();
   setCurrentTrack('');
+  setText('#startInfo', 'Selecione um tema para iniciar o quiz.');
 
   document.querySelectorAll('.start-track-btn').forEach(button => {
     if (!(button instanceof HTMLButtonElement)) return;
     button.disabled = false;
   });
 
-  try {
-    await loadQuestions('ia-devs');
-    loadedTrack = 'ia-devs';
-    setText('#startInfo', `Total de ${questions.length} questoes.`);
-  } catch (error) {
-    console.error(error);
-    const isFileProtocol = window.location.protocol === 'file:';
-    setText(
-      '#startInfo',
-      isFileProtocol
-        ? 'Nao foi possivel carregar quests.json no modo local. Abra com um servidor (ex.: Live Server).'
-        : 'Nao foi possivel carregar as questoes agora. Clique em Iniciar para tentar novamente.'
-    );
+  setHtml('#questao', 'Selecione um tema para iniciar o quiz.');
+  setHtml('#alternativesList', '');
 
-    setHtml('#questao', 'Nao foi possivel carregar as questoes do arquivo quests.json.');
-    setHtml('#alternativesList', '');
+  byId('prevBtn')?.setAttribute('disabled', 'true');
+  byId('nextBtn')?.setAttribute('disabled', 'true');
 
-    byId('prevBtn')?.setAttribute('disabled', 'true');
-    byId('nextBtn')?.setAttribute('disabled', 'true');
+  const currentPath = window.location.pathname.replace(/\/$/, '');
+  if (currentPath.endsWith('/python-analise-dados') || currentPath === '/python-analise-dados') {
+    setCurrentTrack('python-dados');
+    const loaded = await ensureQuestionsLoaded('python-dados');
+    if (loaded) {
+      startQuiz();
+    }
   }
 }
 

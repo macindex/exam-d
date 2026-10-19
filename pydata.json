@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "text": "<p>[1] Considere dados sobre o peso de navios. Essa variável é classificada em:</p>",
+    "alternatives": [
+      {
+        "description": "A. Quantitativa discreta",
+        "correct": false
+      },
+      {
+        "description": "B. Quantitativa contínua",
+        "correct": true
+      },
+      {
+        "description": "C. Qualitativa nominal",
+        "correct": false
+      },
+      {
+        "description": "D. Qualitativa ordinal",
+        "correct": false
+      },
+      {
+        "description": "E. Qualitativa contínua",
+        "correct": false
+      }
+    ]
+  }
+]
