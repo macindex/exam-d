@@ -270,6 +270,8 @@ function updateNavigationButtons() {
 
   const isFirstQuestion = countQuestions === 0;
   const isLastQuestion = countQuestions === questions.length - 1;
+  const currentQuestion = questions[countQuestions];
+  const hasAnsweredCurrentQuestion = currentQuestion && answers.some(answer => answer.id === currentQuestion.id);
 
   prevBtn.disabled = isFirstQuestion;
   prevBtn.classList.toggle('btn-secondary', isFirstQuestion);
@@ -278,6 +280,7 @@ function updateNavigationButtons() {
   nextBtn.classList.remove('btn-danger', 'btn-success');
   nextBtn.classList.add(isLastQuestion ? 'btn-danger' : 'btn-success');
   nextBtn.textContent = isLastQuestion ? 'Concluir' : 'Next Question';
+  nextBtn.disabled = !hasAnsweredCurrentQuestion;
 }
 
 function openResultModal() {
@@ -493,6 +496,7 @@ function bindEvents() {
     updateSelectedAlternativeState(actualQuestion.id);
     updateAnswerFeedback(actualQuestion.id);
     updateProgressFeedback();
+    updateNavigationButtons();
   });
 
   byId('alternativesList')?.addEventListener('click', event => {

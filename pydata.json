@@ -25,5 +25,1293 @@
         "correct": false
       }
     ]
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "text": "<p>[2] Analisando as alternativas a seguir, qual das alternativas é falsa?</p>",
+    "alternatives": [
+      {
+        "description": "A. População é um conjunto de indivíduos com pelo menos uma característica em comum.",
+        "correct": false
+      },
+      {
+        "description": "B. Amostra é uma porção da população.",
+        "correct": false
+      },
+      {
+        "description": "C. Rol é um conjunto de dados brutos ordenados.",
+        "correct": false
+      },
+      {
+        "description": "D. Dados brutos é um conjunto de dados dispostos sem ordem aparente.",
+        "correct": false
+      },
+      {
+        "description": "E. Distribuição de frequência é o arranjo dos dados em ordem decrescente.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "mc",
+    "text": "<p>[3] Dados sobre atendimentos médicos por faixa etária foram coletados e organizados na seguinte distribuição de frequência:</p><p>Classes: 0-10, 10-20, 20-40, 40-80, Soma<br>Fi: 280, 320, 180, 220, 1000</p><p>Dito isso, determine o ponto médio da terceira classe.</p>",
+    "alternatives": [
+      {
+        "description": "A. 20",
+        "correct": false
+      },
+      {
+        "description": "B. 25",
+        "correct": false
+      },
+      {
+        "description": "C. 30",
+        "correct": true
+      },
+      {
+        "description": "D. 35",
+        "correct": false
+      },
+      {
+        "description": "E. 40",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "text": "<p>[4] Considerando a questão anterior, qual a frequência acumulada da terceira classe?</p>",
+    "alternatives": [
+      {
+        "description": "A. 280",
+        "correct": false
+      },
+      {
+        "description": "B. 600",
+        "correct": false
+      },
+      {
+        "description": "C. 680",
+        "correct": false
+      },
+      {
+        "description": "D. 780",
+        "correct": true
+      },
+      {
+        "description": "E. 1000",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "text": "<p>[5] Julgue as alternativas a seguir e assinale a alternativa verdadeira.</p>",
+    "alternatives": [
+      {
+        "description": "A. O histograma é o gráfico típico das distribuições de frequências.",
+        "correct": true
+      },
+      {
+        "description": "B. O gráfico ideal para porcentagens é o de barras.",
+        "correct": false
+      },
+      {
+        "description": "C. Não há diferença entre histograma e gráfico de barras.",
+        "correct": false
+      },
+      {
+        "description": "D. O gráfico de barras é o mais apropriado para séries de tempo.",
+        "correct": false
+      },
+      {
+        "description": "E. O gráfico de setor não se aplica a porcentagens.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "mc",
+    "text": "<p>[6] De acordo com o diagrama de caixa a seguir, julgue a alternativa verdadeira.</p><p>60<br>50 -----------------------.--------------------<br>40<br>30 ------------------      |<br>20 ------------------|          |<br>10                         |<br>0 ---------------------____|____</p>",
+    "alternatives": [
+      {
+        "description": "A. O primeiro quartil é aproximadamente 16.",
+        "correct": true
+      },
+      {
+        "description": "B. A mediana é aproximadamente 25.",
+        "correct": false
+      },
+      {
+        "description": "C. Os dados estão simétricos.",
+        "correct": false
+      },
+      {
+        "description": "D. O maior valor do conjunto de dados é 34.",
+        "correct": false
+      },
+      {
+        "description": "E. O ponto em azul é considerado um outlier, simplesmente porque está fora da caixa.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "text": "<p>[7] Dados sobre evasão escolar em determinado município estão exibidos na distribuição de frequência a seguir.</p><p>Classes: 0 a 6, 6 a 10, 10 a 14, 14 a 17. Frequências: 20, 44, 64, 72. Soma: 200.</p><p>Determine a amplitude entre as frequências relativas.</p>",
+    "alternatives": [
+      {
+        "description": "A. 4",
+        "correct": false
+      },
+      {
+        "description": "B. 10",
+        "correct": false
+      },
+      {
+        "description": "C. 16",
+        "correct": false
+      },
+      {
+        "description": "D. 26",
+        "correct": true
+      },
+      {
+        "description": "E. 36",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "mc",
+    "text": "<p>[8] Considerando novamente a distribuição de frequência da questão anterior, com classes de 0 a 6, 6 a 10, 10 a 14 e 14 a 17 e frequências 20, 44, 64 e 72, qual o gráfico mais apropriado para representar esse conjunto de dados?</p>",
+    "alternatives": [
+      {
+        "description": "A. Barra",
+        "correct": false
+      },
+      {
+        "description": "B. Histograma",
+        "correct": true
+      },
+      {
+        "description": "C. Linha",
+        "correct": false
+      },
+      {
+        "description": "D. Setor",
+        "correct": false
+      },
+      {
+        "description": "E. Caixa",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "text": "<p>[9] O rol a seguir representa os valores de itens vendidos, em reais, em uma loja de produtos alimentícios durante um dia de trabalho:</p><p>5, 8, 10, 10, 12, 15, 18, 20, 20, 24, 25, 25, 25, 30, 38, 45, 52, 52, 60, 65, 70, 70, 79, 84, 90.</p><p>Determine a média, a mediana e a moda de vendas nesse dia de trabalho.</p>",
+    "alternatives": [
+      {
+        "description": "A. 25, 25 e 25",
+        "correct": false
+      },
+      {
+        "description": "B. 38, 30 e 25",
+        "correct": false
+      },
+      {
+        "description": "C. 38, 25 e 25",
+        "correct": true
+      },
+      {
+        "description": "D. 30, 25, 20",
+        "correct": false
+      },
+      {
+        "description": "E. 38, 34 e 25",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "text": "<p>[10] A Secretaria de Educação de certo município coletou dados sobre o número de evasão escolar no ensino fundamental durante os últimos cinco anos. Os dados estavam salvos em uma planilha eletrônica, mas, por um descuido do digitador, os dados foram multiplicados por 2. Sobre esse deslize, é correto afirmar:</p>",
+    "alternatives": [
+      {
+        "description": "A. A média e a mediana ficam multiplicadas por 2, mas a moda não.",
+        "correct": false
+      },
+      {
+        "description": "B. A mediana e a moda ficam multiplicadas por 2, mas a média não.",
+        "correct": false
+      },
+      {
+        "description": "C. A média e a moda ficam multiplicadas por 2, mas a mediana não.",
+        "correct": false
+      },
+      {
+        "description": "D. A média, mediana e moda ficam multiplicadas por 2.",
+        "correct": true
+      },
+      {
+        "description": "E. Nenhuma medida de posição é afetada por essa multiplicação equivocada.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "mc",
+    "text": "<p>[11] Um plano de saúde fez um levantamento da quantidade de famílias associadas levando em conta o número de dependentes. Os dados foram resumidos na distribuição de frequência a seguir: 0 dependentes: 800 famílias; 1 dependente: 1200 famílias; 2 dependentes: 350 famílias; 3 dependentes: 150 famílias. Total: 2500 famílias.</p><p>A média e a mediana do número aproximado de dependentes dessas famílias são:</p>",
+    "alternatives": [
+      {
+        "description": "A. 0 e 1",
+        "correct": false
+      },
+      {
+        "description": "B. 1 e 1",
+        "correct": true
+      },
+      {
+        "description": "C. 1 e 0",
+        "correct": false
+      },
+      {
+        "description": "D. 1 e 2",
+        "correct": false
+      },
+      {
+        "description": "E. 2 e 2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "mc",
+    "text": "<p>[12] A distribuição de frequência a seguir representa a faixa etária dos funcionários de certa empresa. Classes e pontos médios (Xi): 20 a 30 (25), 30 a 40 (35), 40 a 50 (45), 50 a 60 (55), 60 a 70 (65). Frequências (Fi): 30, 40, 25, 17, 13. Produtos Xi × Fi: 750, 1400, 1125, 935, 845. Soma das frequências: 125; soma dos produtos: 5055.</p><p>Sobre a média, mediana e moda, podemos afirmar que:</p>",
+    "alternatives": [
+      {
+        "description": "A. Média < mediana < moda",
+        "correct": false
+      },
+      {
+        "description": "B. Moda < média < mediana",
+        "correct": false
+      },
+      {
+        "description": "C. Mediana < moda < média",
+        "correct": false
+      },
+      {
+        "description": "D. Moda < mediana < média",
+        "correct": true
+      },
+      {
+        "description": "E. Mediana < média < moda",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "mc",
+    "text": "<p>[13] Considere que a distribuição de frequência a seguir representa a faixa etária dos funcionários da empresa XYZ. Classes e pontos médios (Xi): 20 a 30 (25), 30 a 40 (35), 40 a 50 (45), 50 a 60 (55), 60 a 70 (65). Frequências (Fi): 30, 40, 25, 17, 13. Soma das frequências informada: 100.</p><p>Qual o valor do primeiro quartil?</p>",
+    "alternatives": [
+      {
+        "description": "A. 30",
+        "correct": true
+      },
+      {
+        "description": "B. 35",
+        "correct": false
+      },
+      {
+        "description": "C. 45",
+        "correct": false
+      },
+      {
+        "description": "D. 50",
+        "correct": false
+      },
+      {
+        "description": "E. 55",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "type": "mc",
+    "text": "<p>[14] O histograma representa o número de funcionários de uma consultoria jurídica por tempo de serviço em anos. Com base nesse histograma, julgue as alternativas e marque a incorreta:</p>",
+    "alternatives": [
+      {
+        "description": "A. A média é maior do que a mediana.",
+        "correct": false
+      },
+      {
+        "description": "B. A mediana é maior do que a moda.",
+        "correct": false
+      },
+      {
+        "description": "C. 25% dos funcionários têm menos de 4,16 anos na empresa.",
+        "correct": false
+      },
+      {
+        "description": "D. 75% dos funcionários têm menos de 11,25 anos na empresa.",
+        "correct": false
+      },
+      {
+        "description": "E. 25% dos funcionários têm mais de 7,5 anos na empresa.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "mc",
+    "text": "<p>[15] Foram coletados dados sobre o número de passageiros em certa companhia aérea nos aeroportos do Brasil, de janeiro a outubro:</p><p>Janeiro: 8522; fevereiro: 12630; março: 7453; abril: 6005; maio: 5874; junho: 6612; julho: 8439; agosto: 7531; setembro: 6430; outubro: 4986.</p><p>O número médio de passageiros dessa empresa é de aproximadamente:</p>",
+    "alternatives": [
+      {
+        "description": "A. 5814",
+        "correct": false
+      },
+      {
+        "description": "B. 6438",
+        "correct": false
+      },
+      {
+        "description": "C. 6840",
+        "correct": false
+      },
+      {
+        "description": "D. 7034",
+        "correct": false
+      },
+      {
+        "description": "E. 7448",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "type": "mc",
+    "text": "<p>[16] A distribuição de frequência a seguir representa o lucro líquido de 50 empresas do setor petroquímico, em milhares de reais. Classes e frequências: R$ 100 a 300 mil: 8; R$ 300 a 500 mil: 10; R$ 500 mil a 1 milhão: 12; R$ 1 milhão a 2 milhões: 15; R$ 2 milhões a 5 milhões: 5. Total: 50 empresas.</p><p>Com base nesses dados, podemos afirmar que:</p>",
+    "alternatives": [
+      {
+        "description": "A. O valor do primeiro quartil se encontra na primeira classe.",
+        "correct": false
+      },
+      {
+        "description": "B. A média é menor do que a mediana.",
+        "correct": false
+      },
+      {
+        "description": "C. A mediana é maior do que a moda.",
+        "correct": false
+      },
+      {
+        "description": "D. A média é menor do que a moda.",
+        "correct": true
+      },
+      {
+        "description": "E. 25% das empresas com maior lucro têm lucro aproximado de R$ 2.000.000,00.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "mc",
+    "text": "<p>[17] O rol a seguir representa os valores dos itens vendidos, em reais, em uma loja de produtos alimentícios durante um dia de trabalho:</p><p>5, 8, 10, 10, 12, 15, 18, 20, 20, 24, 25, 25, 25, 30, 38, 45, 52, 52, 60, 65, 70, 70, 79, 84, 90.</p><p>Qual o desvio-padrão de vendas nesse dia de trabalho?</p>",
+    "alternatives": [
+      {
+        "description": "A. 22,24",
+        "correct": false
+      },
+      {
+        "description": "B. 26,44",
+        "correct": true
+      },
+      {
+        "description": "C. 28,16",
+        "correct": false
+      },
+      {
+        "description": "D. 30,14",
+        "correct": false
+      },
+      {
+        "description": "E. 32,66",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "type": "mc",
+    "text": "<p>[18] Considerando o resultado do desvio-padrão obtido na questão anterior, podemos afirmar que:</p>",
+    "alternatives": [
+      {
+        "description": "A. A variabilidade dos dados é em torno de 26,44 = 5,1.",
+        "correct": false
+      },
+      {
+        "description": "B. A medida mais adequada de variabilidade é a variância porque possui a mesma unidade dos dados.",
+        "correct": false
+      },
+      {
+        "description": "C. A dispersão dos itens vendidos em torno da média é de aproximadamente R$ 26,00.",
+        "correct": true
+      },
+      {
+        "description": "D. A concentração dos dados em torno da média é aproximadamente R$ 676,00.",
+        "correct": false
+      },
+      {
+        "description": "E. A maior concentração dos dados em torno da média está entre R$ 12,00 e R$ 65,00.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "type": "mc",
+    "text": "<p>[19] Ainda considerando o enunciado da questão sobre as vendas, determine o valor do coeficiente de variação.</p>",
+    "alternatives": [
+      {
+        "description": "A. 50,33%",
+        "correct": false
+      },
+      {
+        "description": "B. 58,34%",
+        "correct": false
+      },
+      {
+        "description": "C. 60,26%",
+        "correct": false
+      },
+      {
+        "description": "D. 69,43%",
+        "correct": true
+      },
+      {
+        "description": "E. 75,62%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "type": "mc",
+    "text": "<p>[20] A distribuição de frequência a seguir representa a faixa etária de funcionários de certa empresa. Classes e frequências: 20 a 30 anos: 25; 30 a 40 anos: 35; 40 a 50 anos: 20; 50 a 60 anos: 12; 60 a 70 anos: 8. Total: 100 funcionários.</p><p>O desvio-padrão da idade desses funcionários é de aproximadamente:</p>",
+    "alternatives": [
+      {
+        "description": "A. 12",
+        "correct": true
+      },
+      {
+        "description": "B. 15",
+        "correct": false
+      },
+      {
+        "description": "C. 18",
+        "correct": false
+      },
+      {
+        "description": "D. 20",
+        "correct": false
+      },
+      {
+        "description": "E. 25",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "type": "mc",
+    "text": "<p>[21] Considerando o enunciado da questão anterior, qual seria o valor do coeficiente de variação?</p>",
+    "alternatives": [
+      {
+        "description": "A. 21%",
+        "correct": false
+      },
+      {
+        "description": "B. 25%",
+        "correct": false
+      },
+      {
+        "description": "C. 28%",
+        "correct": false
+      },
+      {
+        "description": "D. 31%",
+        "correct": true
+      },
+      {
+        "description": "E. 35%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "type": "mc",
+    "text": "<p>[22] Considerando o resultado obtido do coeficiente de variação da questão anterior, é possível afirmar que:</p>",
+    "alternatives": [
+      {
+        "description": "A. Os dados têm baixa dispersão.",
+        "correct": false
+      },
+      {
+        "description": "B. Os dados têm dispersão moderada.",
+        "correct": false
+      },
+      {
+        "description": "C. Os dados têm alta dispersão.",
+        "correct": true
+      },
+      {
+        "description": "D. Os dados têm dispersão irrelevante.",
+        "correct": false
+      },
+      {
+        "description": "E. Não é possível medir a dispersão.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "type": "mc",
+    "text": "<p>[23] Foram coletados dados sobre o número de passageiros, em determinada companhia aérea nos aeroportos do Brasil, de janeiro a outubro, conforme o quadro a seguir.<br>Jan\tFev\tMar\tAbr\tMai\tJun\tJul\tAgo\tSet\tOut<br>8522\t12630\t7453\t6005\t5874\t6612\t8439\t7531\t6430\t4986<br>O desvio-padrão de passageiros, ao longo desses 10 meses nessa companhia aérea, é de aproximadamente:</p>",
+    "alternatives": [
+      {
+        "description": "A. 2144",
+        "correct": true
+      },
+      {
+        "description": "B. 2200",
+        "correct": false
+      },
+      {
+        "description": "C. 2224",
+        "correct": false
+      },
+      {
+        "description": "D. 2340",
+        "correct": false
+      },
+      {
+        "description": "E. 2451",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "type": "mc",
+    "text": "<p>[24] O Python é um poderoso software para cálculo de medidas de tendência Central. Observe os dados abaixo com as vendas mensais em milhões, em 2022, dos comércios de uma cidade do estado do Rio de Janeiro. Qual a média e a mediana das vendas mensais em milhões, no ano de 2022, dos comércios dessa cidade? Faça os cálculos no Python.<br>Mês      milhões<br>jan/22   58<br>fev/22   64<br>mar/22   58<br>abr/22   56<br>mai/22   68<br>jun/22   55<br>jul/22   68<br>ago/22   62<br>set/22   68<br>out/22   50<br>nov/22   54<br>dez/22   70</p>",
+    "alternatives": [
+      {
+        "description": "A. A média é 58 e a mediana 68 das vendas mensais em milhões, no ano de 2022, dos comércios dessa cidade",
+        "correct": false
+      },
+      {
+        "description": "B. A média é 60 e mediana 58 das vendas mensais em milhões, no ano de 2022, dos comércios dessa cidade.",
+        "correct": false
+      },
+      {
+        "description": "C. A média é 59 e mediana 68 das vendas mensais em milhões, no ano de 2022, dos comércios dessa cidade.",
+        "correct": false
+      },
+      {
+        "description": "D. A média é 61 e mediana 60 das vendas mensais em milhões, no ano de 2022, dos comércios dessa cidade.",
+        "correct": true
+      },
+      {
+        "description": "E. A média é 60 e mediana 61 das vendas mensais em milhões, no ano de 2022, dos comércios dessa cidade.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "type": "mc",
+    "text": "<p>[25] O Python pode ser muito útil para análise exploratória de dados, principalmente na hora de resumi-los. Observe os dados abaixo com as vendas mensais em milhões, em 2022, dos comércios de uma cidade do estado do Rio de Janeiro. Qual é a frequência relativa de meses com as vendas de 68 milhões? Faça os cálculos no Python.<br>Mês      milhões<br>jan/22   58<br>fev/22   64<br>mar/22   58<br>abr/22   56<br>mai/22   68<br>jun/22   55<br>jul/22   68<br>ago/22   62<br>set/22   68<br>out/22   50<br>nov/22   54<br>dez/22   70</p>",
+    "alternatives": [
+      {
+        "description": "A. A frequência relativa de meses com as vendas de 68 milhões é 25%.",
+        "correct": true
+      },
+      {
+        "description": "B. A frequência relativa de meses com as vendas de 68 milhões é 20%.",
+        "correct": false
+      },
+      {
+        "description": "C. A frequência relativa de meses com as vendas de 68 milhões é 15%.",
+        "correct": false
+      },
+      {
+        "description": "D. A frequência relativa de meses com as vendas de 68 milhões é 10%.",
+        "correct": false
+      },
+      {
+        "description": "E. A frequência relativa de meses com as vendas de 68 milhões é 5%.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "type": "mc",
+    "text": "<p>[26] Suponha P(A) = 1/3 e P(B) = 1/2. Se A e B são mutuamente excludentes, determine P(A∪B).</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/6",
+        "correct": false
+      },
+      {
+        "description": "B. 1/3",
+        "correct": false
+      },
+      {
+        "description": "C. 1/2",
+        "correct": false
+      },
+      {
+        "description": "D. 3/4",
+        "correct": false
+      },
+      {
+        "description": "E. 5/6",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "mc",
+    "text": "<p>[27] Suponha que um casal quer ter 3 filhos: 1 menino e 2 meninas. Qual é a probabilidade de que isso ocorra?</p>",
+    "alternatives": [
+      {
+        "description": "A. 3/8",
+        "correct": true
+      },
+      {
+        "description": "B. 1/2",
+        "correct": false
+      },
+      {
+        "description": "C. 5/8",
+        "correct": false
+      },
+      {
+        "description": "D. 3/4",
+        "correct": false
+      },
+      {
+        "description": "E. 7/8",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "type": "mc",
+    "text": "<p>[28] Um número é escolhido aleatoriamente entre os números 1, 2, 3, ..., 100. Qual é a probabilidade de que esse número seja divisível por 7?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/4",
+        "correct": false
+      },
+      {
+        "description": "B. 1/2",
+        "correct": false
+      },
+      {
+        "description": "C. 3/20",
+        "correct": false
+      },
+      {
+        "description": "D. 7/50",
+        "correct": true
+      },
+      {
+        "description": "E. 9/20",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "type": "mc",
+    "text": "<p>[29] Considerando o enunciado da questão anterior, qual é a probabilidade de esse número ser primo?</p>",
+    "alternatives": [
+      {
+        "description": "A. 6/25",
+        "correct": false
+      },
+      {
+        "description": "B. 1/4",
+        "correct": true
+      },
+      {
+        "description": "C. 3/5",
+        "correct": false
+      },
+      {
+        "description": "D. 3/4",
+        "correct": false
+      },
+      {
+        "description": "E. 4/5",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "type": "mc",
+    "text": "<p>[30] O estudo antropométrico em uma amostra de 100 funcionários de determinada empresa resultou na seguinte tabela, que relaciona os pesos com as alturas:<br>Abaixo de 1,70 m\tAcima de 1,70 m<br>Abaixo de 80kg\t30\t15<br>Acima de 80kg\t10\t45<br>Tabela: Estudo antropométrico.<br>Paulo H. C. Maranhão<br>Considerando que um funcionário foi escolhido aleatoriamente, qual é a probabilidade de que ele tenha peso abaixo de 80 kg e altura abaixo de 1,70 m?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/10",
+        "correct": false
+      },
+      {
+        "description": "B. 1/5",
+        "correct": false
+      },
+      {
+        "description": "C. 3/10",
+        "correct": true
+      },
+      {
+        "description": "D. 4/10",
+        "correct": false
+      },
+      {
+        "description": "E. 1/2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "type": "mc",
+    "text": "<p>[31] Uma fábrica têxtil produz lotes de 100 camisas. Sabemos que, em geral, cada lote apresenta 5 camisas com defeitos no tamanho, e 7 delas têm defeito no fio. Uma camisa é escolhida ao acaso. Qual é a probabilidade de que ela tenha defeitos?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/20",
+        "correct": false
+      },
+      {
+        "description": "B. 7/100",
+        "correct": false
+      },
+      {
+        "description": "C. 3/25",
+        "correct": true
+      },
+      {
+        "description": "D. 3/20",
+        "correct": false
+      },
+      {
+        "description": "E. 8/25",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "type": "mc",
+    "text": "<p>[32] Vamos retomar o enunciado de um exercício feito neste módulo.<br>O estudo antropométrico em uma amostra de 100 funcionários de determinada empresa resultou na seguinte tabela, que relaciona os pesos com as alturas:<br>Abaixo de 1,70 m\tAcima de 1,70 m<br>Abaixo de 80 kg\t30\t15<br>Acima de 80 kg\t10\t45<br>Tabela: Estudo antropométrico.<br>Paulo H. C. Maranhão<br>Considerando que um funcionário foi escolhido aleatoriamente, qual é a probabilidade de que ele tenha altura acima de 1,70 m?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,40",
+        "correct": false
+      },
+      {
+        "description": "B. 0,45",
+        "correct": false
+      },
+      {
+        "description": "C. 0,55",
+        "correct": false
+      },
+      {
+        "description": "D. 0,60",
+        "correct": true
+      },
+      {
+        "description": "E. 0,65",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "type": "mc",
+    "text": "<p>[33] Qual é a probabilidade de formarmos um código que contenha 2 números e 3 letras, de modo que não tenha nem números nem letras repetidas?</p>",
+    "alternatives": [
+      {
+        "description": "A. 29/323",
+        "correct": false
+      },
+      {
+        "description": "B. 71/323",
+        "correct": false
+      },
+      {
+        "description": "C. 111/169",
+        "correct": false
+      },
+      {
+        "description": "D. 135/169",
+        "correct": true
+      },
+      {
+        "description": "E. 149/169",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "type": "mc",
+    "text": "<p>[34] Suponha que, em um congresso, tenhamos 20 engenheiros e 10 matemáticos. Desejamos formar uma comissão com 5 congressistas para compor a organização do próximo congresso. Qual é a probabilidade de que essa comissão seja formada por 3 engenheiros e 2 matemáticos?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,19",
+        "correct": false
+      },
+      {
+        "description": "B. 0,36",
+        "correct": true
+      },
+      {
+        "description": "C. 0,52",
+        "correct": false
+      },
+      {
+        "description": "D. 0,67",
+        "correct": false
+      },
+      {
+        "description": "E. 0,70",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "type": "mc",
+    "text": "<p>[35] Em uma classe, existem 3 alunos com média geral acima de 9, 7 alunos com média geral entre 7 e 9, e mais 5 alunos com média geral abaixo de 7. Qual é a probabilidade de que, se selecionarmos 5 alunos, 2 tenham média geral entre 7 e 9, 2 tenham média geral abaixo de 7, e 1 tenha média geral acima de 9?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,210",
+        "correct": true
+      },
+      {
+        "description": "B. 0,191",
+        "correct": false
+      },
+      {
+        "description": "C. 0,330",
+        "correct": false
+      },
+      {
+        "description": "D. 0,505",
+        "correct": false
+      },
+      {
+        "description": "E. 0,555",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "type": "mc",
+    "text": "<p>[36] Uma urna contém 6 bolas gravadas com as letras D, L, N, N, O, O. Extraindo as bolas uma por uma, sem reposição, qual é a probabilidade de obtermos a palavra LONDON?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/60",
+        "correct": false
+      },
+      {
+        "description": "B. 1/90",
+        "correct": false
+      },
+      {
+        "description": "C. 1/180",
+        "correct": true
+      },
+      {
+        "description": "D. 1/270",
+        "correct": false
+      },
+      {
+        "description": "E. 1/360",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "type": "mc",
+    "text": "<p>[37] Um jogo consiste em lançar uma moeda honesta até obter 3 caras consecutivas. Na primeira situação, quando obtemos 3 caras consecutivas, ganhamos o jogo. Qual é a probabilidade de que o jogo termine no terceiro lance?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/8",
+        "correct": true
+      },
+      {
+        "description": "B. 1/4",
+        "correct": false
+      },
+      {
+        "description": "C. 1/2",
+        "correct": false
+      },
+      {
+        "description": "D. 5/8",
+        "correct": false
+      },
+      {
+        "description": "E. 7/8",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "type": "mc",
+    "text": "<p>[38] Observamos que uma academia recebe, por hora, cerca de 200 clientes:<br>• 90 se dirigem ao setor de musculação.<br>• 80, ao setor de piscinas.<br>• 75, ao setor de atividades aeróbicas.<br>• 30, aos setores de musculação e de piscinas.<br>• 30, aos setores de musculação e de atividades aeróbicas.<br>• 25, aos setores de piscinas e atividades aeróbicas.<br>Sabemos, ainda, que 20 clientes se dirigem a outros setores que não musculação, piscinas ou atividades aeróbicas, e que 10 clientes se dirigem aos três setores. Qual é a probabilidade de que um cliente da academia se dirija exclusivamente à musculação?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/10",
+        "correct": false
+      },
+      {
+        "description": "B. 1/5",
+        "correct": true
+      },
+      {
+        "description": "C. 1/4",
+        "correct": false
+      },
+      {
+        "description": "D. 1/2",
+        "correct": false
+      },
+      {
+        "description": "E. 3/4",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "type": "mc",
+    "text": "<p>[39] Dos 10 professores de uma universidade que se candidataram a uma promoção, 7 têm pós-doutorado e os demais não. Selecionando aleatoriamente 3 desses candidatos para determinada avaliação, qual é a probabilidade de que exatamente 2 tenham pós-doutorado?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,515",
+        "correct": false
+      },
+      {
+        "description": "B. 0,525",
+        "correct": true
+      },
+      {
+        "description": "C. 0,560",
+        "correct": false
+      },
+      {
+        "description": "D. 0,575",
+        "correct": false
+      },
+      {
+        "description": "E. 0,667",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "type": "mc",
+    "text": "<p>[40] Os estágios foram classificados em 3 grupos, dependendo do tempo de duração. São eles:<br>• Estágios de curta duração – Tempo de duração inferior a 80 horas.<br>• Estágios de média duração – Tempo de duração com mais de 80 horas e menos de 300 horas.<br>• Estágios de longa duração – Demais estágios.<br>Experiências anteriores estimam que as probabilidades de se conseguir um estágio de curta, média e longa duração são, respectivamente, 0,5, 0,3 e 0,2.<br>Selecionando k estagiários, qual é a probabilidade de haver x estagiários de curta duração, y estagiários de média duração e estagiários de longa duração, sendo x+y+z=n e x>0,y>0 e z>0?</p>",
+    "alternatives": [
+      {
+        "description": "A. x!y!z!(0,5)^x (0,3)^y (0,2)^z",
+        "correct": true
+      },
+      {
+        "description": "B. x!z!(0,5)^x (0,3)^y (0,2)^z",
+        "correct": false
+      },
+      {
+        "description": "C. (0,5)^x (0,3)^y (0,2)^z",
+        "correct": false
+      },
+      {
+        "description": "D. n!x!y!z!(0,5)^x (0,3)^y (0,2)^z",
+        "correct": false
+      },
+      {
+        "description": "E. x!y!z!(0,5) x (0,3) y (0,2) z",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "type": "mc",
+    "text": "<p>[41] A probabilidade de um físico resolver uma questão de cálculo é de 3/4 e a de um engenheiro resolver a mesma questão é de 5/7. Qual é a probabilidade de a questão ser resolvida?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/7",
+        "correct": false
+      },
+      {
+        "description": "B. 2/7",
+        "correct": false
+      },
+      {
+        "description": "C. 9/14",
+        "correct": false
+      },
+      {
+        "description": "D. 11/14",
+        "correct": false
+      },
+      {
+        "description": "E. 13/14",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "type": "mc",
+    "text": "<p>[42] Considere as informações da tabela a seguir, que trata da preferência de duas marcas de um produto de beleza por sexo:<br>Preferência\tSexo<br>Homens\tMulheres<br>Marca A\t7\t3<br>Marca B\t8\t12<br>Tabela: Preferências.<br>Paulo H. C. Maranhão<br>Houve a seleção de uma pessoa ao acaso. Qual é a probabilidade de essa pessoa ser mulher ou preferir a marca A?</p>",
+    "alternatives": [
+      {
+        "description": "A. 2/15",
+        "correct": false
+      },
+      {
+        "description": "B. 7/15",
+        "correct": false
+      },
+      {
+        "description": "C. 11/15",
+        "correct": true
+      },
+      {
+        "description": "D. 13/15",
+        "correct": false
+      },
+      {
+        "description": "E. 14/15",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "type": "mc",
+    "text": "<p>[43] Considerando os dados da questão anterior, os eventos “preferir a marca A” e “ser mulher” são independentes?</p>",
+    "alternatives": [
+      {
+        "description": "A. Sim",
+        "correct": false
+      },
+      {
+        "description": "B. Não",
+        "correct": true
+      },
+      {
+        "description": "C. Sim, mas somente se P(A) = 0.",
+        "correct": false
+      },
+      {
+        "description": "D. Sim, mas somente se P(B) = 0.",
+        "correct": false
+      },
+      {
+        "description": "E. Podem ser.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "type": "mc",
+    "text": "<p>[44] Considerando novamente os dados da questão 2, qual é a probabilidade de a pessoa selecionada preferir a marca B e ser homem?</p>",
+    "alternatives": [
+      {
+        "description": "A. 4/15",
+        "correct": true
+      },
+      {
+        "description": "B. 7/15",
+        "correct": false
+      },
+      {
+        "description": "C. 11/15",
+        "correct": false
+      },
+      {
+        "description": "D. 13/15",
+        "correct": false
+      },
+      {
+        "description": "E. 14/15",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "type": "mc",
+    "text": "<p>[45] Uma gaveta contém 3 moedas de 1 real e 2 moedas de cinquenta centavos. Retiramos de uma caixa duas moedas de forma sucessiva e com reposição. Qual é a probabilidade de a primeira moeda ser de 1 real e a segunda ser de cinquenta centavos?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/5",
+        "correct": false
+      },
+      {
+        "description": "B. 2/5",
+        "correct": false
+      },
+      {
+        "description": "C. 6/25",
+        "correct": true
+      },
+      {
+        "description": "D. 12/25",
+        "correct": false
+      },
+      {
+        "description": "E. 14/25",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "type": "mc",
+    "text": "<p>[46] As probabilidades de dois times cariocas, A e B, jogando contra times paulistas, vencerem suas partidas, é de 1/3 e 2/5, respectivamente. Sabemos, ainda, que a probabilidade de os dois times empatarem seus jogos com times paulistas é igual a 1/3.<br>Se A e B jogam uma partida no mesmo dia contra adversários paulistas diferentes, qual a probabilidade de que ambos vençam suas respectivas partidas?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/15",
+        "correct": false
+      },
+      {
+        "description": "B. 2/15",
+        "correct": true
+      },
+      {
+        "description": "C. 4/15",
+        "correct": false
+      },
+      {
+        "description": "D. 7/15",
+        "correct": false
+      },
+      {
+        "description": "E. 11/15",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "mc",
+    "text": "<p>[47] Se P(A)=1/2 e P(B)=1/4, e A e B são independentes, determine P[(A∪B) c ], em que (A∪B) c  é o complemento do evento A∪B.</p>",
+    "alternatives": [
+      {
+        "description": "A. 5/8",
+        "correct": false
+      },
+      {
+        "description": "B. 3/8",
+        "correct": true
+      },
+      {
+        "description": "C. 1/4",
+        "correct": false
+      },
+      {
+        "description": "D. 1/2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "type": "mc",
+    "text": "<p>[48] Considerando a questão anterior, qual é a P(A∩B)?</p>",
+    "alternatives": [
+      {
+        "description": "A. 3/4",
+        "correct": false
+      },
+      {
+        "description": "B. 1/2",
+        "correct": false
+      },
+      {
+        "description": "C. 1/4",
+        "correct": false
+      },
+      {
+        "description": "D. 1/8",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "type": "mc",
+    "text": "<p>[49] 50 amostras de um material foram analisadas quanto à resistência ao choque e resistência ao arranhão. Os resultados obtidos estão dispostos na tabela a seguir:<br>Resistência ao arranhão\tResistência ao choque<br>Alta\tBaixa\tTotal<br>Alta\t40\t5\t45<br>Baixa\t2\t3\t5<br>Total\t42\t8\t50<br>Tabela: Resultados obtidos.<br>Paulo H. C. Maranhão<br>Determine a probabilidade de termos uma resistência ao arranhão alta, dado que a resistência ao choque é baixa.</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/8",
+        "correct": false
+      },
+      {
+        "description": "B. 3/8",
+        "correct": false
+      },
+      {
+        "description": "C. 5/8",
+        "correct": true
+      },
+      {
+        "description": "D. 3/4",
+        "correct": false
+      },
+      {
+        "description": "E. 7/8",
+        "correct": false
+      }
+    ]
   }
 ]
