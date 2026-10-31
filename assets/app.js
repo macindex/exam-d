@@ -12,6 +12,7 @@ let answers = [];
 let questions = [];
 let currentTrack = '';
 let loadedTrack = '';
+let resultSaved = false;
 const completionHistory = [];
 
 const TRACK_LABELS = {
@@ -136,6 +137,7 @@ function getQuestionIndexById(questionId) {
 }
 
 function restartQuiz() {
+  resultSaved = false;
   shuffleQuestions();
   answers = [];
   countQuestions = getQuestionIndexById(1);
@@ -197,11 +199,21 @@ function loadCompletionHistory() {
 }
 
 function saveResult() {
+  if (resultSaved) return null;
+
   const stats = calculatePerformanceStats();
+  const trackResults = completionHistory.filter(result => result.track === currentTrack);
+  const previousResult = trackResults.reduce((latest, result) => {
+    return !latest || result.timestamp > latest.timestamp ? result : latest;
+  }, null);
   const result = {
     timestamp: Date.now(),
     track: currentTrack,
     trackLabel: TRACK_LABELS[currentTrack] || 'Nao informado',
+    attemptNumber: trackResults.length + 1,
+    correctDelta: previousResult
+      ? stats.totalCorrectAnswers - previousResult.totalCorrectAnswers
+      : null,
     totalQuestions: stats.totalQuestions,
     answeredQuestions: stats.answeredQuestions,
     totalCorrectAnswers: stats.totalCorrectAnswers,
@@ -212,9 +224,32 @@ function saveResult() {
     incorrectPercentage: stats.incorrectPercentage,
   };
 
+  localStorage.setItem('quizResults', JSON.stringify([...completionHistory, result]));
   completionHistory.push(result);
-  localStorage.setItem('quizResults', JSON.stringify(completionHistory));
+  resultSaved = true;
   console.log('Resultado salvo com sucesso!', result);
+  return result;
+}
+
+function calculateRecentPassageStats(track, limit = 10) {
+  const recentResults = completionHistory
+    .filter(result => result.track === track)
+    .sort((a, b) => b.timestamp - a.timestamp)
+    .slice(0, limit);
+
+  return recentResults.reduce((totals, result) => ({
+    passages: totals.passages + 1,
+    totalQuestions: totals.totalQuestions + result.totalQuestions,
+    totalCorrectAnswers: totals.totalCorrectAnswers + result.totalCorrectAnswers,
+    totalIncorrectAnswers: totals.totalIncorrectAnswers + result.totalIncorrectAnswers,
+    unansweredQuestions: totals.unansweredQuestions + result.unansweredQuestions,
+  }), {
+    passages: 0,
+    totalQuestions: 0,
+    totalCorrectAnswers: 0,
+    totalIncorrectAnswers: 0,
+    unansweredQuestions: 0,
+  });
 }
 
 function renderAlternatives(question) {
@@ -315,17 +350,32 @@ function closeResultModal() {
 }
 
 function showScoreModal() {
+  if (resultSaved || questions.length === 0 || answers.length !== questions.length) return;
+
   const stats = calculatePerformanceStats();
-  
+
   // Salvar o resultado antes de exibir o modal
   saveResult();
+  const recentStats = calculateRecentPassageStats(currentTrack);
+  const recentScore = recentStats.totalQuestions > 0
+    ? Math.round((recentStats.totalCorrectAnswers / recentStats.totalQuestions) * 100)
+    : 0;
+  const recentPassageSummary = currentTrack === 'python-dados'
+    ? '<hr>' +
+      `<strong>Últimas passagens (${recentStats.passages}/10)</strong><br>` +
+      `Acertos acumulados: <strong>${recentStats.totalCorrectAnswers}</strong><br>` +
+      `Erros acumulados: <strong>${recentStats.totalIncorrectAnswers}</strong><br>` +
+      `Não respondidas: <strong>${recentStats.unansweredQuestions}</strong><br>` +
+      `Aproveitamento acumulado: <strong>${recentScore}%</strong>`
+    : '';
 
   setHtml(
     '.modal-body',
     `Aproveitamento geral: <strong>${stats.score}%</strong><br>` +
     `Corretas: <strong>${stats.totalCorrectAnswers}</strong><br>` +
     `Incorretas: <strong>${stats.totalIncorrectAnswers}</strong><br>` +
-    `Nao respondidas: <strong>${stats.unansweredQuestions}</strong>`
+    `Nao respondidas: <strong>${stats.unansweredQuestions}</strong>` +
+    recentPassageSummary
   );
 
   openResultModal();
@@ -403,6 +453,7 @@ function shuffleQuestions() {
 }
 
 function startQuiz() {
+  resultSaved = false;
   shuffleQuestions();
   countQuestions = 0;
   getQuestion(countQuestions);

@@ -52,15 +52,33 @@
 		// Função para carregar e exibir os resultados
 		function loadResults() {
 			const resultsContainer = document.getElementById('resultsContainer');
-			const results = JSON.parse(localStorage.getItem('quizResults') || '[]');
+			const storedResults = JSON.parse(localStorage.getItem('quizResults') || '[]');
 
-			if (results.length === 0) {
+			if (storedResults.length === 0) {
 				resultsContainer.innerHTML = '<p class="text-muted text-center">Nenhum resultado salvo ainda.</p>';
 				return;
 			}
 
-			// Ordenar resultados por data (mais recentes primeiro)
-			results.sort((a, b) => b.timestamp - a.timestamp);
+			const attemptsByTrack = new Map();
+			const chronologicalResults = [...storedResults].sort((a, b) => a.timestamp - b.timestamp);
+			const results = chronologicalResults.map(result => {
+				const track = result.track || result.trackLabel || 'sem-tema';
+				const previous = attemptsByTrack.get(track);
+				const attemptNumber = result.attemptNumber || (previous ? previous.attemptNumber + 1 : 1);
+				const calculatedDelta = previous && Number.isFinite(result.totalCorrectAnswers)
+					? result.totalCorrectAnswers - previous.totalCorrectAnswers
+					: null;
+				const correctDelta = Number.isFinite(result.correctDelta)
+					? result.correctDelta
+					: calculatedDelta;
+
+				attemptsByTrack.set(track, {
+					attemptNumber,
+					totalCorrectAnswers: result.totalCorrectAnswers,
+				});
+
+				return { ...result, attemptNumber, correctDelta };
+			}).reverse();
 
 			let html = `
 				<div class="table-responsive">
@@ -68,9 +86,12 @@
 						<thead class="table-primary">
 							<tr>
 								<th>Data/Hora</th>
+								<th>Tema</th>
+								<th>Passagem</th>
 								<th>Acertos</th>
 								<th>Erros</th>
 								<th>Não Respondidas</th>
+								<th>Variação de acertos</th>
 								<th>Aproveitamento</th>
 								<th>Acertos %</th>
 								<th>Erros %</th>
@@ -81,12 +102,25 @@
 
 			results.forEach((result, index) => {
 				const resultColor = result.score >= 70 ? 'success' : result.score >= 50 ? 'warning' : 'danger';
+				const deltaLabel = result.correctDelta === null
+					? 'Primeira passagem'
+					: result.correctDelta > 0
+						? `+${result.correctDelta}`
+						: `${result.correctDelta}`;
+				const deltaClass = result.correctDelta > 0
+					? 'text-success'
+					: result.correctDelta < 0
+						? 'text-danger'
+						: 'text-muted';
 				html += `
 					<tr class="align-middle">
 						<td>${formatDate(result.timestamp)}</td>
+						<td>${result.trackLabel || 'Tema não informado'}</td>
+						<td>${result.attemptNumber}ª</td>
 						<td><strong>${result.totalCorrectAnswers}</strong></td>
 						<td><strong>${result.totalIncorrectAnswers}</strong></td>
 						<td><strong>${result.unansweredQuestions}</strong></td>
+						<td class="${deltaClass}"><strong>${deltaLabel}</strong></td>
 						<td>
 							<span class="badge bg-${resultColor}">
 								${result.score}%

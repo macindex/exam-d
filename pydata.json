@@ -44,7 +44,7 @@
         "correct": false
       },
       {
-        "description": "D. Dados brutos é um conjunto de dados dispostos sem ordem aparente.",
+        "description": "D. Dados brutos é um conjunto de dados dispostos sem ordem aparente",
         "correct": false
       },
       {
@@ -56,7 +56,7 @@
   {
     "id": 3,
     "type": "mc",
-    "text": "<p>[3] Dados sobre atendimentos médicos por faixa etária foram coletados e organizados na seguinte distribuição de frequência:</p><p>Classes: 0-10, 10-20, 20-40, 40-80, Soma<br>Fi: 280, 320, 180, 220, 1000</p><p>Dito isso, determine o ponto médio da terceira classe.</p>",
+    "text": "<p>[3] Dados sobre atendimentos médicos por faixa etária foram coletados e organizados na seguinte distribuição de frequência:<br>Classes\t0 ⊢ 10\t10 ⊢ 20\t  20 ⊢ 40\t40 ⊢ 80\t Soma<br>Fi\t    280\t    320\t      180\t    220\t     1000<br>Dito isso, determine o ponto médio da terceira classe.</p>",
     "alternatives": [
       {
         "description": "A. 20",
@@ -113,7 +113,7 @@
     "text": "<p>[5] Julgue as alternativas a seguir e assinale a alternativa verdadeira.</p>",
     "alternatives": [
       {
-        "description": "A. O histograma é o gráfico típico das distribuições de frequências.",
+        "description": "A. O histograma é o gráfico típico das distribuições de frequências",
         "correct": true
       },
       {
@@ -137,7 +137,7 @@
   {
     "id": 6,
     "type": "mc",
-    "text": "<p>[6] De acordo com o diagrama de caixa a seguir, julgue a alternativa verdadeira.</p><p>60<br>50 -----------------------.--------------------<br>40<br>30 ------------------      |<br>20 ------------------|          |<br>10                         |<br>0 ---------------------____|____</p>",
+    "text": "<p>[6] De acordo com o diagrama de caixa a seguir, julgue a alternativa verdadeira.<br>60<br>50 -----------------------.--------------------<br>40<br>________<br>30 ------------------      |<br>|<br>________<br>20 ------------------|          |<br>________<br>10                         |<br>|<br>0 ---------------------____|____</p>",
     "alternatives": [
       {
         "description": "A. O primeiro quartil é aproximadamente 16.",
@@ -164,7 +164,7 @@
   {
     "id": 7,
     "type": "mc",
-    "text": "<p>[7] Dados sobre evasão escolar em determinado município estão exibidos na distribuição de frequência a seguir.</p><p>Classes: 0 a 6, 6 a 10, 10 a 14, 14 a 17. Frequências: 20, 44, 64, 72. Soma: 200.</p><p>Determine a amplitude entre as frequências relativas.</p>",
+    "text": "<p>[7] Dados sobre evasão escolar em determinado município estão exibidos na distribuição de frequência a seguir. Veja:<br>Classes\t0 ⊢ 6\t6 ⊢ 10\t10 ⊢ 14\t14 ⊢ 17\t Soma<br>Fi\t    20\t    44\t    64      72\t     200<br>Agora, determine a amplitude entre as frequências relativas.</p>",
     "alternatives": [
       {
         "description": "A. 4",
@@ -191,7 +191,7 @@
   {
     "id": 8,
     "type": "mc",
-    "text": "<p>[8] Considerando novamente a distribuição de frequência da questão anterior, com classes de 0 a 6, 6 a 10, 10 a 14 e 14 a 17 e frequências 20, 44, 64 e 72, qual o gráfico mais apropriado para representar esse conjunto de dados?</p>",
+    "text": "<p>[8] Considerando novamente a distribuição de frequência da questão anterior:<br>Classes\t0 ⊢ 6\t6 ⊢ 10\t10 ⊢ 14\t14 ⊢ 17\t Soma<br>Fi   \t20  \t44  \t64\t  72\t     200<br>Qual o gráfico mais apropriado para representar esse conjunto de dados?</p>",
     "alternatives": [
       {
         "description": "A. Barra",
@@ -218,7 +218,7 @@
   {
     "id": 9,
     "type": "mc",
-    "text": "<p>[9] O rol a seguir representa os valores de itens vendidos, em reais, em uma loja de produtos alimentícios durante um dia de trabalho:</p><p>5, 8, 10, 10, 12, 15, 18, 20, 20, 24, 25, 25, 25, 30, 38, 45, 52, 52, 60, 65, 70, 70, 79, 84, 90.</p><p>Determine a média, a mediana e a moda de vendas nesse dia de trabalho.</p>",
+    "text": "<p>[9] O rol a seguir representa os valores de itens vendidos (em reais) em uma loja de produtos alimentícios durante um dia de trabalho.<br>5, 8, 10, 10, 12, 15, 18, 20, 20, 24, 25, 25, 25, 30, 38, 45, 52, 52, 60, 65, 70, 70, 79, 84, 90<br>Determine a média, a mediana e a moda de vendas nesse dia de trabalho.</p>",
     "alternatives": [
       {
         "description": "A. 25, 25 e 25",
@@ -272,7 +272,7 @@
   {
     "id": 11,
     "type": "mc",
-    "text": "<p>[11] Um plano de saúde fez um levantamento da quantidade de famílias associadas levando em conta o número de dependentes. Os dados foram resumidos na distribuição de frequência a seguir: 0 dependentes: 800 famílias; 1 dependente: 1200 famílias; 2 dependentes: 350 famílias; 3 dependentes: 150 famílias. Total: 2500 famílias.</p><p>A média e a mediana do número aproximado de dependentes dessas famílias são:</p>",
+    "text": "<p>[11] Um plano de saúde fez um levantamento da quantidade de famílias associadas levando em conta o número de dependentes. Os dados foram resumidos na distribuição de frequência a seguir.<br>N° de dependentes\tQuantidade de Famílias<br>0\t                800<br>1\t                1200<br>2\t                350<br>3\t                150<br>Soma\t            2500<br>A média e a mediana do número aproximado de dependentes dessas famílias são:</p>",
     "alternatives": [
       {
         "description": "A. 0 e 1",
@@ -299,7 +299,7 @@
   {
     "id": 12,
     "type": "mc",
-    "text": "<p>[12] A distribuição de frequência a seguir representa a faixa etária dos funcionários de certa empresa. Classes e pontos médios (Xi): 20 a 30 (25), 30 a 40 (35), 40 a 50 (45), 50 a 60 (55), 60 a 70 (65). Frequências (Fi): 30, 40, 25, 17, 13. Produtos Xi × Fi: 750, 1400, 1125, 935, 845. Soma das frequências: 125; soma dos produtos: 5055.</p><p>Sobre a média, mediana e moda, podemos afirmar que:</p>",
+    "text": "<p>[12] A distribuição de frequência a seguir representa a faixa etária dos funcionários de certa empresa.<br>Classe\t Xi\t Fi\t    Xi,Fi<br>20 ⊢ 30\t 25\t 30\t    750<br>30 ⊢ 40\t 35\t 40\t    1400<br>40 ⊢ 50\t 45\t 25\t    1125<br>50 ⊢ 60\t 55\t 17 \t935<br>60 ⊢ 70\t 65\t 13 \t845<br>Soma\t-\t 125\t5055<br>Sobre a média, mediana e moda, podemos afirmar que:</p>",
     "alternatives": [
       {
         "description": "A. Média < mediana < moda",
@@ -326,7 +326,7 @@
   {
     "id": 13,
     "type": "mc",
-    "text": "<p>[13] Considere que a distribuição de frequência a seguir representa a faixa etária dos funcionários da empresa XYZ. Classes e pontos médios (Xi): 20 a 30 (25), 30 a 40 (35), 40 a 50 (45), 50 a 60 (55), 60 a 70 (65). Frequências (Fi): 30, 40, 25, 17, 13. Soma das frequências informada: 100.</p><p>Qual o valor do primeiro quartil?</p>",
+    "text": "<p>[13] Considere agora que a distribuição de frequência a seguir representa a faixa etária dos funcionários da empresa XYZ.<br>Classe\t Xi\t Fi\t    Xi,Fi<br>20 ⊢ 30\t 25\t 30\t    750<br>30 ⊢ 40\t 35\t 40\t    1400<br>40 ⊢ 50\t 45\t 25\t    1125<br>50 ⊢ 60\t 55\t 17 \t935<br>60 ⊢ 70\t 65\t 13 \t845<br>Soma\t-\t 100\t-<br>Qual o valor do primeiro quartil?</p>",
     "alternatives": [
       {
         "description": "A. 30",
@@ -353,7 +353,7 @@
   {
     "id": 14,
     "type": "mc",
-    "text": "<p>[14] O histograma representa o número de funcionários de uma consultoria jurídica por tempo de serviço em anos. Com base nesse histograma, julgue as alternativas e marque a incorreta:</p>",
+    "text": "<p>[14] O histograma a seguir representa o número de funcionários de uma consultoria jurídica por tempo de serviço em anos.<br>Com base nesse histograma, julgue as alternativas e marque a incorreta.</p>",
     "alternatives": [
       {
         "description": "A. A média é maior do que a mediana.",
@@ -364,11 +364,11 @@
         "correct": false
       },
       {
-        "description": "C. 25% dos funcionários têm menos de 4,16 anos na empresa.",
+        "description": "C. 25% dos funcionários tem menos de 4,16 anos na empresa.",
         "correct": false
       },
       {
-        "description": "D. 75% dos funcionários têm menos de 11,25 anos na empresa.",
+        "description": "D. 75% dos funcionários tem menos de 11,25 anos na empresa.",
         "correct": false
       },
       {
@@ -380,7 +380,7 @@
   {
     "id": 15,
     "type": "mc",
-    "text": "<p>[15] Foram coletados dados sobre o número de passageiros em certa companhia aérea nos aeroportos do Brasil, de janeiro a outubro:</p><p>Janeiro: 8522; fevereiro: 12630; março: 7453; abril: 6005; maio: 5874; junho: 6612; julho: 8439; agosto: 7531; setembro: 6430; outubro: 4986.</p><p>O número médio de passageiros dessa empresa é de aproximadamente:</p>",
+    "text": "<p>Foram coletados dados sobre o número de passageiros em certa companhia aérea nos aeroportos do Brasil, de janeiro a outubro conforme tabela:<br>Jan\t    Fev\t    Mar\t    Abr\t    Mai\t    Jun\t    Jul\t    Ago\t    Set\t    Out<br>8522\t12630\t7453\t6005\t5874\t6612\t8439\t7531\t6430\t4986<br>O número médio de passageiros dessa empresa é de aproximadamente:</p>",
     "alternatives": [
       {
         "description": "A. 5814",
@@ -407,7 +407,7 @@
   {
     "id": 16,
     "type": "mc",
-    "text": "<p>[16] A distribuição de frequência a seguir representa o lucro líquido de 50 empresas do setor petroquímico, em milhares de reais. Classes e frequências: R$ 100 a 300 mil: 8; R$ 300 a 500 mil: 10; R$ 500 mil a 1 milhão: 12; R$ 1 milhão a 2 milhões: 15; R$ 2 milhões a 5 milhões: 5. Total: 50 empresas.</p><p>Com base nesses dados, podemos afirmar que:</p>",
+    "text": "<p>A distribuição de frequência a seguir representa o lucro líquido de 50 empresas do setor petroquímico (em milhares de reais).<br>Lucro Líquido (R$)\tFi<br>100 ⊢ 300\t8<br>300 ⊢ 500\t10<br>500 ⊢ 1000\t12<br>1000 ⊢ 2000\t15<br>2000 ⊢ 5000\t5<br>Soma\t50<br>Com base nesses dados, podemos afirmar que:</p>",
     "alternatives": [
       {
         "description": "A. O valor do primeiro quartil se encontra na primeira classe.",
@@ -418,15 +418,15 @@
         "correct": false
       },
       {
-        "description": "C. A mediana é maior do que a moda.",
+        "description": "C. A mediana é maior do que a moda",
         "correct": false
       },
       {
-        "description": "D. A média é menor do que a moda.",
+        "description": "D. A média é menor do que a moda",
         "correct": true
       },
       {
-        "description": "E. 25% das empresas com maior lucro têm lucro aproximado de R$ 2.000.000,00.",
+        "description": "E. 25% das empresas com maior lucro tem lucro aproximado de R$2.000.000,00.",
         "correct": false
       }
     ]
@@ -434,7 +434,7 @@
   {
     "id": 17,
     "type": "mc",
-    "text": "<p>[17] O rol a seguir representa os valores dos itens vendidos, em reais, em uma loja de produtos alimentícios durante um dia de trabalho:</p><p>5, 8, 10, 10, 12, 15, 18, 20, 20, 24, 25, 25, 25, 30, 38, 45, 52, 52, 60, 65, 70, 70, 79, 84, 90.</p><p>Qual o desvio-padrão de vendas nesse dia de trabalho?</p>",
+    "text": "<p>O rol a seguir representa os valores dos itens vendidos (em reais) em uma loja de produtos alimentícios durante um dia de trabalho.<br>5, 8, 10, 10, 12, 15, 18, 20, 20, 24, 25, 25, 25, 30, 38, 45, 52, 52, 60, 65, 70, 70, 79, 84, 90<br>Qual o desvio-padrão de vendas nesse dia de trabalho?</p>",
     "alternatives": [
       {
         "description": "A. 22,24",
@@ -464,23 +464,23 @@
     "text": "<p>[18] Considerando o resultado do desvio-padrão obtido na questão anterior, podemos afirmar que:</p>",
     "alternatives": [
       {
-        "description": "A. A variabilidade dos dados é em torno de 26,44 = 5,1.",
+        "description": "A. A variabilidade dos dados é em torno de 26,44=5,1.",
         "correct": false
       },
       {
-        "description": "B. A medida mais adequada de variabilidade é a variância porque possui a mesma unidade dos dados.",
+        "description": "B. A medida mais adequada de variabilidade para medir a variabilidade dos dados é a variância porque possui a mesma unidade dos dados.",
         "correct": false
       },
       {
-        "description": "C. A dispersão dos itens vendidos em torno da média é de aproximadamente R$ 26,00.",
+        "description": "C. A dispersão dos itens vendidos em torno da média é de aproximadamente R$ 26,00 reais.",
         "correct": true
       },
       {
-        "description": "D. A concentração dos dados em torno da média é aproximadamente R$ 676,00.",
+        "description": "D. A concentração dos dados em torno da média é aproximadamente R$ 676,00 reais.",
         "correct": false
       },
       {
-        "description": "E. A maior concentração dos dados em torno da média está entre R$ 12,00 e R$ 65,00.",
+        "description": "E. A maior concentração dos dados em torno da média está entre R$ 12,00 e R$ 65,00 reais.",
         "correct": false
       }
     ]
@@ -488,7 +488,7 @@
   {
     "id": 19,
     "type": "mc",
-    "text": "<p>[19] Ainda considerando o enunciado da questão sobre as vendas, determine o valor do coeficiente de variação.</p>",
+    "text": "<p>Ainda considerando o enunciado da primeira questão, determine o valor do coeficiente de variação.</p>",
     "alternatives": [
       {
         "description": "A. 50,33%",
@@ -515,7 +515,7 @@
   {
     "id": 20,
     "type": "mc",
-    "text": "<p>[20] A distribuição de frequência a seguir representa a faixa etária de funcionários de certa empresa. Classes e frequências: 20 a 30 anos: 25; 30 a 40 anos: 35; 40 a 50 anos: 20; 50 a 60 anos: 12; 60 a 70 anos: 8. Total: 100 funcionários.</p><p>O desvio-padrão da idade desses funcionários é de aproximadamente:</p>",
+    "text": "<p>A distribuição de frequência a seguir representa a faixa etária de funcionários de certa empresa. O desvio-padrão da idade desses funcionários é de aproximadamente:<br>Classe\tFi<br>20 ⊢ 30\t25<br>30 ⊢ 40\t35<br>40 ⊢ 50\t20<br>50 ⊢ 60\t12<br>60 ⊢ 70\t8<br>Soma\t100</p>",
     "alternatives": [
       {
         "description": "A. 12",
@@ -542,7 +542,7 @@
   {
     "id": 21,
     "type": "mc",
-    "text": "<p>[21] Considerando o enunciado da questão anterior, qual seria o valor do coeficiente de variação?</p>",
+    "text": "<p>Considerando o enunciado da questão anterior, qual seria o valor do coeficiente de variação?</p>",
     "alternatives": [
       {
         "description": "A. 21%",
@@ -569,7 +569,7 @@
   {
     "id": 22,
     "type": "mc",
-    "text": "<p>[22] Considerando o resultado obtido do coeficiente de variação da questão anterior, é possível afirmar que:</p>",
+    "text": "<p>Considerando o resultado obtido do coeficiente de variação da questão anterior, é possível afirmar que:</p>",
     "alternatives": [
       {
         "description": "A. Os dados têm baixa dispersão.",
@@ -596,7 +596,7 @@
   {
     "id": 23,
     "type": "mc",
-    "text": "<p>[23] Foram coletados dados sobre o número de passageiros, em determinada companhia aérea nos aeroportos do Brasil, de janeiro a outubro, conforme o quadro a seguir.<br>Jan\tFev\tMar\tAbr\tMai\tJun\tJul\tAgo\tSet\tOut<br>8522\t12630\t7453\t6005\t5874\t6612\t8439\t7531\t6430\t4986<br>O desvio-padrão de passageiros, ao longo desses 10 meses nessa companhia aérea, é de aproximadamente:</p>",
+    "text": "<p>Foram coletados dados sobre o número de passageiros, em determinada companhia aérea nos aeroportos do Brasil, de janeiro a outubro, conforme o quadro a seguir.<br>Jan\tFev\tMar\tAbr\tMai\tJun\tJul\tAgo\tSet\tOut<br>8522\t12630\t7453\t6005\t5874\t6612\t8439\t7531\t6430\t4986<br>O desvio-padrão de passageiros, ao longo desses 10 meses nessa companhia aérea, é de aproximadamente:</p>",
     "alternatives": [
       {
         "description": "A. 2144",
@@ -623,7 +623,7 @@
   {
     "id": 24,
     "type": "mc",
-    "text": "<p>[24] O Python é um poderoso software para cálculo de medidas de tendência Central. Observe os dados abaixo com as vendas mensais em milhões, em 2022, dos comércios de uma cidade do estado do Rio de Janeiro. Qual a média e a mediana das vendas mensais em milhões, no ano de 2022, dos comércios dessa cidade? Faça os cálculos no Python.<br>Mês      milhões<br>jan/22   58<br>fev/22   64<br>mar/22   58<br>abr/22   56<br>mai/22   68<br>jun/22   55<br>jul/22   68<br>ago/22   62<br>set/22   68<br>out/22   50<br>nov/22   54<br>dez/22   70</p>",
+    "text": "<p>O Python é um poderoso software para cálculo de medidas de tendência Central. Observe os dados abaixo com as vendas mensais em milhões, em 2022, dos comércios de uma cidade do estado do Rio de Janeiro. Qual a média e a mediana das vendas mensais em milhões, no ano de 2022, dos comércios dessa cidade? Faça os cálculos no Python.<br>Mês      milhões<br>jan/22   58<br>fev/22   64<br>mar/22   58<br>abr/22   56<br>mai/22   68<br>jun/22   55<br>jul/22   68<br>ago/22   62<br>set/22   68<br>out/22   50<br>nov/22   54<br>dez/22   70</p>",
     "alternatives": [
       {
         "description": "A. A média é 58 e a mediana 68 das vendas mensais em milhões, no ano de 2022, dos comércios dessa cidade",
@@ -650,7 +650,7 @@
   {
     "id": 25,
     "type": "mc",
-    "text": "<p>[25] O Python pode ser muito útil para análise exploratória de dados, principalmente na hora de resumi-los. Observe os dados abaixo com as vendas mensais em milhões, em 2022, dos comércios de uma cidade do estado do Rio de Janeiro. Qual é a frequência relativa de meses com as vendas de 68 milhões? Faça os cálculos no Python.<br>Mês      milhões<br>jan/22   58<br>fev/22   64<br>mar/22   58<br>abr/22   56<br>mai/22   68<br>jun/22   55<br>jul/22   68<br>ago/22   62<br>set/22   68<br>out/22   50<br>nov/22   54<br>dez/22   70</p>",
+    "text": "<p>O Python pode ser muito útil para análise exploratória de dados, principalmente na hora de resumi-los. Observe os dados abaixo com as vendas mensais em milhões, em 2022, dos comércios de uma cidade do estado do Rio de Janeiro. Qual é a frequência relativa de meses com as vendas de 68 milhões? Faça os cálculos no Python.<br>Mês      milhões<br>jan/22   58<br>fev/22   64<br>mar/22   58<br>abr/22   56<br>mai/22   68<br>jun/22   55<br>jul/22   68<br>ago/22   62<br>set/22   68<br>out/22   50<br>nov/22   54<br>dez/22   70</p>",
     "alternatives": [
       {
         "description": "A. A frequência relativa de meses com as vendas de 68 milhões é 25%.",
@@ -677,7 +677,7 @@
   {
     "id": 26,
     "type": "mc",
-    "text": "<p>[26] Suponha P(A) = 1/3 e P(B) = 1/2. Se A e B são mutuamente excludentes, determine P(A∪B).</p>",
+    "text": "<p>Suponha P(A) = 1/3 e P(B) = 1/2. Se A e B são mutuamente excludentes, determine P(A∪B).</p>",
     "alternatives": [
       {
         "description": "A. 1/6",
@@ -704,7 +704,34 @@
   {
     "id": 27,
     "type": "mc",
-    "text": "<p>[27] Suponha que um casal quer ter 3 filhos: 1 menino e 2 meninas. Qual é a probabilidade de que isso ocorra?</p>",
+    "text": "<p>Sabemos que genótipos de certa característica humana são formados pelos elementos AA, Aa, aA e aa, sendo “AA” o gene dominante e “aa” o gene recessivo. Qual é a probabilidade de um casal, cujo homem é dominante e a mulher tem gene Aa, ter um filho com gene dominante?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/3",
+        "correct": false
+      },
+      {
+        "description": "B. 1/2",
+        "correct": true
+      },
+      {
+        "description": "C. 2/3",
+        "correct": false
+      },
+      {
+        "description": "D. 3/4",
+        "correct": false
+      },
+      {
+        "description": "E. 5/6",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "type": "mc",
+    "text": "<p>Suponha que um casal quer ter 3 filhos: 1 menino e 2 meninas. Qual é a probabilidade de que isso ocorra?</p>",
     "alternatives": [
       {
         "description": "A. 3/8",
@@ -729,9 +756,9 @@
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "type": "mc",
-    "text": "<p>[28] Um número é escolhido aleatoriamente entre os números 1, 2, 3, ..., 100. Qual é a probabilidade de que esse número seja divisível por 7?</p>",
+    "text": "<p>Um número é escolhido aleatoriamente entre os números 1, 2, 3, ..., 100. Qual é a probabilidade de que esse número seja divisível por 7?</p>",
     "alternatives": [
       {
         "description": "A. 1/4",
@@ -756,9 +783,9 @@
     ]
   },
   {
-    "id": 29,
+    "id": 30,
     "type": "mc",
-    "text": "<p>[29] Considerando o enunciado da questão anterior, qual é a probabilidade de esse número ser primo?</p>",
+    "text": "<p>Considerando o enunciado da questão anterior, qual é a probabilidade de esse número ser primo?</p>",
     "alternatives": [
       {
         "description": "A. 6/25",
@@ -783,9 +810,9 @@
     ]
   },
   {
-    "id": 30,
+    "id": 31,
     "type": "mc",
-    "text": "<p>[30] O estudo antropométrico em uma amostra de 100 funcionários de determinada empresa resultou na seguinte tabela, que relaciona os pesos com as alturas:<br>Abaixo de 1,70 m\tAcima de 1,70 m<br>Abaixo de 80kg\t30\t15<br>Acima de 80kg\t10\t45<br>Tabela: Estudo antropométrico.<br>Paulo H. C. Maranhão<br>Considerando que um funcionário foi escolhido aleatoriamente, qual é a probabilidade de que ele tenha peso abaixo de 80 kg e altura abaixo de 1,70 m?</p>",
+    "text": "<p>O estudo antropométrico em uma amostra de 100 funcionários de determinada empresa resultou na seguinte tabela, que relaciona os pesos com as alturas:<br>Abaixo de 1,70 m\tAcima de 1,70 m<br>Abaixo de 80kg\t30\t15<br>Acima de 80kg\t10\t45<br>Tabela: Estudo antropométrico.<br>Paulo H. C. Maranhão<br>Considerando que um funcionário foi escolhido aleatoriamente, qual é a probabilidade de que ele tenha peso abaixo de 80 kg e altura abaixo de 1,70 m?</p>",
     "alternatives": [
       {
         "description": "A. 1/10",
@@ -810,9 +837,9 @@
     ]
   },
   {
-    "id": 31,
+    "id": 32,
     "type": "mc",
-    "text": "<p>[31] Uma fábrica têxtil produz lotes de 100 camisas. Sabemos que, em geral, cada lote apresenta 5 camisas com defeitos no tamanho, e 7 delas têm defeito no fio. Uma camisa é escolhida ao acaso. Qual é a probabilidade de que ela tenha defeitos?</p>",
+    "text": "<p>Uma fábrica têxtil produz lotes de 100 camisas. Sabemos que, em geral, cada lote apresenta 5 camisas com defeitos no tamanho, e 7 delas têm defeito no fio. Uma camisa é escolhida ao acaso. Qual é a probabilidade de que ela tenha defeitos?</p>",
     "alternatives": [
       {
         "description": "A. 1/20",
@@ -837,9 +864,9 @@
     ]
   },
   {
-    "id": 32,
+    "id": 33,
     "type": "mc",
-    "text": "<p>[32] Vamos retomar o enunciado de um exercício feito neste módulo.<br>O estudo antropométrico em uma amostra de 100 funcionários de determinada empresa resultou na seguinte tabela, que relaciona os pesos com as alturas:<br>Abaixo de 1,70 m\tAcima de 1,70 m<br>Abaixo de 80 kg\t30\t15<br>Acima de 80 kg\t10\t45<br>Tabela: Estudo antropométrico.<br>Paulo H. C. Maranhão<br>Considerando que um funcionário foi escolhido aleatoriamente, qual é a probabilidade de que ele tenha altura acima de 1,70 m?</p>",
+    "text": "<p>Vamos retomar o enunciado de um exercício feito neste módulo.<br>O estudo antropométrico em uma amostra de 100 funcionários de determinada empresa resultou na seguinte tabela, que relaciona os pesos com as alturas:<br>Abaixo de 1,70 m\tAcima de 1,70 m<br>Abaixo de 80 kg\t30\t15<br>Acima de 80 kg\t10\t45<br>Tabela: Estudo antropométrico.<br>Paulo H. C. Maranhão<br>Considerando que um funcionário foi escolhido aleatoriamente, qual é a probabilidade de que ele tenha altura acima de 1,70 m?</p>",
     "alternatives": [
       {
         "description": "A. 0,40",
@@ -864,9 +891,9 @@
     ]
   },
   {
-    "id": 33,
+    "id": 34,
     "type": "mc",
-    "text": "<p>[33] Qual é a probabilidade de formarmos um código que contenha 2 números e 3 letras, de modo que não tenha nem números nem letras repetidas?</p>",
+    "text": "<p>Qual é a probabilidade de formarmos um código que contenha 2 números e 3 letras, de modo que não tenha nem números nem letras repetidas?</p>",
     "alternatives": [
       {
         "description": "A. 29/323",
@@ -891,9 +918,9 @@
     ]
   },
   {
-    "id": 34,
+    "id": 35,
     "type": "mc",
-    "text": "<p>[34] Suponha que, em um congresso, tenhamos 20 engenheiros e 10 matemáticos. Desejamos formar uma comissão com 5 congressistas para compor a organização do próximo congresso. Qual é a probabilidade de que essa comissão seja formada por 3 engenheiros e 2 matemáticos?</p>",
+    "text": "<p>Suponha que, em um congresso, tenhamos 20 engenheiros e 10 matemáticos. Desejamos formar uma comissão com 5 congressistas para compor a organização do próximo congresso. Qual é a probabilidade de que essa comissão seja formada por 3 engenheiros e 2 matemáticos?</p>",
     "alternatives": [
       {
         "description": "A. 0,19",
@@ -918,9 +945,9 @@
     ]
   },
   {
-    "id": 35,
+    "id": 36,
     "type": "mc",
-    "text": "<p>[35] Em uma classe, existem 3 alunos com média geral acima de 9, 7 alunos com média geral entre 7 e 9, e mais 5 alunos com média geral abaixo de 7. Qual é a probabilidade de que, se selecionarmos 5 alunos, 2 tenham média geral entre 7 e 9, 2 tenham média geral abaixo de 7, e 1 tenha média geral acima de 9?</p>",
+    "text": "<p>Em uma classe, existem 3 alunos com média geral acima de 9, 7 alunos com média geral entre 7 e 9, e mais 5 alunos com média geral abaixo de 7. Qual é a probabilidade de que, se selecionarmos 5 alunos, 2 tenham média geral entre 7 e 9, 2 tenham média geral abaixo de 7, e 1 tenha média geral acima de 9?</p>",
     "alternatives": [
       {
         "description": "A. 0,210",
@@ -945,9 +972,9 @@
     ]
   },
   {
-    "id": 36,
+    "id": 37,
     "type": "mc",
-    "text": "<p>[36] Uma urna contém 6 bolas gravadas com as letras D, L, N, N, O, O. Extraindo as bolas uma por uma, sem reposição, qual é a probabilidade de obtermos a palavra LONDON?</p>",
+    "text": "<p>Uma urna contém 6 bolas gravadas com as letras D, L, N, N, O, O. Extraindo as bolas uma por uma, sem reposição, qual é a probabilidade de obtermos a palavra LONDON?</p>",
     "alternatives": [
       {
         "description": "A. 1/60",
@@ -972,9 +999,9 @@
     ]
   },
   {
-    "id": 37,
+    "id": 38,
     "type": "mc",
-    "text": "<p>[37] Um jogo consiste em lançar uma moeda honesta até obter 3 caras consecutivas. Na primeira situação, quando obtemos 3 caras consecutivas, ganhamos o jogo. Qual é a probabilidade de que o jogo termine no terceiro lance?</p>",
+    "text": "<p>Um jogo consiste em lançar uma moeda honesta até obter 3 caras consecutivas. Na primeira situação, quando obtemos 3 caras consecutivas, ganhamos o jogo. Qual é a probabilidade de que o jogo termine no terceiro lance?</p>",
     "alternatives": [
       {
         "description": "A. 1/8",
@@ -999,9 +1026,9 @@
     ]
   },
   {
-    "id": 38,
+    "id": 39,
     "type": "mc",
-    "text": "<p>[38] Observamos que uma academia recebe, por hora, cerca de 200 clientes:<br>• 90 se dirigem ao setor de musculação.<br>• 80, ao setor de piscinas.<br>• 75, ao setor de atividades aeróbicas.<br>• 30, aos setores de musculação e de piscinas.<br>• 30, aos setores de musculação e de atividades aeróbicas.<br>• 25, aos setores de piscinas e atividades aeróbicas.<br>Sabemos, ainda, que 20 clientes se dirigem a outros setores que não musculação, piscinas ou atividades aeróbicas, e que 10 clientes se dirigem aos três setores. Qual é a probabilidade de que um cliente da academia se dirija exclusivamente à musculação?</p>",
+    "text": "<p>Observamos que uma academia recebe, por hora, cerca de 200 clientes:<br>• 90 se dirigem ao setor de musculação.<br>• 80, ao setor de piscinas.<br>• 75, ao setor de atividades aeróbicas.<br>• 30, aos setores de musculação e de piscinas.<br>• 30, aos setores de musculação e de atividades aeróbicas.<br>• 25, aos setores de piscinas e atividades aeróbicas.<br>Sabemos, ainda, que 20 clientes se dirigem a outros setores que não musculação, piscinas ou atividades aeróbicas, e que 10 clientes se dirigem aos três setores. Qual é a probabilidade de que um cliente da academia se dirija exclusivamente à musculação?</p>",
     "alternatives": [
       {
         "description": "A. 1/10",
@@ -1026,9 +1053,9 @@
     ]
   },
   {
-    "id": 39,
+    "id": 40,
     "type": "mc",
-    "text": "<p>[39] Dos 10 professores de uma universidade que se candidataram a uma promoção, 7 têm pós-doutorado e os demais não. Selecionando aleatoriamente 3 desses candidatos para determinada avaliação, qual é a probabilidade de que exatamente 2 tenham pós-doutorado?</p>",
+    "text": "<p>Dos 10 professores de uma universidade que se candidataram a uma promoção, 7 têm pós-doutorado e os demais não. Selecionando aleatoriamente 3 desses candidatos para determinada avaliação, qual é a probabilidade de que exatamente 2 tenham pós-doutorado?</p>",
     "alternatives": [
       {
         "description": "A. 0,515",
@@ -1053,9 +1080,9 @@
     ]
   },
   {
-    "id": 40,
+    "id": 41,
     "type": "mc",
-    "text": "<p>[40] Os estágios foram classificados em 3 grupos, dependendo do tempo de duração. São eles:<br>• Estágios de curta duração – Tempo de duração inferior a 80 horas.<br>• Estágios de média duração – Tempo de duração com mais de 80 horas e menos de 300 horas.<br>• Estágios de longa duração – Demais estágios.<br>Experiências anteriores estimam que as probabilidades de se conseguir um estágio de curta, média e longa duração são, respectivamente, 0,5, 0,3 e 0,2.<br>Selecionando k estagiários, qual é a probabilidade de haver x estagiários de curta duração, y estagiários de média duração e estagiários de longa duração, sendo x+y+z=n e x>0,y>0 e z>0?</p>",
+    "text": "<p>Os estágios foram classificados em 3 grupos, dependendo do tempo de duração. São eles:<br>• Estágios de curta duração – Tempo de duração inferior a 80 horas.<br>• Estágios de média duração – Tempo de duração com mais de 80 horas e menos de 300 horas.<br>• Estágios de longa duração – Demais estágios.<br>Experiências anteriores estimam que as probabilidades de se conseguir um estágio de curta, média e longa duração são, respectivamente, 0,5, 0,3 e 0,2.<br>Selecionando k estagiários, qual é a probabilidade de haver x estagiários de curta duração, y estagiários de média duração e estagiários de longa duração, sendo x+y+z=n e x>0,y>0 e z>0?</p>",
     "alternatives": [
       {
         "description": "A. x!y!z!(0,5)^x (0,3)^y (0,2)^z",
@@ -1080,9 +1107,9 @@
     ]
   },
   {
-    "id": 41,
+    "id": 42,
     "type": "mc",
-    "text": "<p>[41] A probabilidade de um físico resolver uma questão de cálculo é de 3/4 e a de um engenheiro resolver a mesma questão é de 5/7. Qual é a probabilidade de a questão ser resolvida?</p>",
+    "text": "<p>A probabilidade de um físico resolver uma questão de cálculo é de 3/4 e a de um engenheiro resolver a mesma questão é de 5/7. Qual é a probabilidade de a questão ser resolvida?</p>",
     "alternatives": [
       {
         "description": "A. 1/7",
@@ -1107,9 +1134,9 @@
     ]
   },
   {
-    "id": 42,
+    "id": 43,
     "type": "mc",
-    "text": "<p>[42] Considere as informações da tabela a seguir, que trata da preferência de duas marcas de um produto de beleza por sexo:<br>Preferência\tSexo<br>Homens\tMulheres<br>Marca A\t7\t3<br>Marca B\t8\t12<br>Tabela: Preferências.<br>Paulo H. C. Maranhão<br>Houve a seleção de uma pessoa ao acaso. Qual é a probabilidade de essa pessoa ser mulher ou preferir a marca A?</p>",
+    "text": "<p>Considere as informações da tabela a seguir, que trata da preferência de duas marcas de um produto de beleza por sexo:<br>Preferência\tSexo<br>Homens\tMulheres<br>Marca A\t7\t3<br>Marca B\t8\t12<br>Tabela: Preferências.<br>Paulo H. C. Maranhão<br>Houve a seleção de uma pessoa ao acaso. Qual é a probabilidade de essa pessoa ser mulher ou preferir a marca A?</p>",
     "alternatives": [
       {
         "description": "A. 2/15",
@@ -1134,9 +1161,9 @@
     ]
   },
   {
-    "id": 43,
+    "id": 44,
     "type": "mc",
-    "text": "<p>[43] Considerando os dados da questão anterior, os eventos “preferir a marca A” e “ser mulher” são independentes?</p>",
+    "text": "<p>Considerando os dados da questão anterior, os eventos “preferir a marca A” e “ser mulher” são independentes?</p>",
     "alternatives": [
       {
         "description": "A. Sim",
@@ -1161,9 +1188,9 @@
     ]
   },
   {
-    "id": 44,
+    "id": 45,
     "type": "mc",
-    "text": "<p>[44] Considerando novamente os dados da questão 2, qual é a probabilidade de a pessoa selecionada preferir a marca B e ser homem?</p>",
+    "text": "<p>Considerando novamente os dados da questão 2, qual é a probabilidade de a pessoa selecionada preferir a marca B e ser homem?</p>",
     "alternatives": [
       {
         "description": "A. 4/15",
@@ -1188,9 +1215,9 @@
     ]
   },
   {
-    "id": 45,
+    "id": 46,
     "type": "mc",
-    "text": "<p>[45] Uma gaveta contém 3 moedas de 1 real e 2 moedas de cinquenta centavos. Retiramos de uma caixa duas moedas de forma sucessiva e com reposição. Qual é a probabilidade de a primeira moeda ser de 1 real e a segunda ser de cinquenta centavos?</p>",
+    "text": "<p>Uma gaveta contém 3 moedas de 1 real e 2 moedas de cinquenta centavos. Retiramos de uma caixa duas moedas de forma sucessiva e com reposição. Qual é a probabilidade de a primeira moeda ser de 1 real e a segunda ser de cinquenta centavos?</p>",
     "alternatives": [
       {
         "description": "A. 1/5",
@@ -1215,9 +1242,9 @@
     ]
   },
   {
-    "id": 46,
+    "id": 47,
     "type": "mc",
-    "text": "<p>[46] As probabilidades de dois times cariocas, A e B, jogando contra times paulistas, vencerem suas partidas, é de 1/3 e 2/5, respectivamente. Sabemos, ainda, que a probabilidade de os dois times empatarem seus jogos com times paulistas é igual a 1/3.<br>Se A e B jogam uma partida no mesmo dia contra adversários paulistas diferentes, qual a probabilidade de que ambos vençam suas respectivas partidas?</p>",
+    "text": "<p>As probabilidades de dois times cariocas, A e B, jogando contra times paulistas, vencerem suas partidas, é de 1/3 e 2/5, respectivamente. Sabemos, ainda, que a probabilidade de os dois times empatarem seus jogos com times paulistas é igual a 1/3.<br>Se A e B jogam uma partida no mesmo dia contra adversários paulistas diferentes, qual a probabilidade de que ambos vençam suas respectivas partidas?</p>",
     "alternatives": [
       {
         "description": "A. 1/15",
@@ -1242,9 +1269,9 @@
     ]
   },
   {
-    "id": 47,
+    "id": 48,
     "type": "mc",
-    "text": "<p>[47] Se P(A)=1/2 e P(B)=1/4, e A e B são independentes, determine P[(A∪B) c ], em que (A∪B) c  é o complemento do evento A∪B.</p>",
+    "text": "<p>Se P(A)=1/2 e P(B)=1/4, e A e B são independentes, determine P[(A∪B) c ], em que (A∪B) c  é o complemento do evento A∪B.</p>",
     "alternatives": [
       {
         "description": "A. 5/8",
@@ -1265,9 +1292,9 @@
     ]
   },
   {
-    "id": 48,
+    "id": 49,
     "type": "mc",
-    "text": "<p>[48] Considerando a questão anterior, qual é a P(A∩B)?</p>",
+    "text": "<p>Considerando a questão anterior, qual é a P(A∩B)?</p>",
     "alternatives": [
       {
         "description": "A. 3/4",
@@ -1288,9 +1315,9 @@
     ]
   },
   {
-    "id": 49,
+    "id": 50,
     "type": "mc",
-    "text": "<p>[49] 50 amostras de um material foram analisadas quanto à resistência ao choque e resistência ao arranhão. Os resultados obtidos estão dispostos na tabela a seguir:<br>Resistência ao arranhão\tResistência ao choque<br>Alta\tBaixa\tTotal<br>Alta\t40\t5\t45<br>Baixa\t2\t3\t5<br>Total\t42\t8\t50<br>Tabela: Resultados obtidos.<br>Paulo H. C. Maranhão<br>Determine a probabilidade de termos uma resistência ao arranhão alta, dado que a resistência ao choque é baixa.</p>",
+    "text": "<p>amostras de um material foram analisadas quanto à resistência ao choque e resistência ao arranhão. Os resultados obtidos estão dispostos na tabela a seguir:<br>Resistência ao arranhão\tResistência ao choque<br>Alta\tBaixa\tTotal<br>Alta\t40\t5\t45<br>Baixa\t2\t3\t5<br>Total\t42\t8\t50<br>Tabela: Resultados obtidos.<br>Paulo H. C. Maranhão<br>Determine a probabilidade de termos uma resistência ao arranhão alta, dado que a resistência ao choque é baixa.</p>",
     "alternatives": [
       {
         "description": "A. 1/8",
@@ -1310,6 +1337,5024 @@
       },
       {
         "description": "E. 7/8",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "type": "mc",
+    "text": "<p>Considerando os dados da questão anterior, calcule a probabilidade de termos uma resistência ao choque alta, dado que a resistência ao arranhão é baixa.</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/5",
+        "correct": false
+      },
+      {
+        "description": "B. 2/5",
+        "correct": true
+      },
+      {
+        "description": "C. 3/5",
+        "correct": false
+      },
+      {
+        "description": "D. 4/5",
+        "correct": false
+      },
+      {
+        "description": "E. 9/10",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "type": "mc",
+    "text": "<p>Em um lote com 50 parafusos, 5 são considerados defeituosos. Se retirarmos 2 parafusos, um após o outro, sem reposição, qual será a probabilidade de que ambos sejam defeituosos?</p>",
+    "alternatives": [
+      {
+        "description": "A. 2/245",
+        "correct": true
+      },
+      {
+        "description": "B. 7/245",
+        "correct": false
+      },
+      {
+        "description": "C. 11/245",
+        "correct": false
+      },
+      {
+        "description": "D. 19/245",
+        "correct": false
+      },
+      {
+        "description": "E. 21/245",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "type": "mc",
+    "text": "<p>Uma caixa contém bolas, das quais 4 são azuis e 3 são verdes. Retiramos 2 bolas, sem reposição. Qual é a probabilidade da segunda bola retirada ser azul?</p>",
+    "alternatives": [
+      {
+        "description": "A. 2/8",
+        "correct": false
+      },
+      {
+        "description": "B. 1/7",
+        "correct": false
+      },
+      {
+        "description": "C. 4/7",
+        "correct": true
+      },
+      {
+        "description": "D. 1/2",
+        "correct": false
+      },
+      {
+        "description": "E. 2/7",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "type": "mc",
+    "text": "<p>A fábrica A produziu 500 componentes eletrônicos e a fábrica B produziu 1000 desses componentes. Sabemos que, de um lote de 100 componentes retirados da fábrica A, 5 estavam com defeito, e que de um lote de 100 componentes retirados da fábrica B, 8 estavam defeituosos.<br>Escolhemos ao acaso um componente dos 1500 produzidos pelas fábricas A e B. Qual a probabilidade de o componente ter sido fabricado por A sabendo-se que o componente é defeituoso?</p>",
+    "alternatives": [
+      {
+        "description": "A. 5/21",
+        "correct": true
+      },
+      {
+        "description": "B. 8/21",
+        "correct": false
+      },
+      {
+        "description": "C. 11/21",
+        "correct": false
+      },
+      {
+        "description": "D. 13/21",
+        "correct": false
+      },
+      {
+        "description": "E. 17/21",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "type": "mc",
+    "text": "<p>A probabilidade de um indivíduo da classe A comprar um notebook é 3/4, da classe B, é 1/5, e da classe C, é 1/20. As probabilidades de os indivíduos de cada classe comprarem um notebook da marca Y são 1/10, 3/5 e 3/10, respectivamente.<br>Certa loja vendeu um notebook da marca Y. Qual é a probabilidade de que o indivíduo que comprou o notebook seja da classe B?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/7",
+        "correct": false
+      },
+      {
+        "description": "B. 1/4",
+        "correct": false
+      },
+      {
+        "description": "C. 1/2",
+        "correct": false
+      },
+      {
+        "description": "D. 4/7",
+        "correct": true
+      },
+      {
+        "description": "E. 6/7",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "type": "mc",
+    "text": "<p>Em certa empresa, 10% dos homens e 5% das mulheres ganham mais de 10 salários mínimos. Além disso, 60% dos empregados são homens. Se estivéssemos interessados em determinar a probabilidade de que o empregado seja mulher, dado que ganha mais de 10 salários mínimos, que teorema de probabilidade seria usado para resolver a questão?</p>",
+    "alternatives": [
+      {
+        "description": "A. Probabilidade da soma",
+        "correct": false
+      },
+      {
+        "description": "B. Teorema do produto",
+        "correct": false
+      },
+      {
+        "description": "C. Teorema da probabilidade total",
+        "correct": false
+      },
+      {
+        "description": "D. Teorema de Bayes",
+        "correct": true
+      },
+      {
+        "description": "E. Regra da adição",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "type": "mc",
+    "text": "<p>Um grupo de 100 clientes de uma empresa de telefonia está dividido por sexo e pelo plano (pré-pago e pós-pago), de acordo com a tabela a seguir:<br>Pré-pago\tPós-pago<br>Homens\t15\t33<br>Mulheres\t17\t35<br>Tabela: Divisão de clientes.<br>Paulo H. C. Maranhão<br>Um cliente foi sorteado ao acaso. Qual é a probabilidade de esse cliente ser homem, dado que pertence ao plano pré-pago?</p>",
+    "alternatives": [
+      {
+        "description": "A. 3/20",
+        "correct": false
+      },
+      {
+        "description": "B. 8/25",
+        "correct": false
+      },
+      {
+        "description": "C. 15/32",
+        "correct": true
+      },
+      {
+        "description": "D. 8/17",
+        "correct": false
+      },
+      {
+        "description": "E. 23/32",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "type": "mc",
+    "text": "<p>(Adaptado de ANPEC) Considere as alternativas abaixo e assinale a incorreta:</p>",
+    "alternatives": [
+      {
+        "description": "A. 0≤P(A∣B)≤1",
+        "correct": false
+      },
+      {
+        "description": "B. P(A∣B)/P(B∣A)=P(A)/P(B)",
+        "correct": false
+      },
+      {
+        "description": "C. P(A∣B)=P(A∩B)",
+        "correct": true
+      },
+      {
+        "description": "D. Se P(A)=0,4,P(B)=0,8eP(A∣B)=0,2, então P(B∣A)=0,4",
+        "correct": false
+      },
+      {
+        "description": "E. Se P(B)=0,6 e P(A∣B)=0,2, então P(Ac∪Bc)=0,88",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "type": "mc",
+    "text": "<p>(ANPEC − 2015) Em determinada cidade, 60% dos moradores são mulheres e 40%, homens. Entre elas, 80% estão empregadas e 20%, desempregadas. Já entre eles, 90% estão empregados e 10%, desempregados. Obtenha a probabilidade de uma pessoa escolhida aleatoriamente nessa cidade ser mulher e estar desempregada.</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,60",
+        "correct": false
+      },
+      {
+        "description": "B. 0,20",
+        "correct": false
+      },
+      {
+        "description": "C. 0,12",
+        "correct": false
+      },
+      {
+        "description": "D. 0,75",
+        "correct": true
+      },
+      {
+        "description": "E. 0,80",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "type": "mc",
+    "text": "<p>(ANPEC − 2006) Em uma região, 25% da população é pobre. As mulheres constituem 75% dos pobres e 50% da população. Calcule a proporção de pobres entre elas.</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,25",
+        "correct": false
+      },
+      {
+        "description": "B. 0,125",
+        "correct": false
+      },
+      {
+        "description": "C. 0,375",
+        "correct": true
+      },
+      {
+        "description": "D. 0,1875",
+        "correct": false
+      },
+      {
+        "description": "E. 0,75",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "type": "mc",
+    "text": "<p>Um lote contém 10 peças, sendo 7 boas (B) e 3 com defeito (D). Ao acaso, duas peças são retiradas, sem reposição, para uma inspeção. Qual é a probabilidade de se obter duas peças defeituosas?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/15",
+        "correct": true
+      },
+      {
+        "description": "B. 3/50",
+        "correct": false
+      },
+      {
+        "description": "C. 9/100",
+        "correct": false
+      },
+      {
+        "description": "D. 6/100",
+        "correct": false
+      },
+      {
+        "description": "E. 7/90",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "type": "mc",
+    "text": "<p>Júlia pertence a um grupo de 50 mulheres classificado de acordo com a cor dos cabelos e dos olhos de cada uma delas. A tabela a seguir mostra a relação delas segundo suas características:<br>Olhos<br>Cabelo\tAzuis\tCastanhos<br>Loira\t17\t9<br>Morena\t4\t14<br>Ruiva\t3\t3<br>Quando João encontrou Júlia, seus cabelos estavam completamente molhados da chuva, mas ele notou que ela tinha olhos castanhos. Qual é a probabilidade de Júlia ser morena?</p>",
+    "alternatives": [
+      {
+        "description": "A. 14/30",
+        "correct": false
+      },
+      {
+        "description": "B. 18/50",
+        "correct": false
+      },
+      {
+        "description": "C. 7/13",
+        "correct": true
+      },
+      {
+        "description": "D. 7/25",
+        "correct": false
+      },
+      {
+        "description": "E. 26/50",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "type": "mc",
+    "text": "<p>Um grupo de três pessoas é formado pela escolha aleatória de cinco indivíduos: Júlio, Pedro, Rafael, Joana e Fernanda. Se Joana não pertence ao grupo, qual é a probabilidade de Rafael pertencer?</p>",
+    "alternatives": [
+      {
+        "description": "A. 7/8",
+        "correct": false
+      },
+      {
+        "description": "B. 6/10",
+        "correct": false
+      },
+      {
+        "description": "C. 3/10",
+        "correct": false
+      },
+      {
+        "description": "D. 3/4",
+        "correct": true
+      },
+      {
+        "description": "E. 3/2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "type": "mc",
+    "text": "<p>Considere o lançamento de dois dados no qual o evento A signifique uma soma das faces deles igual a 6 e o evento B, um resultado par apresentado por ambos. Qual é a probabilidade de a soma das faces ser igual a 6 dado que os números são pares?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/6",
+        "correct": false
+      },
+      {
+        "description": "B. 2/3",
+        "correct": false
+      },
+      {
+        "description": "C. 2/9",
+        "correct": true
+      },
+      {
+        "description": "D. 1/2",
+        "correct": false
+      },
+      {
+        "description": "E. 1/12",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "type": "mc",
+    "text": "<p>(UFRJ − Probest − P1/2013) Para ser campeão de um torneio de tênis, um jogador precisa vencer quatro partidas sucessivas (todas elas eliminatórias). José é um dos participantes. Suas probabilidades de vitória em cada partida (caso ele não tenha sido eliminado até então) foram estimadas: 80% na 1ª partida, 70% na 2ª, 60% na 3ª (semifinal) e 50% na 4ª (final). Observe que elas independem de quem seja o seu adversário em cada partida.<br>Calcule a probabilidade de José conseguir chegar a uma semifinal dado que ele não será o campeão.</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,392",
+        "correct": false
+      },
+      {
+        "description": "B. 0,3",
+        "correct": false
+      },
+      {
+        "description": "C. 0,832",
+        "correct": false
+      },
+      {
+        "description": "D. 0,6",
+        "correct": false
+      },
+      {
+        "description": "E. 0,471",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "type": "mc",
+    "text": "<p>Suponha dois eventos A e B tais que P(A)=0,3 e P(A∪B)=0,5. Determine o valor de P(B) considerando que A e B são mutuamente exclusivos:</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,3",
+        "correct": false
+      },
+      {
+        "description": "B. 0,2",
+        "correct": true
+      },
+      {
+        "description": "C. 0,8",
+        "correct": false
+      },
+      {
+        "description": "D. 0,12",
+        "correct": false
+      },
+      {
+        "description": "E. 0,25",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "type": "mc",
+    "text": "<p>Há dois eventos A e B tais que P(A)=0,3 e P(A∪B)=0,5. Determine o valor de P(B) considerando que A e B sa̋o independentes:</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/5",
+        "correct": false
+      },
+      {
+        "description": "B. 1/3",
+        "correct": false
+      },
+      {
+        "description": "C. 3/20",
+        "correct": false
+      },
+      {
+        "description": "D. 2/7",
+        "correct": true
+      },
+      {
+        "description": "E. 1/2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "type": "mc",
+    "text": "<p>Suponha que A e B sejam eventos independentes. Observe as afirmativas abaixo e assinale a alternativa incorreta:</p>",
+    "alternatives": [
+      {
+        "description": "A. P(A∣B)=P(A)",
+        "correct": false
+      },
+      {
+        "description": "B. AC e B também são eventos independentes.",
+        "correct": false
+      },
+      {
+        "description": "C. A e BC. também são eventos independentes.",
+        "correct": false
+      },
+      {
+        "description": "D. AC e BC não são independentes.",
+        "correct": true
+      },
+      {
+        "description": "E. P(A∩B)=P(A)⋅P(B)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "type": "mc",
+    "text": "<p>Imagine dois eventos A1 e A2 independentes cujas probabilidades sejam respectivamente 0,1 e 0,2. Qual é a probabilidade de que nenhum deles ocorra?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,02",
+        "correct": false
+      },
+      {
+        "description": "B. 0,98",
+        "correct": true
+      },
+      {
+        "description": "C. 0,8",
+        "correct": false
+      },
+      {
+        "description": "D. 0,3",
+        "correct": false
+      },
+      {
+        "description": "E. 0,7",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "type": "mc",
+    "text": "<p>(ANPEC - 2015) Dois números X e Y são selecionados de forma aleatória entre 0 e 1. A partir daí, dois eventos independentes são definidos da seguinte forma: A=Pr[X≥0,5] e B≡Pr[Y≥0,5]. Tendo isso em vista, indique a probabilidade Pr[A∣B].</p>",
+    "alternatives": [
+      {
+        "description": "A. 1",
+        "correct": false
+      },
+      {
+        "description": "B. 0,25",
+        "correct": false
+      },
+      {
+        "description": "C. 0",
+        "correct": false
+      },
+      {
+        "description": "D. 0,5",
+        "correct": true
+      },
+      {
+        "description": "E. 0,4",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "type": "mc",
+    "text": "<p>(ANPEC − 2017) Considere dois eventos A e B mutuamente excludentes, sendo P(A) a probabilidade de ocorrência de A e P(B) a de ocorrência de B. Assinale a alternativa correta.</p>",
+    "alternatives": [
+      {
+        "description": "A. P(A∣B)=0",
+        "correct": true
+      },
+      {
+        "description": "B. P(B∣A)=1",
+        "correct": false
+      },
+      {
+        "description": "C. A e B são independentes se - e somente se −P(A∣B)=P(A) e P(B∣A)=P(B).",
+        "correct": false
+      },
+      {
+        "description": "D. A e B são independentes se P(A∣B)=P(A).",
+        "correct": false
+      },
+      {
+        "description": "E. A e B são independentes se P(B∣A)=P(B).",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "type": "mc",
+    "text": "<p>(ANPEC − 2016) Cinco parafusos defeituosos foram misturados com sete outros bons numa caixa e vendidos para a instalação de um armário que precisa de quatro deles. Qual é a probabilidade de que quatro parafusos defeituosos sejam escolhidos em sequência?</p>",
+    "alternatives": [
+      {
+        "description": "A. 3/100",
+        "correct": false
+      },
+      {
+        "description": "B. 5/12",
+        "correct": false
+      },
+      {
+        "description": "C. 1/99",
+        "correct": true
+      },
+      {
+        "description": "D. 2/9",
+        "correct": false
+      },
+      {
+        "description": "E. 7/12",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "type": "mc",
+    "text": "<p>O gerente de um posto de gasolina sabe, por experiência, que 80% dos clientes usam cartão de crédito quando compram gasolina. Admitindo independência entre as decisões deles sobre a forma de pagamento no momento da compra, qual é a probabilidade de os dois próximos clientes pagarem pela gasolina com cartão de crédito?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,80",
+        "correct": false
+      },
+      {
+        "description": "B. 0,16",
+        "correct": false
+      },
+      {
+        "description": "C. 0,20",
+        "correct": false
+      },
+      {
+        "description": "D. 0,64",
+        "correct": true
+      },
+      {
+        "description": "E. 0,60",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "type": "mc",
+    "text": "<p>Considere a árvore de probabilidades a seguir. Qual é a probabilidade de ocorrer B dado que ocorreu A?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,3",
+        "correct": true
+      },
+      {
+        "description": "B. 0,135",
+        "correct": false
+      },
+      {
+        "description": "C. 0.7105",
+        "correct": false
+      },
+      {
+        "description": "D. 0,45",
+        "correct": false
+      },
+      {
+        "description": "E. 0,021",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "type": "mc",
+    "text": "<p>(ANPEC − 2013) Uma firma de consultoria econômica possui um modelo para prever recessões. O modelo as prevê com probabilidade de 80% quando elas realmente estão a caminho e com uma de 10% quando não estão. A probabilidade não condicional de a economia passar por uma recessão é de 20%. Se o modelo prevê uma recessão, qual é a probabilidade de que ela realmente esteja a caminho? Assinale a alternativa correta:</p>",
+    "alternatives": [
+      {
+        "description": "A. 2/3",
+        "correct": true
+      },
+      {
+        "description": "B. 8/10",
+        "correct": false
+      },
+      {
+        "description": "C. 4/5",
+        "correct": false
+      },
+      {
+        "description": "D. 4/25",
+        "correct": false
+      },
+      {
+        "description": "E. 1/10",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "type": "mc",
+    "text": "<p>Um aluno de economia da turma de 2024.2 que teve um bom desempenho em probabilidade tem 90% de chance de ser aprovado no exame da ANPEC para ingresso no mestrado. Caso contrário, ele tem apenas 30% de chance. No entanto, apenas 2% dos alunos de 2024.2 tiveram um bom desempenho. Qual é a probabilidade de um aluno selecionado ao acaso ter passado na ANPEC?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,9",
+        "correct": false
+      },
+      {
+        "description": "B. 0,02",
+        "correct": false
+      },
+      {
+        "description": "C. 0,018",
+        "correct": false
+      },
+      {
+        "description": "D. 0,27",
+        "correct": false
+      },
+      {
+        "description": "E. 0,312",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "type": "mc",
+    "text": "<p>Um aluno de economia da turma de 2024.2 que teve bom desempenho em probabilidade tem 90% de chance de ser aprovado no exame da ANPEC. Caso contrário, ele tem apenas 30% de chance. Apenas 2% dos alunos de 2024.2 tiveram um bom desempenho. Se ele passou na ANPEC, qual é a probabilidade de esse aluno ter tido um bom desempenho em probabilidade?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,0577",
+        "correct": true
+      },
+      {
+        "description": "B. 0,02",
+        "correct": false
+      },
+      {
+        "description": "C. 0,312",
+        "correct": false
+      },
+      {
+        "description": "D. 0,018",
+        "correct": false
+      },
+      {
+        "description": "E. 0,27",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "type": "mc",
+    "text": "<p>As funcionárias de uma companhia dividem-se em três grupos: economistas, engenheiras e analistas de sistemas. Essas funcionárias podem ocupar cargos técnicos ou gerenciais. Sabemos que 20% das funcionárias são analistas de sistemas; 30%, engenheiras; e 50%, economistas. A direção da empresa, por sua vez, é composta por 1% das analistas de sistemas, 2% das engenheiras e 3% das economistas. Uma funcionária é selecionada aleatoriamente. Qual é a probabilidade de que ela seja uma das diretoras da empresa?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,03",
+        "correct": false
+      },
+      {
+        "description": "B. 0,023",
+        "correct": true
+      },
+      {
+        "description": "C. 0,02",
+        "correct": false
+      },
+      {
+        "description": "D. 0,2609",
+        "correct": false
+      },
+      {
+        "description": "E. 0,06",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "type": "mc",
+    "text": "<p>As funcionárias de uma companhia dividem-se em três grupos: economistas, engenheiras e analistas de sistemas. Essas funcionárias podem ocupar cargos técnicos ou gerenciais. Sabemos que 20% das funcionárias são analistas de sistemas; 30%, engenheiras; e 50%, economistas. A direção da empresa, por sua vez, é composta por 1% das analistas de sistemas, 2% das engenheiras e 3% das economistas. Uma funcionária é selecionada aleatoriamente. Dado que ela é uma das diretoras, qual é a probabilidade de ela ser engenheira?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,023",
+        "correct": false
+      },
+      {
+        "description": "B. 0,06",
+        "correct": false
+      },
+      {
+        "description": "C. 0,2609",
+        "correct": true
+      },
+      {
+        "description": "D. 0,015",
+        "correct": false
+      },
+      {
+        "description": "E. 0,01",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "type": "mc",
+    "text": "<p>Um teste de laboratório detecta uma doença quando ela está presente em 95% dos casos. Contudo, ele também fornece um resultado \"falso positivo\" para 1% das pessoas saudáveis testadas (isto é, se uma pessoa saudável faz o teste, há a probabilidade 0,01 de que o resultado dele diga que ela possui a doença, mesmo não a tendo.) Se 0,5% da população tem a doença, qual é a probabilidade de uma pessoa, dado que o resultado do teste é positivo, ter a doença?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,05",
+        "correct": false
+      },
+      {
+        "description": "B. 0,01",
+        "correct": false
+      },
+      {
+        "description": "C. 0,5",
+        "correct": false
+      },
+      {
+        "description": "D. 0,95",
+        "correct": false
+      },
+      {
+        "description": "E. 0,323",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "type": "mc",
+    "text": "<p>Durante o mês de julho, a probabilidade de chuva é de 0,3. O Bangu, simpático time do subúrbio do Rio de Janeiro, ganha um jogo em um dia de chuva com a probabilidade 0,4 e em um dia sem ela com a probabilidade 0,6. Se ele ganhou um jogo em julho, qual é a probabilidade de que tenha chovido nesse dia?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/2",
+        "correct": false
+      },
+      {
+        "description": "B. 2/5",
+        "correct": false
+      },
+      {
+        "description": "C. 2/9",
+        "correct": true
+      },
+      {
+        "description": "D. 3/5",
+        "correct": false
+      },
+      {
+        "description": "E. 6/25",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "type": "mc",
+    "text": "<p>Considerando o enunciado anterior, qual seria o valor esperado do número de caras?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1",
+        "correct": false
+      },
+      {
+        "description": "B. 2",
+        "correct": true
+      },
+      {
+        "description": "C. 5/2",
+        "correct": false
+      },
+      {
+        "description": "D. 3",
+        "correct": false
+      },
+      {
+        "description": "E. 10/3",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "type": "mc",
+    "text": "<p>Um jogador participa de um jogo de aposta que consiste em lançar um dado. Se o dado resultar em face 6, ele ganha R$10,00, caso contrário, ele perde R$5,00. Depois de duas rodadas, ou seja, de lançarmos o dado duas vezes, qual a probabilidade desse jogador ter ganho positivo?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/36",
+        "correct": false
+      },
+      {
+        "description": "B. 1/6",
+        "correct": false
+      },
+      {
+        "description": "C. 5/18",
+        "correct": false
+      },
+      {
+        "description": "D. 11/36",
+        "correct": true
+      },
+      {
+        "description": "E. 1/3",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "type": "mc",
+    "text": "<p>Considerando o enunciado anterior, qual seria o ganho esperado do jogador?</p>",
+    "alternatives": [
+      {
+        "description": "A. -5",
+        "correct": true
+      },
+      {
+        "description": "B. 0",
+        "correct": false
+      },
+      {
+        "description": "C. 5",
+        "correct": false
+      },
+      {
+        "description": "D. 10",
+        "correct": false
+      },
+      {
+        "description": "E. 20",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "type": "mc",
+    "text": "<p>Suponha que uma variável aleatória tenha a seguinte distribuição de probabilidade:&lt;br&gt;X       \t0\t 1\t  2\t      3&lt;br&gt;P(X=x)\t   0,1\t0,3\t 0,4\t 0,2&lt;br&gt;Tabela: Dados do exercício.&lt;br&gt;Paulo H. C. Maranhão&lt;br&gt;Determine a função de distribuição acumulada para X=2.</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,1",
+        "correct": false
+      },
+      {
+        "description": "B. 0,3",
+        "correct": false
+      },
+      {
+        "description": "C. 0,4",
+        "correct": false
+      },
+      {
+        "description": "D. 0,7",
+        "correct": false
+      },
+      {
+        "description": "E. 0,8",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "type": "mc",
+    "text": "<p>Considerando o enunciado anterior, qual seria a variância da variável aleatória X?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,81",
+        "correct": true
+      },
+      {
+        "description": "B. 1,7",
+        "correct": false
+      },
+      {
+        "description": "C. 3,7",
+        "correct": false
+      },
+      {
+        "description": "D. 4,2",
+        "correct": false
+      },
+      {
+        "description": "E. 4,64",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "type": "mc",
+    "text": "<p>Uma família pretende ter 3 filhos. Supondo que a chance de ter um menino é a mesma de ter uma menina e sendo X a variável aleatória que representa o número de meninas, determine a chance de X ser no mínimo igual a 2.</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/8",
+        "correct": false
+      },
+      {
+        "description": "B. 3/8",
+        "correct": false
+      },
+      {
+        "description": "C. 1/2",
+        "correct": true
+      },
+      {
+        "description": "D. 5/8",
+        "correct": false
+      },
+      {
+        "description": "E. 7/8",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "type": "mc",
+    "text": "<p>Um estudante pode escolher no mínimo uma disciplina e no máximo 4 disciplinas para fazer no semestre. A probabilidade de que o estudante escolha 1, 2, 3 ou 4 disciplinas no semestre é de, respectivamente, 1/20, 1/4, 2/5 e 3/10. Sabendo que para cada disciplina escolhida ele paga R$300,00, qual a despesa esperada desse estudante?</p>",
+    "alternatives": [
+      {
+        "description": "A. 525",
+        "correct": false
+      },
+      {
+        "description": "B. 640",
+        "correct": false
+      },
+      {
+        "description": "C. 735",
+        "correct": false
+      },
+      {
+        "description": "D. 885",
+        "correct": true
+      },
+      {
+        "description": "E. 910",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "type": "mc",
+    "text": "<p>Um dado é lançado uma única vez. Seja a variável aleatória X que representa a retirada de um número par nesse único lançamento. Qual o valor esperado de X?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/6",
+        "correct": false
+      },
+      {
+        "description": "B. 1/4",
+        "correct": false
+      },
+      {
+        "description": "C. 1/3",
+        "correct": false
+      },
+      {
+        "description": "D. 1/2",
+        "correct": true
+      },
+      {
+        "description": "E. 2/3",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "type": "mc",
+    "text": "<p>Uma moeda não viciada é lançada 10 vezes. Determine a probabilidade de se obter exatamente 2 caras.</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,01",
+        "correct": false
+      },
+      {
+        "description": "B. 0,04",
+        "correct": true
+      },
+      {
+        "description": "C. 0,07",
+        "correct": false
+      },
+      {
+        "description": "D. 0,10",
+        "correct": false
+      },
+      {
+        "description": "E. 0,15",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "type": "mc",
+    "text": "<p>Considerando o enunciando da questão anterior, a probabilidade de obtermos no mínimo 2 caras é aproximadamente:</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,90",
+        "correct": false
+      },
+      {
+        "description": "B. 0,92",
+        "correct": false
+      },
+      {
+        "description": "C. 0,95",
+        "correct": false
+      },
+      {
+        "description": "D. 0,97",
+        "correct": false
+      },
+      {
+        "description": "E. 0,99",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "type": "mc",
+    "text": "<p>Um casal quer ter 5 filhos. Qual a probabilidade que, desses 5 filhos, no máximo um seja menino? Admita que a probabilidade de nascer menino seja igual a de nascer menina.</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,112",
+        "correct": false
+      },
+      {
+        "description": "B. 0,157",
+        "correct": false
+      },
+      {
+        "description": "C. 0,188",
+        "correct": true
+      },
+      {
+        "description": "D. 0,212",
+        "correct": false
+      },
+      {
+        "description": "E. 0,250",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "type": "mc",
+    "text": "<p>Em uma fábrica de dispositivos eletrônicos, 2% da produção é formada por itens defeituosos. Um lote é aceito pelo comprador se tiver no máximo 3% dos dispositivos defeituosos. Admita que um lote tenha 100 dispositivos. Qual a probabilidade de o comprador rejeitar o lote?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,14",
+        "correct": true
+      },
+      {
+        "description": "B. 0,20",
+        "correct": false
+      },
+      {
+        "description": "C. 0,25",
+        "correct": false
+      },
+      {
+        "description": "D. 0,30",
+        "correct": false
+      },
+      {
+        "description": "E. 0,33",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "type": "mc",
+    "text": "<p>Considerando o enunciado da questão anterior, determine o número médio de dispositivos eletrônicos defeituosos em 10 lotes.</p>",
+    "alternatives": [
+      {
+        "description": "A. 10",
+        "correct": false
+      },
+      {
+        "description": "B. 15",
+        "correct": false
+      },
+      {
+        "description": "C. 20",
+        "correct": true
+      },
+      {
+        "description": "D. 25",
+        "correct": false
+      },
+      {
+        "description": "E. 30",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "type": "mc",
+    "text": "<p>Uma fábrica de motores de ventiladores monta 120 motores por mês e separa 20 itens para inspeção. Sabe-se que, dos motores montados mensalmente, 6 não funcionam. Qual a probabilidade de todos os motores inspecionados funcionarem bem?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,05",
+        "correct": false
+      },
+      {
+        "description": "B. 0,12",
+        "correct": false
+      },
+      {
+        "description": "C. 0,15",
+        "correct": false
+      },
+      {
+        "description": "D. 0,30",
+        "correct": false
+      },
+      {
+        "description": "E. 0,36",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "type": "mc",
+    "text": "<p>Uma companhia realiza inspeção em carregamentos de fornecedores, de modo a determinar produtos não conformes. Considere que um lote contenha 1000 itens, sendo 1% dos produtos não conformes. Qual é o tamanho necessário da amostra, de modo que a probabilidade de escolher, no mínimo, um item não conforme na amostra, seja no mínimo 0,90?</p>",
+    "alternatives": [
+      {
+        "description": "A. 200",
+        "correct": false
+      },
+      {
+        "description": "B. 212",
+        "correct": false
+      },
+      {
+        "description": "C. 220",
+        "correct": false
+      },
+      {
+        "description": "D. 229",
+        "correct": true
+      },
+      {
+        "description": "E. 241",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "type": "mc",
+    "text": "<p>No lançamento de um dado, qual a probabilidade de ter que lançá-lo quatro vezes para se obter face dois pela primeira vez?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,1",
+        "correct": true
+      },
+      {
+        "description": "B. 0,15",
+        "correct": false
+      },
+      {
+        "description": "C. 0,2",
+        "correct": false
+      },
+      {
+        "description": "D. 0,25",
+        "correct": false
+      },
+      {
+        "description": "E. 0,3",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "type": "mc",
+    "text": "<p>A probabilidade de encontrar um determinado produto na prateleira de um supermercado é de 1/3. Qual é a probabilidade de ter que ir ao supermercado, no máximo, duas vezes para encontrar o produto pela primeira vez?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/3",
+        "correct": false
+      },
+      {
+        "description": "B. 1/2",
+        "correct": false
+      },
+      {
+        "description": "C. 5/9",
+        "correct": true
+      },
+      {
+        "description": "D. 2/3",
+        "correct": false
+      },
+      {
+        "description": "E. 7/9",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "type": "mc",
+    "text": "<p>Considerando os dados da questão anterior, qual seria a média e a variância, respectivamente, de idas ao supermercado?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1 e 3",
+        "correct": false
+      },
+      {
+        "description": "B. 2 e 4",
+        "correct": false
+      },
+      {
+        "description": "C. 2 e 3",
+        "correct": false
+      },
+      {
+        "description": "D. 3 e 6",
+        "correct": true
+      },
+      {
+        "description": "E. 3 e 9",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "type": "mc",
+    "text": "<p>Uma urna contém 10 bolas brancas e 20 bolas pretas. Retira-se uma amostra de 5 bolas sem reposição. Qual a probabilidade de que essa amostra tenha 2 bolas brancas?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,05",
+        "correct": false
+      },
+      {
+        "description": "B. 0,125",
+        "correct": false
+      },
+      {
+        "description": "C. 0,185",
+        "correct": false
+      },
+      {
+        "description": "D. 0,25",
+        "correct": true
+      },
+      {
+        "description": "E. 0,36",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "type": "mc",
+    "text": "<p>Sabe-se que 10% das peças produzidas por determinada máquina são defeituosas. Retira-se uma amostra de tamanho 30 de uma população de 150 peças produzidas em um dia. Qual a probabilidade de que 5 peças sejam defeituosas?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,05",
+        "correct": false
+      },
+      {
+        "description": "B. 0,10",
+        "correct": true
+      },
+      {
+        "description": "C. 0,15",
+        "correct": false
+      },
+      {
+        "description": "D. 0,20",
+        "correct": false
+      },
+      {
+        "description": "E. 0,25",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "type": "mc",
+    "text": "<p>Considerando o enunciado da questão anterior, determine a média de peças defeituosas na amostra.</p>",
+    "alternatives": [
+      {
+        "description": "A. 3",
+        "correct": true
+      },
+      {
+        "description": "B. 0,5",
+        "correct": false
+      },
+      {
+        "description": "C. 1,0",
+        "correct": false
+      },
+      {
+        "description": "D. 1,5",
+        "correct": false
+      },
+      {
+        "description": "E. 2,0",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "type": "mc",
+    "text": "<p>Nos aeroportos de certo país, a probabilidade de um metal pequeno não ser detectado no raio-X é de 0,2. Um passageiro que está viajando pelo modal aéreo, nesse país, vai fazer várias conexões. Sabe-se que ele esqueceu uma moeda no bolso. Qual a probabilidade de que o passageiro só tenha a moeda detectada no terceiro raio-X?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,01",
+        "correct": false
+      },
+      {
+        "description": "B. 0,03",
+        "correct": true
+      },
+      {
+        "description": "C. 0,05",
+        "correct": false
+      },
+      {
+        "description": "D. 0,10",
+        "correct": false
+      },
+      {
+        "description": "E. 0,11",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "type": "mc",
+    "text": "<p>Um estacionamento de um centro comercial tem capacidade para 180 carros, sendo 30 vagas para idosos. Sabendo que 20 vagas estão ociosas nesse estacionamento, qual a probabilidade de que 3 dessas vagas sejam de idosos?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,10",
+        "correct": false
+      },
+      {
+        "description": "B. 0,15",
+        "correct": false
+      },
+      {
+        "description": "C. 0,25",
+        "correct": true
+      },
+      {
+        "description": "D. 0,35",
+        "correct": false
+      },
+      {
+        "description": "E. 0,50",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "type": "mc",
+    "text": "<p>Um posto policial recebe em média 2 chamadas por dia. Qual a probabilidade de receber exatamente 3 chamadas em um dia?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,10",
+        "correct": false
+      },
+      {
+        "description": "B. 0,15",
+        "correct": false
+      },
+      {
+        "description": "C. 0,18",
+        "correct": true
+      },
+      {
+        "description": "D. 0,20",
+        "correct": false
+      },
+      {
+        "description": "E. 0,25",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "type": "mc",
+    "text": "<p>Considerando o enunciado da questão anterior, qual seria a probabilidade desse posto receber 7 chamadas em uma semana?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,01",
+        "correct": false
+      },
+      {
+        "description": "B. 0,02",
+        "correct": true
+      },
+      {
+        "description": "C. 0,03",
+        "correct": false
+      },
+      {
+        "description": "D. 0,04",
+        "correct": false
+      },
+      {
+        "description": "E. 0,05",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "type": "mc",
+    "text": "<p>Um jornal registra em média 3 erros ortográficos a cada 5 páginas impressas. Qual a probabilidade de que um jornal com 30 páginas contenha exatamente 8 erros?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,001",
+        "correct": false
+      },
+      {
+        "description": "B. 0,002",
+        "correct": false
+      },
+      {
+        "description": "C. 0,003",
+        "correct": false
+      },
+      {
+        "description": "D. 0,004",
+        "correct": true
+      },
+      {
+        "description": "E. 0,005",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "type": "mc",
+    "text": "<p>Considerando o enunciado da questão anterior, qual seria a probabilidade desse jornal registrar menos de 2 erros em uma página?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,50",
+        "correct": false
+      },
+      {
+        "description": "B. 0,62",
+        "correct": false
+      },
+      {
+        "description": "C. 0,75",
+        "correct": false
+      },
+      {
+        "description": "D. 0,82",
+        "correct": false
+      },
+      {
+        "description": "E. 0,88",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "type": "mc",
+    "text": "<p>Uma ouvidoria recebe 5 reclamações por hora. Qual a probabilidade de que receba apenas uma reclamação em 10 minutos?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,36",
+        "correct": true
+      },
+      {
+        "description": "B. 0,42",
+        "correct": false
+      },
+      {
+        "description": "C. 0,48",
+        "correct": false
+      },
+      {
+        "description": "D. 0,54",
+        "correct": false
+      },
+      {
+        "description": "E. 0,60",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "type": "mc",
+    "text": "<p>Uma firma visita os clientes que compraram o seu produto. Se a probabilidade de defeito do produto for de 0,01, qual a probabilidade de que em 1000 visitas ocorram no mínimo 3 defeitos?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,956",
+        "correct": false
+      },
+      {
+        "description": "B. 0,967",
+        "correct": false
+      },
+      {
+        "description": "C. 0,975",
+        "correct": false
+      },
+      {
+        "description": "D. 0,986",
+        "correct": false
+      },
+      {
+        "description": "E. 0,997",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "type": "mc",
+    "text": "<p>Suponha que a incidência de determinada doença na população seja de 1 caso a cada 100.000 habitantes. Em uma cidade de 500.000 habitantes, determine a probabilidade de se encontrar exatamente 2 casos dessa doença na referida cidade.</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,04",
+        "correct": false
+      },
+      {
+        "description": "B. 0,08",
+        "correct": true
+      },
+      {
+        "description": "C. 0,12",
+        "correct": false
+      },
+      {
+        "description": "D. 0,16",
+        "correct": false
+      },
+      {
+        "description": "E. 0,20",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "type": "mc",
+    "text": "<p>Sabe-se que em média 5 lâmpadas se queimam a cada 1000 lâmpadas testadas. Qual a probabilidade de que em um teste de 10.000 lâmpadas, exatamente 40 lâmpadas se queimem?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,02",
+        "correct": true
+      },
+      {
+        "description": "B. 0,04",
+        "correct": false
+      },
+      {
+        "description": "C. 0,08",
+        "correct": false
+      },
+      {
+        "description": "D. 0,16",
+        "correct": false
+      },
+      {
+        "description": "E. 0,20",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "type": "mc",
+    "text": "<p>Seja&lt;br&gt;f(x)={ kx2, 0≤x≤1&lt;br&gt;0, caso contrario&lt;br&gt;​&lt;br&gt;Qual é o valor de k para que essa função seja, de fato, uma função densidade de probabilidade (fdp)?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/2",
+        "correct": false
+      },
+      {
+        "description": "B. 1",
+        "correct": false
+      },
+      {
+        "description": "C. 3/2",
+        "correct": false
+      },
+      {
+        "description": "D. 2",
+        "correct": false
+      },
+      {
+        "description": "E. 3",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "type": "mc",
+    "text": "<p>Considerando os dados da questão anterior, qual é a esperança de X?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/2",
+        "correct": false
+      },
+      {
+        "description": "B. 3/4",
+        "correct": true
+      },
+      {
+        "description": "C. 1",
+        "correct": false
+      },
+      {
+        "description": "D. 3/2",
+        "correct": false
+      },
+      {
+        "description": "E. 2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "type": "mc",
+    "text": "<p>Seja f a função densidade de probabilidade da variável aleatória x, definida por:&lt;br&gt;f(x)= ⎨31, se 1≤x≤4&lt;br&gt;⎧0, caso contrário&lt;br&gt;​&lt;br&gt;Determine P(1≤x≤3).</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/6",
+        "correct": false
+      },
+      {
+        "description": "B. 1/3",
+        "correct": false
+      },
+      {
+        "description": "C. 1/2",
+        "correct": false
+      },
+      {
+        "description": "D. 2/3",
+        "correct": true
+      },
+      {
+        "description": "E. 3/4",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "type": "mc",
+    "text": "<p>Para determinar a função densidade de probabilidade f(x)f(x)f(x) no intervalo (0,1)(0,1)(0,1), precisamos derivar a função de distribuição acumulada F(x)F(x)F(x) fornecida.&lt;br&gt;A função de distribuição acumulada (FDA) é dada por:&lt;br&gt;f(x)= ⎨&lt;br&gt;⎧0,x4/2/1&lt;br&gt;se x≤0&lt;br&gt;se 0&lt;x&lt;1&lt;br&gt;se x≥1&lt;br&gt;​&lt;br&gt;Qual é a função densidade f(x) no intervalo de (0,1)?</p>",
+    "alternatives": [
+      {
+        "description": "A. x4/2",
+        "correct": false
+      },
+      {
+        "description": "B. 2x3",
+        "correct": false
+      },
+      {
+        "description": "C. 2x4 + 1/2",
+        "correct": false
+      },
+      {
+        "description": "D. 2x3 + 1/2",
+        "correct": true
+      },
+      {
+        "description": "E. 3x3 + 1/2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "type": "mc",
+    "text": "<p>Considere a seguinte função densidade de probabilidade:&lt;br&gt;f(x)={ x3/4,/0,​&lt;br&gt;0≤x≤2&lt;br&gt;Caso Contrario&lt;br&gt;​&lt;br&gt;Agora, determine P(0 &lt; X &lt; 1/2).</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/256",
+        "correct": true
+      },
+      {
+        "description": "B. 1/126",
+        "correct": false
+      },
+      {
+        "description": "C. 1/63",
+        "correct": false
+      },
+      {
+        "description": "D. 1/48",
+        "correct": false
+      },
+      {
+        "description": "E. 1/16",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "type": "mc",
+    "text": "<p>Considerando a questão anterior, determine a esperança matemática de X.</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/5",
+        "correct": false
+      },
+      {
+        "description": "B. 2/5",
+        "correct": false
+      },
+      {
+        "description": "C. 3/5",
+        "correct": false
+      },
+      {
+        "description": "D. 7/5",
+        "correct": false
+      },
+      {
+        "description": "E. 8/5",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "type": "mc",
+    "text": "<p>Seja&lt;br&gt;f(x)={&lt;br&gt;k(x−3),&lt;br&gt;0,&lt;br&gt;​&lt;br&gt;4≤x≤6&lt;br&gt;caso contrario&lt;br&gt;​&lt;br&gt;Determine o valor k a fim de que essa função seja uma densidade de probabilidade.</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/4",
+        "correct": true
+      },
+      {
+        "description": "B. 1/3",
+        "correct": false
+      },
+      {
+        "description": "C. 1/2",
+        "correct": false
+      },
+      {
+        "description": "D. 2/3",
+        "correct": false
+      },
+      {
+        "description": "E. 3/4",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "type": "mc",
+    "text": "<p>Considerando a questão anterior, calcule a esperança matemática da variável aleatória X.</p>",
+    "alternatives": [
+      {
+        "description": "A. 3",
+        "correct": false
+      },
+      {
+        "description": "B. 4",
+        "correct": false
+      },
+      {
+        "description": "C. 13/3",
+        "correct": false
+      },
+      {
+        "description": "D. 31/6",
+        "correct": true
+      },
+      {
+        "description": "E. 62/3",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "type": "mc",
+    "text": "<p>Suponha que a variável aleatória contínua X tenha uma distribuição uniforme no intervalo de [1, 5]. Nesse caso, calcule a P(X &gt; 3).</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/4",
+        "correct": false
+      },
+      {
+        "description": "B. 1/3",
+        "correct": false
+      },
+      {
+        "description": "C. 1/2",
+        "correct": true
+      },
+      {
+        "description": "D. 2/3",
+        "correct": false
+      },
+      {
+        "description": "E. 3/4",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "type": "mc",
+    "text": "<p>Considerando o enunciado da questão anterior, qual seria o valor da média de X?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1",
+        "correct": false
+      },
+      {
+        "description": "B. 3",
+        "correct": true
+      },
+      {
+        "description": "C. 3,5",
+        "correct": false
+      },
+      {
+        "description": "D. 4",
+        "correct": false
+      },
+      {
+        "description": "E. 5",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "type": "mc",
+    "text": "<p>Os comprimentos dos eixos dos carros (em metros) de uma indústria automobilística são uniformemente distribuídos no intervalo [1,4; 2,6]. Qual a proporção de carros com eixos abaixo de 2 metros?</p>",
+    "alternatives": [
+      {
+        "description": "A. 10%",
+        "correct": false
+      },
+      {
+        "description": "B. 20%",
+        "correct": false
+      },
+      {
+        "description": "C. 30%",
+        "correct": false
+      },
+      {
+        "description": "D. 40%",
+        "correct": false
+      },
+      {
+        "description": "E. 50%",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "type": "mc",
+    "text": "<p>Considerando o enunciado da questão anterior, determine a função de distribuição acumulada de X.</p>",
+    "alternatives": [
+      {
+        "description": "A. x−1,4/ x 1,2",
+        "correct": true
+      },
+      {
+        "description": "B. x/1,2",
+        "correct": false
+      },
+      {
+        "description": "C. x−1,4/2,6",
+        "correct": false
+      },
+      {
+        "description": "D. x−1,2/2,6",
+        "correct": false
+      },
+      {
+        "description": "E. (x−1,2)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "type": "mc",
+    "text": "<p>O volume de refrigerante de uma latinha está uniformemente distribuído entre 320 ml e 330 ml. Qual o volume mínimo que está em 90% das latas?</p>",
+    "alternatives": [
+      {
+        "description": "A. 321",
+        "correct": true
+      },
+      {
+        "description": "B. 323",
+        "correct": false
+      },
+      {
+        "description": "C. 325",
+        "correct": false
+      },
+      {
+        "description": "D. 327",
+        "correct": false
+      },
+      {
+        "description": "E. 329",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "type": "mc",
+    "text": "<p>Considerando o enunciado da questão 5, qual a média e o desvio padrão desse refrigerante?</p>",
+    "alternatives": [
+      {
+        "description": "A. 320 e 10",
+        "correct": false
+      },
+      {
+        "description": "B. 320 e 8,33",
+        "correct": false
+      },
+      {
+        "description": "C. 325 e 10",
+        "correct": false
+      },
+      {
+        "description": "D. 325 e 8,33",
+        "correct": true
+      },
+      {
+        "description": "E. 330 e 8,33",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "type": "mc",
+    "text": "<p>Suponha que a variável aleatória X tenha uma distribuição uniforme no intervalo de −2 a 2. Qual a probabilidade de X ser maior do que 1?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,10",
+        "correct": false
+      },
+      {
+        "description": "B. 0,25",
+        "correct": true
+      },
+      {
+        "description": "C. 0,33",
+        "correct": false
+      },
+      {
+        "description": "D. 0,50",
+        "correct": false
+      },
+      {
+        "description": "E. 0,67",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "type": "mc",
+    "text": "<p>Considerando a questão anterior, indique o valor esperado de X.</p>",
+    "alternatives": [
+      {
+        "description": "A. –2",
+        "correct": false
+      },
+      {
+        "description": "B. –1",
+        "correct": false
+      },
+      {
+        "description": "C. 0",
+        "correct": true
+      },
+      {
+        "description": "D. 1",
+        "correct": false
+      },
+      {
+        "description": "E. 2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "type": "mc",
+    "text": "<p>Suponha que X tenha uma distribuição exponencial com parâmetro λ = 1. Qual a probabilidade de X ser maior que 2?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,05",
+        "correct": false
+      },
+      {
+        "description": "B. 0,08",
+        "correct": false
+      },
+      {
+        "description": "C. 0,12",
+        "correct": false
+      },
+      {
+        "description": "D. 0,14",
+        "correct": true
+      },
+      {
+        "description": "E. 0,17",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "type": "mc",
+    "text": "<p>Com relação à questão anterior, determine a função de distribuição acumulada quando x for igual a 3.</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,90",
+        "correct": false
+      },
+      {
+        "description": "B. 0,92",
+        "correct": false
+      },
+      {
+        "description": "C. 0,95",
+        "correct": true
+      },
+      {
+        "description": "D. 0,97",
+        "correct": false
+      },
+      {
+        "description": "E. 0,99",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "type": "mc",
+    "text": "<p>Suponha que X tenha uma distribuição exponencial com média igual a 2. Qual é o parâmetro dessa distribuição?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,5",
+        "correct": true
+      },
+      {
+        "description": "B. 1",
+        "correct": false
+      },
+      {
+        "description": "C. 2",
+        "correct": false
+      },
+      {
+        "description": "D. 4",
+        "correct": false
+      },
+      {
+        "description": "E. 5",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "type": "mc",
+    "text": "<p>O tempo entre as chamadas para um restaurante é distribuído exponencialmente com um intervalo médio de 5 minutos. Qual a probabilidade de não haver chamadas em um intervalo de 10 minutos?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,10",
+        "correct": false
+      },
+      {
+        "description": "B. 0,14",
+        "correct": true
+      },
+      {
+        "description": "C. 0,17",
+        "correct": false
+      },
+      {
+        "description": "D. 0,20",
+        "correct": false
+      },
+      {
+        "description": "E. 0,25",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "type": "mc",
+    "text": "<p>Considerando o enunciado da questão anterior, determine a probabilidade de que a primeira chamada chegue entre 5 e 15 minutos, depois que o restaurante estiver aberto.</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,27",
+        "correct": false
+      },
+      {
+        "description": "B. 0,30",
+        "correct": false
+      },
+      {
+        "description": "C. 0,32",
+        "correct": true
+      },
+      {
+        "description": "D. 0,35",
+        "correct": false
+      },
+      {
+        "description": "E. 0,38",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "type": "mc",
+    "text": "<p>Ainda em relação à questão 4, determine o comprimento de um intervalo de tempo, tal que exista a probabilidade de 95% de haver, no mínimo, uma chamada no intervalo.</p>",
+    "alternatives": [
+      {
+        "description": "A. 15",
+        "correct": true
+      },
+      {
+        "description": "B. 18",
+        "correct": false
+      },
+      {
+        "description": "C. 21",
+        "correct": false
+      },
+      {
+        "description": "D. 24",
+        "correct": false
+      },
+      {
+        "description": "E. 27",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "type": "mc",
+    "text": "<p>O tempo entre chegadas de mensagens de um e-mail qualquer é distribuído exponencialmente com média de 30 minutos. Qual a probabilidade de não chegar mensagem alguma no período de 2 horas?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,01",
+        "correct": false
+      },
+      {
+        "description": "B. 0,02",
+        "correct": true
+      },
+      {
+        "description": "C. 0,03",
+        "correct": false
+      },
+      {
+        "description": "D. 0,04",
+        "correct": false
+      },
+      {
+        "description": "E. 0,05",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "type": "mc",
+    "text": "<p>Considerando a questão anterior, determine a probabilidade de não chegar nenhuma mensagem nas últimas 3 horas, dado que não chegou mensagem nas últimas 2 horas.</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,002",
+        "correct": true
+      },
+      {
+        "description": "B. 0,004",
+        "correct": false
+      },
+      {
+        "description": "C. 0,005",
+        "correct": false
+      },
+      {
+        "description": "D. 0,008",
+        "correct": false
+      },
+      {
+        "description": "E. 0,010",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "type": "mc",
+    "text": "<p>Considere X uma variável aleatória com distribuição normal com média 100 e variância 25, ou seja, X∼N(100,25).&lt;br&gt;Nesse caso, determine a probabilidade de X ser maior do que 110.</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,01",
+        "correct": false
+      },
+      {
+        "description": "B. 0,02",
+        "correct": true
+      },
+      {
+        "description": "C. 0,03",
+        "correct": false
+      },
+      {
+        "description": "D. 0,04",
+        "correct": false
+      },
+      {
+        "description": "E. 0,05",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "type": "mc",
+    "text": "<p>A quantidade de leite em uma caixa, produzida por uma indústria de laticínios, segue uma distribuição normal com média de 995 ml e variância de 100 ml. Sabe-se que a caixa estoura se contiver mais de 1005 ml. Qual é a chance aproximada de uma caixa estourar?</p>",
+    "alternatives": [
+      {
+        "description": "A. 10%",
+        "correct": false
+      },
+      {
+        "description": "B. 12%",
+        "correct": false
+      },
+      {
+        "description": "C. 14%",
+        "correct": false
+      },
+      {
+        "description": "D. 16%",
+        "correct": true
+      },
+      {
+        "description": "E. 18%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "type": "mc",
+    "text": "<p>Considerando a questão anterior, sabe-se que, se a caixa tiver menos de 990 ml, ela é rejeitada por certo comprador. Qual o percentual aproximado de caixas que o comprador deve rejeitar?</p>",
+    "alternatives": [
+      {
+        "description": "A. 10%",
+        "correct": false
+      },
+      {
+        "description": "B. 18%",
+        "correct": false
+      },
+      {
+        "description": "C. 21%",
+        "correct": false
+      },
+      {
+        "description": "D. 25%",
+        "correct": false
+      },
+      {
+        "description": "E. 31%",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "type": "mc",
+    "text": "<p>Os funcionários de um departamento executam certas tarefas de acordo com uma distribuição normal com média de 2 horas e com desvio padrão de 30 minutos. A probabilidade de que um funcionário qualquer execute uma tarefa entre 1h40min e 2h20min é de, aproximadamente:</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,25",
+        "correct": false
+      },
+      {
+        "description": "B. 0,375",
+        "correct": false
+      },
+      {
+        "description": "C. 0,50",
+        "correct": true
+      },
+      {
+        "description": "D. 0,667",
+        "correct": false
+      },
+      {
+        "description": "E. 0,825",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "type": "mc",
+    "text": "<p>Uma indústria produz pacotes de biscoito. O peso de cada biscoito segue uma distribuição normal, com média de 20 g e desvio padrão de 2 g. Sabe-se que cada embalagem contém 10 biscoitos e que o peso da embalagem de biscoito sem o biscoito também segue uma distribuição normal, com média de 10 g e desvio padrão de 1 g. Qual a probabilidade de que um pacote cheio pese menos de 200 g?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,25",
+        "correct": false
+      },
+      {
+        "description": "B. 0,30",
+        "correct": true
+      },
+      {
+        "description": "C. 0,35",
+        "correct": false
+      },
+      {
+        "description": "D. 0,40",
+        "correct": false
+      },
+      {
+        "description": "E. 0,45",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "type": "mc",
+    "text": "<p>Sejam X1, X2, X3 e X4 quatro variáveis aleatórias, todas seguindo com distribuição normal padrão. Se definirmos uma distribuição t de Student a partir dessas 4 variáveis aleatórias, quais serão a média e a variância da distribuição t?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0 e 2",
+        "correct": true
+      },
+      {
+        "description": "B. 0 e 4",
+        "correct": false
+      },
+      {
+        "description": "C. 0 e 5",
+        "correct": false
+      },
+      {
+        "description": "D. 1 e 2",
+        "correct": false
+      },
+      {
+        "description": "E. 1 e 4",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "type": "mc",
+    "text": "<p>Os salários dos funcionários de uma empresa seguem uma distribuição normal com média de R$ 3000,00 e desvio-padrão de R$ 1.000,00. Qual a probabilidade de que um funcionário sorteado ao acaso ganhe mais de R$ 5.500,00?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,07",
+        "correct": false
+      },
+      {
+        "description": "B. 0,06",
+        "correct": true
+      },
+      {
+        "description": "C. 0,05",
+        "correct": false
+      },
+      {
+        "description": "D. 0,04",
+        "correct": false
+      },
+      {
+        "description": "E. 0,03",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "type": "mc",
+    "text": "<p>Sacos de cimento são transportados por caminhões que passam por pesagem na polícia rodoviária. Sabe-se que o peso do saco de cimento é normalmente distribuído com média de 20 kg e desvio-padrão de 1 kg, e que o peso do caminhão também segue uma distribuição normal com média de 1 tonelada e desvio-padrão de 100 kg.&lt;br&gt;Sabendo que o peso máximo admitido para um caminhão trafegar é de 2100 kg e que a polícia aplica uma multa caso o peso ultrapasse esse valor, qual é a probabilidade de que um caminhão seja multado carregando 50 sacos de cimento?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,025",
+        "correct": true
+      },
+      {
+        "description": "B. 0,03",
+        "correct": false
+      },
+      {
+        "description": "C. 0,035",
+        "correct": false
+      },
+      {
+        "description": "D. 0,04",
+        "correct": false
+      },
+      {
+        "description": "E. 0,05",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "type": "mc",
+    "text": "<p>O Python é uma linguagem de programação poderosa para análise de dados e possui várias bibliotecas especializadas em análise de dados e visualização de informações. Com poucas linhas de código, é possível carregar, limpar e manipular dados, realizar análises estatísticas e criar visualizações gráficas para apresentar as informações de forma clara e intuitiva. Marque a biblioteca que não serve para fazer gráficos.</p>",
+    "alternatives": [
+      {
+        "description": "A. Matplotlib",
+        "correct": false
+      },
+      {
+        "description": "B. Seaborn",
+        "correct": false
+      },
+      {
+        "description": "C. Plotly",
+        "correct": false
+      },
+      {
+        "description": "D. Bokeh",
+        "correct": false
+      },
+      {
+        "description": "E. NumPy",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "type": "mc",
+    "text": "<p>Um analista financeiro deseja criar um histograma em Python utilizando a biblioteca Matplotlib para visualizar a distribuição de frequências das vendas mensais de um conjunto de dados. Assinale a opção que apresenta a forma correta de criar e exibir o histograma com base em conjunto de dados chamados “vendas_mensais”.</p>",
+    "alternatives": [
+      {
+        "description": "A. plt.hist(vendas_mensais); plt.show()",
+        "correct": true
+      },
+      {
+        "description": "B. plt.histogram(vendas_mensais); plt.show()",
+        "correct": false
+      },
+      {
+        "description": "C. plt.create_hist(vendas_mensais); plt.show()",
+        "correct": false
+      },
+      {
+        "description": "D. plt.plot_histogram(vendas_mensais); plt.show()",
+        "correct": false
+      },
+      {
+        "description": "E. plt.create_histogram(vendas_mensais); plt.show()",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "type": "mc",
+    "text": "<p>A ouvidoria de um dos maiores bancos do Brasil recebe em média 50 denúncias por hora. Qual é a probabilidade de que a ouvidoria receba 70 chamadas em uma hora, se a distribuição do número de chamadas segue uma variável aleatória discreta Poisson?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,030",
+        "correct": false
+      },
+      {
+        "description": "B. 0,008",
+        "correct": false
+      },
+      {
+        "description": "C. 0,001",
+        "correct": true
+      },
+      {
+        "description": "D. 0,068",
+        "correct": false
+      },
+      {
+        "description": "E. 0,086",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "type": "mc",
+    "text": "<p>A distribuição binomial é uma distribuição de probabilidade discreta que modela o número de sucessos em determinado número de tentativas independentes, cada uma com uma probabilidade de sucesso fixa. Qual é a função de probabilidade da variável aleatória discreta binomial no Python?</p>",
+    "alternatives": [
+      {
+        "description": "A. binom.pmf",
+        "correct": true
+      },
+      {
+        "description": "B. binom.cdf",
+        "correct": false
+      },
+      {
+        "description": "C. binom.mean",
+        "correct": false
+      },
+      {
+        "description": "D. binom.var",
+        "correct": false
+      },
+      {
+        "description": "E. binom.std",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "type": "mc",
+    "text": "<p>O tempo de vida dos aparelhos eletrônicos está ficando cada vez menor. Suponha que o tempo de vida de um celular moderno segue uma distribuição exponencial com média de 2 anos. Qual é a probabilidade de que um celular selecionado ao acaso tenha tempo de vida inferior a 1 ano?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,2231",
+        "correct": false
+      },
+      {
+        "description": "B. 0,8975",
+        "correct": false
+      },
+      {
+        "description": "C. 0,2642",
+        "correct": false
+      },
+      {
+        "description": "D. 0,3935",
+        "correct": true
+      },
+      {
+        "description": "E. 0,9975",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "type": "mc",
+    "text": "<p>A distribuição normal é uma das distribuições mais utilizadas e mais comuns em estatística e probabilidade. Ela pode ser modelada no Python usando a biblioteca SciPy. Qual é a função de densidade de probabilidade da distribuição normal no Python?</p>",
+    "alternatives": [
+      {
+        "description": "A. norm.pdf",
+        "correct": true
+      },
+      {
+        "description": "B. norm.cdf",
+        "correct": false
+      },
+      {
+        "description": "C. norm.mean",
+        "correct": false
+      },
+      {
+        "description": "D. norm.var",
+        "correct": false
+      },
+      {
+        "description": "E. norm.std",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "type": "mc",
+    "text": "<p>1. As medidas citadas adiante descrevem uma amostra obtida em um experimento aleatório. A única que mede a dispersão da amostra é:</p>",
+    "alternatives": [
+      {
+        "description": "A. Desvio-padrão",
+        "correct": true
+      },
+      {
+        "description": "C. Média aritmética",
+        "correct": false
+      },
+      {
+        "description": "D. Média geométrica",
+        "correct": false
+      },
+      {
+        "description": "E. Moda",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "type": "mc",
+    "text": "<p>2. Dadas as informações a seguir:&lt;br&gt;X Y Z&lt;br&gt;1 1 3&lt;br&gt;2 1 3&lt;br&gt;3 4 5&lt;br&gt;4 5 5&lt;br&gt;5 5 5&lt;br&gt;6 5 5&lt;br&gt;7 6 5&lt;br&gt;8 9 7&lt;br&gt;9 9 7&lt;br&gt;media      5 5 5&lt;br&gt;Variância 7,5 8,25 2&lt;br&gt;Assinale a alternativa CORRETA.</p>",
+    "alternatives": [
+      {
+        "description": "A. O desvio-padrão de X é menor do que o desvio-padrão de Y.",
+        "correct": true
+      },
+      {
+        "description": "B. A mediana de X é maior do que a mediana de Y.",
+        "correct": false
+      },
+      {
+        "description": "C. As três séries X, Y e Z possuem a mesma variabilidade.",
+        "correct": false
+      },
+      {
+        "description": "D. O coeficiente de variação de X é maior do que o coeficiente de variação de Y.",
+        "correct": false
+      },
+      {
+        "description": "E. A moda de Z é maior do que a média de Z.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "type": "mc",
+    "text": "<p>4. Uma empresa quer promover melhores benefícios a partir da idade dos seus funcionários. Ela deseja obter informações estatísticas sobre a idade utilizando a linguagem Python. Qual função e biblioteca que pode ser usada para realizar este cálculo?</p>",
+    "alternatives": [
+      {
+        "description": "A. função scatter() da biblioteca Matplotlib",
+        "correct": false
+      },
+      {
+        "description": "B. A função describe() da biblioteca Pandas",
+        "correct": true
+      },
+      {
+        "description": "C. A função fit() da biblioteca Scikit-learn",
+        "correct": false
+      },
+      {
+        "description": "D. A função loss() da biblioteca TensorFlow",
+        "correct": false
+      },
+      {
+        "description": "E. A função argmin() da biblioteca NumPy",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "type": "mc",
+    "text": "<p>5. A loja de departamento Brasileiras.SA tem uma lista das vendas realizadas por departamento da loja, essa empresa deseja as medidas de tendência central para as vendas. Qual biblioteca em Python pode ser usada para calcular a média e mediana?</p>",
+    "alternatives": [
+      {
+        "description": "A. Matplotlib",
+        "correct": false
+      },
+      {
+        "description": "B. Learn",
+        "correct": false
+      },
+      {
+        "description": "C. Pandas",
+        "correct": true
+      },
+      {
+        "description": "D. Plotly",
+        "correct": false
+      },
+      {
+        "description": "E. Bokeh",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "type": "mc",
+    "text": "<p>6. Um levantamento realizado em um clube com relação a quantidade de filhos de seus associados forneceu a seguinte distribuição de frequências:&lt;br&gt;Quantidade de filhos  Número de sócios&lt;br&gt;0                     400&lt;br&gt;1                     300&lt;br&gt;2                     200&lt;br&gt;3                     80&lt;br&gt;4                     10&lt;br&gt;5                     10&lt;br&gt;Total                 1.000&lt;br&gt;A média aritmética (quantidade de filhos por socio), a mediana e a moda correspondentes a essa distribuição são, respectivamente:</p>",
+    "alternatives": [
+      {
+        "description": "A. 1,03; 1,00 e 1,00",
+        "correct": false
+      },
+      {
+        "description": "B. 1,03; 1,00 e 0,00",
+        "correct": true
+      },
+      {
+        "description": "C. 1,00; 0,50 e 0,00",
+        "correct": false
+      },
+      {
+        "description": "D. 1,00; 1,00 e 1,00",
+        "correct": false
+      },
+      {
+        "description": "E. 1,03; 1,50 e 1,00",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "type": "mc",
+    "text": "<p>Observe os dados de produção diária dos 10 primeiros dias do mês de janeiro de uma fábrica de peças:&lt;br&gt;Dia Produção (mil)&lt;br&gt;1   80&lt;br&gt;2   90&lt;br&gt;3   100&lt;br&gt;4   60&lt;br&gt;10  40&lt;br&gt;6   70&lt;br&gt;7   90&lt;br&gt;8   100&lt;br&gt;9   80&lt;br&gt;10  110&lt;br&gt;11  120&lt;br&gt;12  130&lt;br&gt;13  90&lt;br&gt;14  60&lt;br&gt;15  80&lt;br&gt;16  70&lt;br&gt;17  90&lt;br&gt;18  60&lt;br&gt;19  80&lt;br&gt;20  100&lt;br&gt;A produção mediana foi de 85 mil unidades; o desvio padrão, aproximadamente 22 mil unidades; o total da produção, 1.700.000 unidades. Que códigos no Python estão corretos para esses resultados? Os dados foram carregados dessa forma:&lt;br&gt;dados = [80,90,100,60,40,70, 90, 100,80,&lt;br&gt;110,120,130,90, 60, 80,70, 90, 60, 80,100]</p>",
+    "alternatives": [
+      {
+        "description": "A. mediana (dados), dp (dados), soma (dados)",
+        "correct": false
+      },
+      {
+        "description": "B. median (dados), std (dados), sum (dados)",
+        "correct": true
+      },
+      {
+        "description": "C. mediana (dados), dp (dados), sum (dados)",
+        "correct": false
+      },
+      {
+        "description": "D. mediana (dados), sd (dados), soma (dados)",
+        "correct": false
+      },
+      {
+        "description": "E. median (dados), dp (dados), sum (dados)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "type": "mc",
+    "text": "<p>Os operadores lógicos variam de software para software e precisamos conhecer esses operadores durante a manipulação dos dados. Por exemplo, a igualdade no Python é representado pela expressão \"x == y\", como é o operador lógico de diferença no Python?</p>",
+    "alternatives": [
+      {
+        "description": "A. !=",
+        "correct": true
+      },
+      {
+        "description": "B. &lt;&gt;",
+        "correct": false
+      },
+      {
+        "description": "C. //",
+        "correct": false
+      },
+      {
+        "description": "D. =",
+        "correct": false
+      },
+      {
+        "description": "E. -",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "type": "mc",
+    "text": "<p>Considere a amostra de uma variável aleatória, cujos valores estão todos expressos em uma mesma unidade. Amostra: 36 38 26 40 40 28 46 40 38 28&lt;br&gt;Sobre essa amostra, temos que:</p>",
+    "alternatives": [
+      {
+        "description": "A. A média é igual à mediana.",
+        "correct": false
+      },
+      {
+        "description": "B. A média é maior do que a moda.",
+        "correct": false
+      },
+      {
+        "description": "C. Se retirarmos um dos valores da amostra, a média, necessariamente, será alterada.",
+        "correct": false
+      },
+      {
+        "description": "D. A mediana é maior do que a moda.",
+        "correct": false
+      },
+      {
+        "description": "E. A mediana é maior do que a média.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "type": "mc",
+    "text": "<p>Um estudo sobre o impacto de diferentes níveis de instrução no acesso a tecnologias digitais categoriza os entrevistados em três níveis de instrução e registra o número de dispositivos tecnológicos que possuem. Considerando o texto, analise as afirmativas abaixo:&lt;br&gt;I. Níveis de instrução podem ser classificados como uma variável qualitativa ordinal.&lt;br&gt;II. A quantidade de dispositivos tecnológicos possuídos é uma variável quantitativa contínua.&lt;br&gt;III. Variáveis qualitativas como o tipo de dispositivo tecnológico possuído têm ordem natural.</p>",
+    "alternatives": [
+      {
+        "description": "A. Apenas I está correta.",
+        "correct": false
+      },
+      {
+        "description": "B. Apenas II está correta.",
+        "correct": false
+      },
+      {
+        "description": "C. Apenas III está correta.",
+        "correct": false
+      },
+      {
+        "description": "D. Apenas I e III estão corretas.",
+        "correct": true
+      },
+      {
+        "description": "E. Apenas I e II estão corretas.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "type": "mc",
+    "text": "<p>1. Um assistente virtual baseado em inteligência artificial foi projetado para responder perguntas de forma precisa. Durante um teste, o assistente respondeu corretamente a 80% das perguntas. Qual é a probabilidade de o assistente responder corretamente a próxima pergunta?</p>",
+    "alternatives": [
+      {
+        "description": "A. 20%.",
+        "correct": false
+      },
+      {
+        "description": "B. 50%.",
+        "correct": false
+      },
+      {
+        "description": "C. 60%",
+        "correct": false
+      },
+      {
+        "description": "D. 80%.",
+        "correct": true
+      },
+      {
+        "description": "E. 10%.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "type": "mc",
+    "text": "<p>Ao jogar um jogo de cartas como o pôquer, as probabilidades são usadas para calcular a chance de obter uma determinada mão, como um flush ou uma sequência. Um dado justo é lançado. Qual é a probabilidade de obter um número primo?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/2.",
+        "correct": true
+      },
+      {
+        "description": "B. 1/3.",
+        "correct": false
+      },
+      {
+        "description": "C. 2/3.",
+        "correct": false
+      },
+      {
+        "description": "D. 1/6.",
+        "correct": false
+      },
+      {
+        "description": "E. 2/6.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "type": "mc",
+    "text": "<p>Empresas frequentemente usam pesquisas de mercado para estimar a probabilidade de sucesso de um novo produto ou serviço, com base nas respostas dos consumidores em amostras representativas. Considere uma urna contém 4 bolas vermelhas, 3 bolas azuis e 5 bolas verdes. Qual é a probabilidade de selecionar uma bola azul?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/3.",
+        "correct": false
+      },
+      {
+        "description": "B. 3/5.",
+        "correct": false
+      },
+      {
+        "description": "C. 1/4.",
+        "correct": true
+      },
+      {
+        "description": "D. 3/8.",
+        "correct": false
+      },
+      {
+        "description": "E. 4/9.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "type": "mc",
+    "text": "<p>Um torneio será disputado por 4 tenistas (entre os quais A e B) de mesma habilidade, isto é, em qualquer jogo entre 2 dos 4 jogadores, ambos têm a mesma chance de ganhar. Na primeira rodada, eles se enfrentarão em 2 jogos, com adversários definidos por sorteio. Os vencedores disputarão a final.&lt;br&gt;A probabilidade de que o torneio termine com A derrotando B na final é:</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/2",
+        "correct": false
+      },
+      {
+        "description": "B. 1/4",
+        "correct": false
+      },
+      {
+        "description": "C. 1/6",
+        "correct": false
+      },
+      {
+        "description": "D. 1/8",
+        "correct": false
+      },
+      {
+        "description": "E. 1/12",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "type": "mc",
+    "text": "<p>Uma aplicação prática de probabilidades está seleção de pessoas dentro de um universo de possibilidades. Uma sala possui 15 alunos, dos quais 8 são mulheres e 7 são homens. Se um aluno é selecionado aleatoriamente, qual é a probabilidade de ser um homem?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/2.",
+        "correct": false
+      },
+      {
+        "description": "B. 7/8.",
+        "correct": false
+      },
+      {
+        "description": "C. 7/15.",
+        "correct": true
+      },
+      {
+        "description": "D. 8/15.",
+        "correct": false
+      },
+      {
+        "description": "E. 8/7.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "type": "mc",
+    "text": "<p>Uma urna contém 10 bolas numeradas de 1 a 10. Foram sacadas, sucessivamente com reposição, 2 dessas bolas. A probabilidade de a primeira bola ter um número par e a segunda ter um número múltiplo de 5 é igual a:</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/20",
+        "correct": false
+      },
+      {
+        "description": "B. 1/18",
+        "correct": false
+      },
+      {
+        "description": "C. 7/90",
+        "correct": false
+      },
+      {
+        "description": "D. 1/10",
+        "correct": true
+      },
+      {
+        "description": "E. 1/9",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "type": "mc",
+    "text": "<p>As probabilidades são usadas para calcular a chance de selecionar uma bola específica ou uma combinação específica de bolas de uma urna com bolas coloridas. Uma caixa contém 5 bolas vermelhas, 3 bolas verdes e 2 bolas azuis. Duas bolas são retiradas sucessivamente, sem reposição. Qual é a probabilidade de ambas as bolas serem vermelhas?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/4.",
+        "correct": false
+      },
+      {
+        "description": "B. 2/9.",
+        "correct": true
+      },
+      {
+        "description": "C. 5/14.",
+        "correct": false
+      },
+      {
+        "description": "D. 5/28.",
+        "correct": false
+      },
+      {
+        "description": "E. 10/28.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "type": "mc",
+    "text": "<p>A taxação de determinados valores de coberturas irá depender da probabilidade de estes ocorrerem. Uma seguradora oferece um seguro de vida que paga uma indenização de R$ 500.000 em caso de morte acidental. Com base em dados estatísticos, a probabilidade de uma pessoa falecer em um determinado período é de 0,02%. Qual é o valor esperado dessa cobertura de seguro?</p>",
+    "alternatives": [
+      {
+        "description": "A. R$ 500.",
+        "correct": false
+      },
+      {
+        "description": "B. R$ 1.000.",
+        "correct": false
+      },
+      {
+        "description": "C. R$ 100.",
+        "correct": true
+      },
+      {
+        "description": "D. R$ 10.000.",
+        "correct": false
+      },
+      {
+        "description": "E. R$ 100.000.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "type": "mc",
+    "text": "<p>Em um grupo de 200 adultos, 130 são do sexo masculino. Das mulheres desse grupo, 40% são casadas. Entre essas 200 pessoas, 94 delas não são casadas. Ao escolher aleatoriamente 1 desses adultos, qual é a probabilidade de que ele seja um homem, sabendo que o adulto sorteado é casado?</p>",
+    "alternatives": [
+      {
+        "description": "A. 3/5",
+        "correct": false
+      },
+      {
+        "description": "B. 13/20.",
+        "correct": false
+      },
+      {
+        "description": "C. 14/39.",
+        "correct": false
+      },
+      {
+        "description": "D. 14/53.",
+        "correct": false
+      },
+      {
+        "description": "E. 39/53.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "type": "mc",
+    "text": "<p>O gráfico a seguir mostra, em percentuais, a distribuição do número de mulheres com 15 anos ou mais de idade, segundo o número de filhos que possuem, no Brasil&lt;br&gt;30% | 29%&lt;br&gt;| [----]&lt;br&gt;25% | |    |&lt;br&gt;| |    |          20%&lt;br&gt;20% | |    | 17%     [----]&lt;br&gt;| |    |[----]   |    |&lt;br&gt;15% | |    ||    |   |    | 13%&lt;br&gt;| |    ||    |   |    |[----]&lt;br&gt;10% | |    ||    |   |    ||    |                   10%&lt;br&gt;| |    ||    |   |    ||    |  7%              [----]&lt;br&gt;5% | |    ||    |   |    ||    |[----]   4%       |    |&lt;br&gt;| |    ||    |   |    ||    ||    |  [----]    |    |&lt;br&gt;0% +-----------------------------------------------------&lt;br&gt;0       1        2      3      4       5     6 a 10&lt;br&gt;Número de filhos&lt;br&gt;--------------------------------------&lt;br&gt;Suponha que se escolha aleatoriamente uma mulher que tenha pelo menos um filho. Qual é a probabilidade de que ela tenha 2 filhos?</p>",
+    "alternatives": [
+      {
+        "description": "A. 20%",
+        "correct": false
+      },
+      {
+        "description": "B. 30%",
+        "correct": false
+      },
+      {
+        "description": "C. 28.2%",
+        "correct": true
+      },
+      {
+        "description": "D. 22,8%",
+        "correct": false
+      },
+      {
+        "description": "E. 32,8%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "type": "mc",
+    "text": "<p>Um dado não viciado, com a forma de um cubo e com as faces numeradas de 1 até 6, foi lançado 3 vezes. Sabendo que a soma dos resultados obtidos foi igual a 5, qual é a probabilidade de o resultado do segundo lançamento do dado ter sido igual a 2?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/18",
+        "correct": false
+      },
+      {
+        "description": "B. 1/6",
+        "correct": false
+      },
+      {
+        "description": "C. 1/5",
+        "correct": false
+      },
+      {
+        "description": "D. 1/3",
+        "correct": true
+      },
+      {
+        "description": "E. 1/2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "type": "mc",
+    "text": "<p>Uma urna contém 10 bolas numeradas de 1 a 10. Foram sacadas, sucessivamente com reposição, 2 dessas bolas. A probabilidade de a primeira bola ter um número par e a segunda ter um número múltiplo de 5 é igual a:</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/20",
+        "correct": false
+      },
+      {
+        "description": "B. 1/18",
+        "correct": false
+      },
+      {
+        "description": "C. 7/90",
+        "correct": false
+      },
+      {
+        "description": "D. 1/10",
+        "correct": true
+      },
+      {
+        "description": "E. 1/9",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "type": "mc",
+    "text": "<p>Uma prova consta de 35 questões do tipo múltipla escolha, com 5 opções cada uma, onde apenas uma opção é verdadeira.&lt;br&gt;Um candidato que não sabe resolver nenhuma das questões vai respondê-las aleatoriamente. Ele sabe que as respostas certas das 35 questões estão distribuídas igualmente entre as opções A, B, C, D e E. Então, resolve marcar suas respostas seguindo este critério: escolherá aleatoriamente 7 questões para marcar a opção A, outras 7 para a opção B, e assim sucessivamente.&lt;br&gt;A probabilidade de ele acertar todas as questões é:</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/35!",
+        "correct": false
+      },
+      {
+        "description": "B. 7.5!/35!",
+        "correct": false
+      },
+      {
+        "description": "C. 5.7!/35!",
+        "correct": false
+      },
+      {
+        "description": "D. (7!)5/35!",
+        "correct": true
+      },
+      {
+        "description": "E. (5!)7/35!",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "type": "mc",
+    "text": "<p>As probabilidades são usadas para calcular a chance de selecionar uma bola específica ou uma combinação específica de bolas de uma urna com bolas coloridas. Uma caixa contém 5 bolas vermelhas, 3 bolas verdes e 2 bolas azuis. Duas bolas são retiradas sucessivamente, sem reposição. Qual é a probabilidade de ambas as bolas serem vermelhas?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/4.",
+        "correct": false
+      },
+      {
+        "description": "B. 2/9.",
+        "correct": true
+      },
+      {
+        "description": "C. 5/14.",
+        "correct": false
+      },
+      {
+        "description": "D. 5/28.",
+        "correct": false
+      },
+      {
+        "description": "E. 10/28.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "type": "mc",
+    "text": "<p>Considere um conjunto de divisores positivos de 60. Escolhemos ao acaso um elemento desse conjunto. Qual a probabilidade desse elemento ser primo?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/4",
+        "correct": true
+      },
+      {
+        "description": "B. 1/2",
+        "correct": false
+      },
+      {
+        "description": "C. 1/8",
+        "correct": false
+      },
+      {
+        "description": "D. 1/12",
+        "correct": false
+      },
+      {
+        "description": "E. 1/6",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "type": "mc",
+    "text": "<p>(FUNDATEC/2022) Um cliente chega em uma padaria onde tem 20 pães, sendo 6 deles do dia anterior e 10 sucos, sendo 2 deles vencidos. A probabilidade desse cliente comprar um pão do dia e um suco dentro da validade é de:</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/2.",
+        "correct": false
+      },
+      {
+        "description": "B. 12/20.",
+        "correct": false
+      },
+      {
+        "description": "C. 14/25.",
+        "correct": true
+      },
+      {
+        "description": "D. 3/2.",
+        "correct": false
+      },
+      {
+        "description": "E. 6/8.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "type": "mc",
+    "text": "<p>(FGV/2021) Dois eventos A e B são tais que P[A] = 0,8, P[B] = 0,5 e P[A B]= 0,4. Assim, a probabilidade condicional P[BA] é igual a</p>",
+    "alternatives": [
+      {
+        "description": "A. 15%.",
+        "correct": false
+      },
+      {
+        "description": "B. 25%.",
+        "correct": true
+      },
+      {
+        "description": "C. 30%.",
+        "correct": false
+      },
+      {
+        "description": "D. 40%.",
+        "correct": false
+      },
+      {
+        "description": "E. 50%-",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "type": "mc",
+    "text": "<p>Considere dois eventos A e B, os quais são mutuamente excludentes, sendo P(A) a probabilidade de ocorrência de A e P(B) a probabilidade de ocorrência de B. Assinale a alternativa correta.</p>",
+    "alternatives": [
+      {
+        "description": "A. P(A|B) = 0",
+        "correct": true
+      },
+      {
+        "description": "B. P(A|B) = 1",
+        "correct": false
+      },
+      {
+        "description": "C. A e B são independentes se, e somente se, P(A|B) = P(A) = P(BA) = P(B)",
+        "correct": false
+      },
+      {
+        "description": "D. A e B são independentes se P(A|B) = P(A)",
+        "correct": false
+      },
+      {
+        "description": "E. A e B são independentes se P(B|A) = P(B)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "type": "mc",
+    "text": "<p>(CESGRANRIO/2021) Os alunos de uma determinada escola formaram um grupo de ajuda humanitária e resolveram arrecadar fundos para comprar alimentos não perecíveis. Decidiram, então, fazer uma rifa e venderam 200 tíquetes, numerados de 1 a 200. Uma funcionária da escola resolveu ajudar e comprou 5 tíquetes. Seus números eram 75, 76, 77, 78 e 79. No dia do sorteio da rifa, antes de revelarem o ganhador do prêmio, anunciaram que o número do tíquete sorteado era par. Considerando essa informação, a funcionária concluiu acertadamente que a probabilidade de ela ser a ganhadora do prêmio era de:</p>",
+    "alternatives": [
+      {
+        "description": "A. 1,0%",
+        "correct": false
+      },
+      {
+        "description": "B. 2,0%",
+        "correct": true
+      },
+      {
+        "description": "C. 3,0%",
+        "correct": false
+      },
+      {
+        "description": "D. 4,0%",
+        "correct": false
+      },
+      {
+        "description": "E. 5,0%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "type": "mc",
+    "text": "<p>(FGV/2015) Em uma urna há quatro bolas brancas e duas bolas pretas. Retiram-se, sucessivamente e sem reposição, duas bolas da urna. A probabilidade de as duas bolas retiradas serem da mesma cor é:</p>",
+    "alternatives": [
+      {
+        "description": "A. 7/15",
+        "correct": true
+      },
+      {
+        "description": "B. 8/15",
+        "correct": false
+      },
+      {
+        "description": "C. 2/3",
+        "correct": false
+      },
+      {
+        "description": "D. 1/3",
+        "correct": false
+      },
+      {
+        "description": "E. 1/2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "type": "mc",
+    "text": "<p>(FGV/2022) Em uma disputa de pênaltis, quando um time acerta uma cobrança de pênalti, a probabilidade de que esse time acerte a cobrança seguinte é de 70% e, quando um time perde uma cobrança de pênalti, a probabilidade de que esse time também perca a próxima cobrança é de 80%.&lt;br&gt;Se o time A acertou a primeira cobrança, a probabilidade de que esse time perca a sua terceira cobrança é:</p>",
+    "alternatives": [
+      {
+        "description": "A. 45%.",
+        "correct": true
+      },
+      {
+        "description": "B. 50%-",
+        "correct": false
+      },
+      {
+        "description": "C. 55%.",
+        "correct": false
+      },
+      {
+        "description": "D. 60%.",
+        "correct": false
+      },
+      {
+        "description": "E. 70%.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "type": "mc",
+    "text": "<p>Carlos tem probabilidade 2/3 de resolver um problema de probabilidade. Joana, sua colega de classe, tem probabilidade 3/4 de resolver o mesmo problema. Se os dois tentarem resolvê-lo de forma independente, qual é a probabilidade do problema ser solucionado?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/12",
+        "correct": false
+      },
+      {
+        "description": "B. 11/12",
+        "correct": true
+      },
+      {
+        "description": "C. 3/4",
+        "correct": false
+      },
+      {
+        "description": "D. 1/3",
+        "correct": false
+      },
+      {
+        "description": "E. 2/3",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "type": "mc",
+    "text": "<p>(FGV/2015) Na teoria das probabilidades, os conceitos de eventos independentes e eventos mutuamente exclusivos, apesar de distintos, guardam entre si uma estreita relação. Quando dois eventos são independentes:</p>",
+    "alternatives": [
+      {
+        "description": "A. São também mutuamente exclusivos.",
+        "correct": false
+      },
+      {
+        "description": "B. Não podem ser mutuamente exclusivos.",
+        "correct": true
+      },
+      {
+        "description": "C. Podem não ser mutuamente exclusivos, mas sua interseção deve ter probabilidade nula de ocorrência.",
+        "correct": false
+      },
+      {
+        "description": "D. Serão também mutuamente exclusivos se as probabilidades condicionais, de cada um dado o outro, forem idênticas.",
+        "correct": false
+      },
+      {
+        "description": "E. Os complementares devem ser mutuamente exclusivos.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "type": "mc",
+    "text": "<p>Um jogador de basquete está prestes a realizar um lance livre. Em cada lance, ele pode acertar a cesta ou errar. Considerando a distribuição de Bernoulli, qual das alternativas abaixo melhor representa a natureza da variável aleatória X nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de lances livres feitos pelo jogador.",
+        "correct": false
+      },
+      {
+        "description": "B. Cor do uniforme utilizado pelo jogador.",
+        "correct": false
+      },
+      {
+        "description": "C. Probabilidade de o jogador acertar um lance livre específico.",
+        "correct": true
+      },
+      {
+        "description": "D. Identificação única de cada lance livre realizado.",
+        "correct": false
+      },
+      {
+        "description": "E. Média aritmética das cestas convertidas pelo jogador.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "type": "mc",
+    "text": "<p>Em um experimento de qualidade de produtos eletrônicos, uma empresa selecionou aleatoriamente 10&lt;br&gt;aparelhos de uma linha de produção que contém 20% de itens defeituosos. A variável aleatória X representa o número de produtos defeituosos encontrados na amostra de 10 aparelhos. Qual é a média aritmética esperada do número de aparelhos defeituosos nessa amostra?</p>",
+    "alternatives": [
+      {
+        "description": "A. 2.",
+        "correct": true
+      },
+      {
+        "description": "B. 4.",
+        "correct": false
+      },
+      {
+        "description": "C. 6.",
+        "correct": false
+      },
+      {
+        "description": "D. 8",
+        "correct": false
+      },
+      {
+        "description": "E. 10.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "type": "mc",
+    "text": "<p>Um empresário, investindo em um determinado empreendimento, espera ter os seguintes lucros em função dos cenários \"Bom\", \"Médio\" e \"Ruim\":&lt;br&gt;Cenário  Lucro (R$)  Distribuição de Probabilidades do Cenário&lt;br&gt;Bom      R$ 8.000,00 0,25&lt;br&gt;Médio    R$ 5.000,00 0,60&lt;br&gt;Ruim     R$ 2.000,00 0,15&lt;br&gt;A expectância e a variância do respectivo lucro são, em Re(R)2, respectivamente:</p>",
+    "alternatives": [
+      {
+        "description": "A. 5.500,00 e 3.160.000",
+        "correct": false
+      },
+      {
+        "description": "B. 5.300,00 e 3.510.000",
+        "correct": true
+      },
+      {
+        "description": "C. 5.300,00 e 3.160.000",
+        "correct": false
+      },
+      {
+        "description": "D. 5.000,00 e 3.510.000",
+        "correct": false
+      },
+      {
+        "description": "E. 5.000,00 e 3.160.000",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "type": "mc",
+    "text": "<p>Em uma população finita de tamanho N, onde existem k indivíduos com uma característica de interesse, ao se selecionar uma amostra aleatória de tamanho n sem reposição, o número de indivíduos com a característica na amostra (R) é uma variável aleatória com distribuição hipergeométrica. A probabilidade de se ter exatamente r indivíduos na amostra com a característica de interesse é dada por:&lt;br&gt;Pr = (kr)(N - k)&lt;br&gt;(N n)&lt;br&gt;onde max (0,n- N + k) = r = min (k,n).&lt;br&gt;I. Para N = 100, k = 20, n = 10 e r = 3, E(R) = 2 e Var(R) = 144/99.&lt;br&gt;II. Para N = 100, k = 20, n = 5 er = 3, E(R) = 1 e Var(R) = 8/10.&lt;br&gt;III. Para N = 10000, k = 2000, n = 100 e r = 3, E(R) = 20 e Var(R) = 15,84.&lt;br&gt;IV. Para N = 10000, k = 1000, n = 100 e r = 3, E(R) = 10 e Var(R) 9.&lt;br&gt;V. Para N = 10000, k = 2000, n = 10 e r = 0, P(R = 0) = 0,1074. Estão corretas apenas as alternativas</p>",
+    "alternatives": [
+      {
+        "description": "A. I e III",
+        "correct": false
+      },
+      {
+        "description": "B. II e IV",
+        "correct": true
+      },
+      {
+        "description": "C. I, III, e IV",
+        "correct": false
+      },
+      {
+        "description": "D. I, III, IV e V",
+        "correct": false
+      },
+      {
+        "description": "E. II, III, IV e V",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "type": "mc",
+    "text": "<p>Em uma urna contendo 30 bolas, sendo 10 vermelhas e 20 azuis, deseja-se retirar uma amostra de 5 bolas sem reposição. Considerando a distribuição hipergeométrica, qual das alternativas abaixo melhor representa a natureza da variável aleatória X nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de bolas na urna.",
+        "correct": false
+      },
+      {
+        "description": "B. Cor das bolas na amostra selecionada.",
+        "correct": false
+      },
+      {
+        "description": "C. Probabilidade de uma bola vermelha ser selecionada na amostra.",
+        "correct": false
+      },
+      {
+        "description": "D. Identificação única de cada bola na urna.",
+        "correct": false
+      },
+      {
+        "description": "E. Média aritmética do número de bolas vermelhas na amostra.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "type": "mc",
+    "text": "<p>Um fabricante de brinquedos realiza testes de qualidade em seus produtos. Durante o processo de produção, há uma probabilidade de 0,2 de um brinquedo ser considerado defeituoso. Considerando a importância da distribuição binomial, qual das alternativas abaixo melhor representa a natureza dessa distribuição nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de brinquedos produzidos pela empresa.",
+        "correct": false
+      },
+      {
+        "description": "B. Cor da embalagem utilizada para os brinquedos.",
+        "correct": false
+      },
+      {
+        "description": "C. Probabilidade de um brinquedo ser selecionado aleatoriamente para o teste de qualidade.",
+        "correct": false
+      },
+      {
+        "description": "D. Identificação única de cada brinquedo produzido.",
+        "correct": false
+      },
+      {
+        "description": "E. Média aritmética da quantidade de brinquedos defeituosos encontrados nos testes.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "type": "mc",
+    "text": "<p>Considere duas variáveis aleatórias discretas X e Y, ambas com distribuição binomial. Sabe-se que: X: b (2, p) e Y: b (4, p). Se P (X &gt; 1) = 5/9 então P (Y = 1) é:</p>",
+    "alternatives": [
+      {
+        "description": "A. 65/81",
+        "correct": false
+      },
+      {
+        "description": "B. 16/81",
+        "correct": false
+      },
+      {
+        "description": "C. 32/81",
+        "correct": true
+      },
+      {
+        "description": "D. 16/27",
+        "correct": false
+      },
+      {
+        "description": "E. 40/81",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "type": "mc",
+    "text": "<p>Um estudante marca, ao acaso, as respostas de um teste de 10 questões de múltipla escolha, com 4 alternativas por questão. O número mais provável de acertos é:</p>",
+    "alternatives": [
+      {
+        "description": "A. 1.",
+        "correct": false
+      },
+      {
+        "description": "B. 2.",
+        "correct": true
+      },
+      {
+        "description": "C. 3.",
+        "correct": false
+      },
+      {
+        "description": "D. 4.",
+        "correct": false
+      },
+      {
+        "description": "E. 5.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "type": "mc",
+    "text": "<p>Em uma pesquisa de opinião, foi questionado a um grupo de pessoas qual a sua preferência de sorvete: chocolate, baunilha, morango ou pistache. Os resultados foram registrados e analisados utilizando a função de massa de probabilidade. Considerando essa situação, qual das alternativas abaixo melhor representa a natureza da função de massa de probabilidade nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de pessoas entrevistadas na pesquisa.",
+        "correct": false
+      },
+      {
+        "description": "B. Cor dos questionários utilizados na coleta de dados.",
+        "correct": false
+      },
+      {
+        "description": "C. Probabilidade de uma pessoa preferir um sabor específico de sorvete.",
+        "correct": true
+      },
+      {
+        "description": "D. Identificação única de cada pessoa que participou da pesquisa.",
+        "correct": false
+      },
+      {
+        "description": "E. Média aritmética das preferências de sorvete registradas na pesquisa.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "type": "mc",
+    "text": "<p>O símbolo E() indica o operador esperança ou expectativa matemática. Sendo X e Y variáveis aleatórias, a expressão abaixo nem sempre válida é:</p>",
+    "alternatives": [
+      {
+        "description": "A. E(X+3)= E(X) + 3",
+        "correct": false
+      },
+      {
+        "description": "B. E(3X) = 3 E(X)",
+        "correct": false
+      },
+      {
+        "description": "C. E(XY) = E(X) E(Y)",
+        "correct": true
+      },
+      {
+        "description": "D. E(X + Y) = E(X) + E(Y)",
+        "correct": false
+      },
+      {
+        "description": "E. E(X - Y) = E(X) - E(Y)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "type": "mc",
+    "text": "<p>Um restaurante popular em uma cidade recebe diariamente um grande número de clientes para suas refeições. A administração está interessada em estudar a ocorrência de um evento específico: o número de vezes que um cliente derruba um utensílio durante o horário do almoço. O processo de Poisson é utilizado para modelar esse evento, considerando que ele ocorre em intervalos contínuos de tempo. Qual dos seguintes exemplos se encaixa como um processo de Poisson?&lt;br&gt;I. Número de acidentes de trânsito por mês em uma cidade.&lt;br&gt;II. Número de encomendas online recebidas por hora em uma loja virtual.&lt;br&gt;III. Número de pacotes de correspondência extraviados por dia em um centro de distribuição.&lt;br&gt;IV. Número de gols marcados por partida em um campeonato de futebol.&lt;br&gt;V. Número de erros ortográficos por página em um livro.&lt;br&gt;É correto o que se afiram afirma apenas em:</p>",
+    "alternatives": [
+      {
+        "description": "A. I, II e III.",
+        "correct": false
+      },
+      {
+        "description": "B. II, IV e V.",
+        "correct": false
+      },
+      {
+        "description": "C. III, IV e V",
+        "correct": false
+      },
+      {
+        "description": "D. I, II, III e V.",
+        "correct": true
+      },
+      {
+        "description": "E. I, II, III e IV.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "type": "mc",
+    "text": "<p>Em uma urna contendo 30 bolas, sendo 10 vermelhas e 20 azuis, deseja-se retirar uma amostra de 5 bolas sem reposição. Considerando a distribuição hipergeométrica, qual das alternativas abaixo melhor representa a natureza da variável aleatória X nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de bolas na urna.",
+        "correct": false
+      },
+      {
+        "description": "B. Cor das bolas na amostra selecionada.",
+        "correct": false
+      },
+      {
+        "description": "C. Probabilidade de uma bola vermelha ser selecionada na amostra.",
+        "correct": false
+      },
+      {
+        "description": "D. Identificação única de cada bola na urna.",
+        "correct": false
+      },
+      {
+        "description": "E. Média aritmética do número de bolas vermelhas na amostra.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "type": "mc",
+    "text": "<p>O símbolo E() indica o operador esperança ou expectativa matemática. Sendo X e Y variáveis aleatórias, a expressão abaixo nem sempre válida é:</p>",
+    "alternatives": [
+      {
+        "description": "A. E(X + 3) = E(X) + 3",
+        "correct": false
+      },
+      {
+        "description": "B. E(3X) = 3 E(X)",
+        "correct": false
+      },
+      {
+        "description": "C. E(XY) = E(X) E(Y)",
+        "correct": true
+      },
+      {
+        "description": "D. E(X + Y) = E(X) + E(Y)",
+        "correct": false
+      },
+      {
+        "description": "E. E(XY) = E(X) - E(Y)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "type": "mc",
+    "text": "<p>Em um experimento de qualidade de produtos eletrônicos, uma empresa selecionou aleatoriamente 10 aparelhos de uma linha de produção que contém 20% de itens defeituosos. A variável aleatória X representa o número de produtos defeituosos encontrados na amostra de 10 aparelhos. Qual é a média aritmética esperada do número de aparelhos defeituosos nessa amostra?</p>",
+    "alternatives": [
+      {
+        "description": "A. 2.",
+        "correct": true
+      },
+      {
+        "description": "B. 4.",
+        "correct": false
+      },
+      {
+        "description": "C. 6.",
+        "correct": false
+      },
+      {
+        "description": "D. 8.",
+        "correct": false
+      },
+      {
+        "description": "E. 10.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "type": "mc",
+    "text": "<p>Marque a alternativa correta em relação ao modelo probabilístico que mais se adequa ao seguinte caso: lançamento de uma moeda honesta, contando o número de casos até a realização da primeira coroa.</p>",
+    "alternatives": [
+      {
+        "description": "A. Poisson",
+        "correct": false
+      },
+      {
+        "description": "B. Geométrica",
+        "correct": true
+      },
+      {
+        "description": "C. Hipergeométrica",
+        "correct": false
+      },
+      {
+        "description": "D. Uniforme Discreta",
+        "correct": false
+      },
+      {
+        "description": "E. Pareto",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "type": "mc",
+    "text": "<p>Uma empresa de entrega deseja estudar o comportamento dos pedidos em determinada região. Foi definida uma variável aleatória X, que representa o número de entregas realizadas por dia em um único bairro. Com base nessa definição, assinale a alternativa que melhor descreve a natureza da variável aleatória X:</p>",
+    "alternatives": [
+      {
+        "description": "A. X é uma variável contínua, pois o número de entregas pode variar em qualquer intervalo real.",
+        "correct": false
+      },
+      {
+        "description": "B. X é uma estatística descritiva, pois representa um valor médio observado em um período.",
+        "correct": false
+      },
+      {
+        "description": "C. X é uma variável aleatória discreta, pois assume apenas valores inteiros e contáveis.",
+        "correct": true
+      },
+      {
+        "description": "D. X é um parâmetro populacional, pois representa um valor fixo conhecido.",
+        "correct": false
+      },
+      {
+        "description": "E. X é uma probabilidade condicional, pois depende de eventos anteriores.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "type": "mc",
+    "text": "<p>Em uma pesquisa de opinião, foi questionado a um grupo de pessoas qual a sua preferência de sorvete: chocolate, baunilha, morango ou pistache. Os resultados foram registrados e analisados utilizando a função de massa de probabilidade. Considerando essa situação, qual das alternativas abaixo melhor representa a natureza da função de massa de probabilidade nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de pessoas entrevistadas na pesquisa.",
+        "correct": false
+      },
+      {
+        "description": "B. Cor dos questionários utilizados na coleta de dados.",
+        "correct": false
+      },
+      {
+        "description": "C. Probabilidade de uma pessoa preferir um sabor específico de sorvete.",
+        "correct": true
+      },
+      {
+        "description": "D. Identificação única de cada pessoa que participou da pesquisa.",
+        "correct": false
+      },
+      {
+        "description": "E. Média aritmética das preferências de sorvete registradas na pesquisa.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "type": "mc",
+    "text": "<p>Um fabricante de brinquedos realiza testes de qualidade em seus produtos. Durante o processo de produção, há uma probabilidade de 0,2 de um brinquedo ser considerado defeituoso. Considerando a importância da distribuição binomial, qual das alternativas abaixo melhor representa a natureza dessa distribuição nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de brinquedos produzidos pela empresa.",
+        "correct": false
+      },
+      {
+        "description": "B. Cor da embalagem utilizada para os brinquedos.",
+        "correct": false
+      },
+      {
+        "description": "C. Probabilidade de um brinquedo ser selecionado aleatoriamente para o teste de qualidade.",
+        "correct": false
+      },
+      {
+        "description": "D. Identificação única de cada brinquedo produzido.",
+        "correct": false
+      },
+      {
+        "description": "E. Média aritmética da quantidade de brinquedos defeituosos encontrados nos testes.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "type": "mc",
+    "text": "<p>O retorno mensal de certo investimento de risco pode ser modelado pela variável aleatória W, com função de probabilidade dada a seguir.&lt;br&gt;.....................................................&lt;br&gt;W     -  -5%  -  0%  -  5%  -  10%  -  15%  -&lt;br&gt;.....................................................&lt;br&gt;P(W=w)    -  0,4  - 0,15 - 0,25 -  0,15 - 0,05  -&lt;br&gt;.....................................................&lt;br&gt;O retorno esperado é:</p>",
+    "alternatives": [
+      {
+        "description": "A. -0,5%.",
+        "correct": false
+      },
+      {
+        "description": "B. 0,5%.",
+        "correct": false
+      },
+      {
+        "description": "C. 1,5%.",
+        "correct": true
+      },
+      {
+        "description": "D. 5%.",
+        "correct": false
+      },
+      {
+        "description": "E. 7,5%.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "type": "mc",
+    "text": "<p>Considere duas variáveis aleatórias discretas X e Y, ambas com distribuição binomial. Sabe-se que: X: b (2, p) e Y: b (4, p). Se P (X &gt; 1) = 5/9 então P (Y = 1) é:</p>",
+    "alternatives": [
+      {
+        "description": "A. 65/81",
+        "correct": false
+      },
+      {
+        "description": "B. 16/81",
+        "correct": false
+      },
+      {
+        "description": "C. 32/81",
+        "correct": true
+      },
+      {
+        "description": "D. 16/27",
+        "correct": false
+      },
+      {
+        "description": "E. 40/81",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "type": "mc",
+    "text": "<p>A função de distribuição acumulada (CDF) de uma variável aleatória contínua X, denotada por F(x), possui algumas propriedades fundamentais. Assinale a alternativa que melhor descreve o significado de F(x).</p>",
+    "alternatives": [
+      {
+        "description": "A. F(x) representa a probabilidade de X assumir exatamente o valor x.",
+        "correct": false
+      },
+      {
+        "description": "B. F(x) representa a derivada da função densidade de probabilidade.",
+        "correct": false
+      },
+      {
+        "description": "C. F(x) representa a probabilidade acumulada de X assumir valores menores ou iguais a x.",
+        "correct": true
+      },
+      {
+        "description": "D. F(x) representa apenas a área sob a curva da densidade entre 0 e 1.",
+        "correct": false
+      },
+      {
+        "description": "E. F(x) representa a média dos valores possíveis da variável aleatória.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "type": "mc",
+    "text": "<p>Um estudo foi realizado para analisar o tempo que os passageiros levam para completar uma caminhada do terminal de embarque até o portão de partida em um aeroporto movimentado. Considerando que o tempo de caminhada pode variar de forma contínua, qual das alternativas abaixo melhor representa a natureza da variável aleatória nesse estudo?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número de malas que os passageiros carregam.",
+        "correct": false
+      },
+      {
+        "description": "B. Nacionalidade dos passageiros.",
+        "correct": false
+      },
+      {
+        "description": "C. Número de seguranças presentes durante a caminhada.",
+        "correct": false
+      },
+      {
+        "description": "D. Distância em metros percorrida pelos passageiros.",
+        "correct": true
+      },
+      {
+        "description": "E. Cor dos sapatos usados pelos passageiros.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "type": "mc",
+    "text": "<p>Uma variável aleatória X é uniformemente distribuída no intervalo [1, 5]. A média e a variância correspondentes são, respectivamente:</p>",
+    "alternatives": [
+      {
+        "description": "A. 2 e 1/3",
+        "correct": false
+      },
+      {
+        "description": "B. 2 e 2/3",
+        "correct": false
+      },
+      {
+        "description": "C. 3 e 3/4",
+        "correct": false
+      },
+      {
+        "description": "D. 3 e 1/3",
+        "correct": false
+      },
+      {
+        "description": "E. 3 e 4/3",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "type": "mc",
+    "text": "<p>Um vendedor de sorvetes realiza uma pesquisa para determinar a quantidade de sabores de sorvete que cada cliente escolhe. Suponha que a distribuição dessa quantidade seja uniforme no intervalo de 1 a 5 sabores. Considerando os conceitos de distribuição uniforme, qual das alternativas abaixo melhor representa a natureza da função densidade nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de clientes entrevistados.",
+        "correct": false
+      },
+      {
+        "description": "B. Preço de cada sabor de sorvete escolhido.",
+        "correct": false
+      },
+      {
+        "description": "C. Probabilidade de um cliente escolher um sabor especifico.",
+        "correct": false
+      },
+      {
+        "description": "D. Quantidade exata de sabores de sorvete escolhidos por um cliente selecionado aleatoriamente.",
+        "correct": true
+      },
+      {
+        "description": "E. Média aritmética da quantidade de sabores de sorvete escolhidos pelos clientes.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "type": "mc",
+    "text": "<p>Os tempos de vida de um certo tipo de componente eletrônico são exponencialmente distribuídos com média de 2000 horas. A probabilidade de que um componente dure mais de 2000 horas é igual a:</p>",
+    "alternatives": [
+      {
+        "description": "A. e-3",
+        "correct": false
+      },
+      {
+        "description": "B. e-2",
+        "correct": false
+      },
+      {
+        "description": "C. e-1",
+        "correct": true
+      },
+      {
+        "description": "D. -1-e-3",
+        "correct": false
+      },
+      {
+        "description": "E. 1-e-2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "type": "mc",
+    "text": "<p>A variável aleatória contínua X tem a seguinte função de densidade de probabilidade:&lt;br&gt;f(x)= { x/12+k, se 0 &lt;= x &lt;=3&lt;br&gt;0, para todos os outros valores de x&lt;br&gt;Sendo k uma constante, seu valor é igual a:</p>",
+    "alternatives": [
+      {
+        "description": "A. 1",
+        "correct": false
+      },
+      {
+        "description": "B. 3/4",
+        "correct": false
+      },
+      {
+        "description": "C. 2/3",
+        "correct": false
+      },
+      {
+        "description": "D. 5/24",
+        "correct": true
+      },
+      {
+        "description": "E. 1/12",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "type": "mc",
+    "text": "<p>Um estudo foi realizado para analisar a altura de estudantes do último ano do ensino médio de uma&lt;br&gt;determinada escola. Considerando a importância da distribuição normal e do Teorema Central do Limite, qual das alternativas abaixo melhor representa a natureza da distribuição normal nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de estudantes matriculados na escola.",
+        "correct": false
+      },
+      {
+        "description": "B. Cor do uniforme utilizado pelos estudantes.",
+        "correct": false
+      },
+      {
+        "description": "C. Probabilidade de um estudante ter uma altura específica.",
+        "correct": true
+      },
+      {
+        "description": "D. Altura exata de um estudante selecionado aleatoriamente.",
+        "correct": false
+      },
+      {
+        "description": "E. Média aritmética das alturas de todos os estudantes do último ano.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "type": "mc",
+    "text": "<p>Um fabricante de smartphones deseja analisar a vida útil de suas baterias em horas de uso. Para isso, coletou dados sobre o tempo de duração das baterias de uma amostra de smartphones. Qual das alternativas abaixo melhor representa a natureza da esperança matemática nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de smartphones na amostra.",
+        "correct": false
+      },
+      {
+        "description": "B. Marca e modelo de cada smartphone.",
+        "correct": false
+      },
+      {
+        "description": "C. Porcentagem de carga da bateria no momento da medição.",
+        "correct": false
+      },
+      {
+        "description": "D. Tempo exato de duração de uma bateria selecionada ao acaso.",
+        "correct": false
+      },
+      {
+        "description": "E. Média aritmética dos tempos de duração das baterias da amostra.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "type": "mc",
+    "text": "<p>Uma empresa de delivery de comida oferece um serviço de entrega rápida, em que o tempo de entrega varia de forma uniforme entre 20 e 40 minutos. Considerando os conceitos de distribuição uniforme, qual das alternativas abaixo melhor representa a natureza da variância nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de pedidos de entrega feitos pela empresa.",
+        "correct": false
+      },
+      {
+        "description": "B. Cor dos uniformes usados pelos entregadores.",
+        "correct": false
+      },
+      {
+        "description": "C. Probabilidade de um pedido de entrega ser entregue em um tempo específico.",
+        "correct": false
+      },
+      {
+        "description": "D. Tempo exato de entrega de um pedido selecionado aleatoriamente.",
+        "correct": true
+      },
+      {
+        "description": "E. Média aritmética dos tempos de entrega de todos os pedidos feitos pela empresa.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "type": "mc",
+    "text": "<p>Um site de e-commerce oferece um cupom de desconto para os clientes, em que o valor do desconto varia de forma uniforme entre R10eR 50. Considerando os conceitos de distribuição uniforme, qual das alternativas abaixo melhor representa a natureza da função de distribuição acumulada nesse contexto?</p>",
+    "alternatives": [
+      {
+        "description": "A. Número total de clientes que utilizaram o cupom de desconto.",
+        "correct": false
+      },
+      {
+        "description": "B. Marca e modelo dos produtos adquiridos com o cupom de desconto.",
+        "correct": false
+      },
+      {
+        "description": "C. Probabilidade de um cliente obter um desconto específico.",
+        "correct": true
+      },
+      {
+        "description": "D. Valor exato do desconto obtido por um cliente selecionado aleatoriamente.",
+        "correct": false
+      },
+      {
+        "description": "E. Média aritmética dos descontos obtidos pelos clientes que utilizaram o cupom.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "type": "mc",
+    "text": "<p>Em um laboratório, os testes para COVID têm uma taxa de precisão de 95%. Qual é a probabilidade de uma pessoa testar positivo no teste de COVID?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,29",
+        "correct": false
+      },
+      {
+        "description": "B. 0,06",
+        "correct": false
+      },
+      {
+        "description": "C. 0,15",
+        "correct": false
+      },
+      {
+        "description": "D. 0,25",
+        "correct": false
+      },
+      {
+        "description": "E. 0,95",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "type": "mc",
+    "text": "<p>Em uma empresa, o departamento de recursos humanos deseja organizar as informações que passam em seu setor. O departamento tem um conjunto de dados que representa o salário dos funcionários, e deseja criar um gráfico para visualizar a distribuição dos salários. Qual gráfico em Python é mais adequado para essa situação?</p>",
+    "alternatives": [
+      {
+        "description": "A. Gráfico de barras.",
+        "correct": false
+      },
+      {
+        "description": "B. Gráfico de linhas.",
+        "correct": false
+      },
+      {
+        "description": "C. Gráfico de dispersão.",
+        "correct": false
+      },
+      {
+        "description": "D. Gráfico de setores.",
+        "correct": false
+      },
+      {
+        "description": "E. Boxplot.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "type": "mc",
+    "text": "<p>O Python possui uma quantidade enorme de bases de dados pré-carregadas ou acessíveis via bibliotecas. Para esse exercício, você vai precisar carregar uma base de dados chamada Iris, que apresenta dados sobre algumas espécies de plantas. Assinale a alternativa que apresenta a programação necessária para fazer um histograma da variável \"tamanho da pétala\" (petal_length) apenas para a espécie (species) do tipo Setosa.&lt;br&gt;Além disso, a cor do histograma deve ser verde, o eixo X deve estar no intervalo de (1, 2), o rótulo do eixo Y deve estar escrito \"Frequência\", o do eixo X escrito \"Tamanho da pétala\", a fonte configurada para \"Python\" e o título \"Histograma do tamanho da Pétala para a espécie Setosa\".</p>",
+    "alternatives": [
+      {
+        "description": "A. import seaborn as sns&lt;br&gt;iris = sns.load_dataset(\"iris\")&lt;br&gt;setosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]&lt;br&gt;sns.histplot(data=setosa_petal_length, color=\"green\")&lt;br&gt;sns.set(font=\"Python\")&lt;br&gt;sns.xlabel(\"Tamanho da pétala\")&lt;br&gt;sns.ylabel(\"Frequência\")",
+        "correct": false
+      },
+      {
+        "description": "B. import seaborn as sns&lt;br&gt;iris = sns.load_dataset(\"iris\")&lt;br&gt;sns.histplot(data=setosa_petal_length, color=\"green\")&lt;br&gt;sns.set(font=\"Python\")&lt;br&gt;sns.xlabel(\"Tamanho da pétala\")&lt;br&gt;sns.ylabel(\"Frequência\")&lt;br&gt;sns.title(\"Histograma do tamanho da Pétala para a espécie Setosa\")&lt;br&gt;sns.xlim(1, 2)",
+        "correct": false
+      },
+      {
+        "description": "C. import seaborn as sns&lt;br&gt;iris = sns.load_dataset(\"iris\")&lt;br&gt;setosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]&lt;br&gt;sns.title(\"Histograma do tamanho da Pétala para a espécie Setosa\")&lt;br&gt;sns.xlim(1, 2)",
+        "correct": false
+      },
+      {
+        "description": "D. import seaborn as sns&lt;br&gt;iris = sns.load_dataset(\"iris\")&lt;br&gt;setosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]&lt;br&gt;sns.histplot(data=setosa_petal_length, color=\"green\")&lt;br&gt;sns.set(font=\"Python\")&lt;br&gt;sns.xlabel(\"Tamanho da pétala\")&lt;br&gt;sns.ylabel(\"Frequência\")&lt;br&gt;sns.title(\"Histograma do tamanho da Pétala para a espécie Setosa\")&lt;br&gt;sns.xlim(1, 2)",
+        "correct": true
+      },
+      {
+        "description": "E. import seaborn as sns&lt;br&gt;setosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]&lt;br&gt;sns.xlim(1, 2)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "type": "mc",
+    "text": "<p>A Pesquisa Mensal do Comércio (PMC) divulga todos os meses o valor comercializado por atividade. Suponha que temos os seguintes dados sobre as vendas no comércio por atividade para um determinado mês:&lt;br&gt;Eletrônicos: R$ 20.000,00&lt;br&gt;Roupas: R$ 12.000,00&lt;br&gt;Alimentos: R$ 8.000,00&lt;br&gt;Outros: R$ 5.000,00&lt;br&gt;Qual é o código em Python necessário para gerar um gráfico de setores (pizza) mostrando a proporção simples das vendas de cada atividade?</p>",
+    "alternatives": [
+      {
+        "description": "A. import matplotlib.pyplot as plt&lt;br&gt;categorias = ['Eletrônicos', 'Roupas', 'Alimentos', 'Outros']&lt;br&gt;vendas = [20000, 12000, 8000, 5000]&lt;br&gt;plt.pie(vendas, labels=categorias)&lt;br&gt;plt.show()",
+        "correct": false
+      },
+      {
+        "description": "B. import matplotlib.pyplot as plt&lt;br&gt;categorias = ['Eletrônicos', 'Roupas', 'Alimentos', 'Outros']&lt;br&gt;vendas = [20000, 12000, 8000, 5000]&lt;br&gt;plt.pie(vendas, labels=categorias, autopct='%1.1f%%')&lt;br&gt;plt.show()",
+        "correct": true
+      },
+      {
+        "description": "C. import matplotlib.pyplot as plt&lt;br&gt;categorias = ['Eletrônicos', 'Roupas', 'Alimentos', 'Outros']&lt;br&gt;vendas = [20000, 12000, 8000, 5000]&lt;br&gt;plt.pie(vendas, labels=categorias, startangle=90, counterclock=False)&lt;br&gt;plt.show()",
+        "correct": false
+      },
+      {
+        "description": "D. import matplotlib.pyplot as plt&lt;br&gt;categorias = ['Eletrônicos', 'Roupas', 'Alimentos', 'Outros']&lt;br&gt;vendas = [20000, 12000, 8000, 5000]&lt;br&gt;plt.pie(vendas, labels=categorias, shadow=True)&lt;br&gt;plt.show()",
+        "correct": false
+      },
+      {
+        "description": "E. import matplotlib.pyplot as plt&lt;br&gt;categorias = ['Eletrônicos', 'Roupas', 'Alimentos', 'Outros']&lt;br&gt;vendas = [20000, 12000, 8000, 5000]&lt;br&gt;plt.pie(vendas, labels=categorias, explode=[0.1, 0, 0, 0])&lt;br&gt;plt.show()",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "type": "mc",
+    "text": "<p>Em um laboratório, os testes para COVID têm uma taxa de precisão de 95%. Qual é a probabilidade de uma pessoa testar positivo no teste de COVID?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,29",
+        "correct": false
+      },
+      {
+        "description": "B. 0,06",
+        "correct": false
+      },
+      {
+        "description": "C. 0,15",
+        "correct": false
+      },
+      {
+        "description": "D. 0,25",
+        "correct": false
+      },
+      {
+        "description": "E. 0,95",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "type": "mc",
+    "text": "<p>Em uma empresa, o departamento de recursos humanos deseja organizar as informações que passam em seu setor. O departamento tem um conjunto de dados que representa o salário dos funcionários, e deseja criar um gráfico para visualizar a distribuição dos salários. Qual gráfico em Python é mais adequado para essa situação?</p>",
+    "alternatives": [
+      {
+        "description": "A. Gráfico de barras.",
+        "correct": false
+      },
+      {
+        "description": "B. Gráfico de linhas.",
+        "correct": false
+      },
+      {
+        "description": "C. Gráfico de dispersão.",
+        "correct": false
+      },
+      {
+        "description": "D. Gráfico de setores.",
+        "correct": false
+      },
+      {
+        "description": "E. Boxplot.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "type": "mc",
+    "text": "<p>O Python possui uma quantidade enorme de bases de dados pré-carregadas ou acessíveis via bibliotecas. Para esse exercício, você vai precisar carregar uma base de dados chamada <em>Iris</em>, que apresenta dados sobre algumas espécies de plantas. Assinale a alternativa que apresenta a programação necessária para fazer um histograma da variável \"tamanho da pétala\" (<code>petal_length</code>) apenas para a espécie (<code>species</code>) do tipo <em>Setosa</em>.&lt;br&gt;Além disso, a cor do histograma deve ser <strong>verde</strong>, o eixo X deve estar no intervalo de <strong>(1, 2)</strong>, o rótulo do eixo Y deve estar escrito <strong>\"Frequência\"</strong>, o do eixo X escrito <strong>\"Tamanho da pétala\"</strong>, a fonte configurada para <strong>\"Python\"</strong> e o título <strong>\"Histograma do tamanho da Pétala para a espécie Setosa\"</strong>.</p>",
+    "alternatives": [
+      {
+        "description": "A. <pre><code>import seaborn as sns\niris = sns.load_dataset(\"iris\")\nsetosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]\nsns.histplot(data=setosa_petal_length, color=\"green\")\nsns.set(font=\"Python\")\nsns.xlabel(\"Tamanho da pétala\")\nsns.ylabel(\"Frequência\")</code></pre>",
+        "correct": false
+      },
+      {
+        "description": "B. <pre><code>import seaborn as sns\niris = sns.load_dataset(\"iris\")\nsns.histplot(data=setosa_petal_length, color=\"green\")\nsns.set(font=\"Python\")\nsns.xlabel(\"Tamanho da pétala\")\nsns.ylabel(\"Frequência\")\nsns.title(\"Histograma do tamanho da Pétala para a espécie Setosa\")\nsns.xlim(1, 2)</code></pre>",
+        "correct": false
+      },
+      {
+        "description": "C. <pre><code>import seaborn as sns\niris = sns.load_dataset(\"iris\")\nsetosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]\nsns.title(\"Histograma do tamanho da Pétala para a espécie Setosa\")\nsns.xlim(1, 2)</code></pre>",
+        "correct": false
+      },
+      {
+        "description": "D. <pre><code>import seaborn as sns\niris = sns.load_dataset(\"iris\")\nsetosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]\nsns.histplot(data=setosa_petal_length, color=\"green\")\nsns.set(font=\"Python\")\nsns.xlabel(\"Tamanho da pétala\")\nsns.ylabel(\"Frequência\")\nsns.title(\"Histograma do tamanho da Pétala para a espécie Setosa\")\nsns.xlim(1, 2)</code></pre>",
+        "correct": true
+      },
+      {
+        "description": "E. <pre><code>import seaborn as sns\nsetosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]\nsns.xlim(1, 2)</code></pre>",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "type": "mc",
+    "text": "<p>A Pesquisa Mensal do Comércio (PMC) divulga todos os meses o valor comercializado por atividade. Suponha que temos os seguintes dados sobre as vendas no comércio por atividade para um determinado mês:&lt;br&gt;Eletrônicos: R$ 20.000,00&lt;br&gt;Roupas: R$ 12.000,00&lt;br&gt;Alimentos: R$ 8.000,00&lt;br&gt;Outros: R$ 5.000,00&lt;br&gt;Qual é o código em Python necessário para gerar um gráfico de setores (pizza) mostrando a proporção simples das vendas de cada atividade?</p>",
+    "alternatives": [
+      {
+        "description": "A. import matplotlib.pyplot as plt&lt;br&gt;categorias = ['Eletrônicos', 'Roupas', 'Alimentos', 'Outros']&lt;br&gt;vendas = [20000, 12000, 8000, 5000]&lt;br&gt;plt.pie(vendas, labels=categorias)&lt;br&gt;plt.show()",
+        "correct": false
+      },
+      {
+        "description": "B. import matplotlib.pyplot as plt&lt;br&gt;categorias = ['Eletrônicos', 'Roupas', 'Alimentos', 'Outros']&lt;br&gt;vendas = [20000, 12000, 8000, 5000]&lt;br&gt;plt.pie(vendas, labels=categorias, autopct='%1.1f%%')&lt;br&gt;plt.show()",
+        "correct": true
+      },
+      {
+        "description": "C. import matplotlib.pyplot as plt&lt;br&gt;categorias = ['Eletrônicos', 'Roupas', 'Alimentos', 'Outros']&lt;br&gt;vendas = [20000, 12000, 8000, 5000]&lt;br&gt;plt.pie(vendas, labels=categorias, startangle=90, counterclock=False)&lt;br&gt;plt.show()",
+        "correct": false
+      },
+      {
+        "description": "D. import matplotlib.pyplot as plt&lt;br&gt;categorias = ['Eletrônicos', 'Roupas', 'Alimentos', 'Outros']&lt;br&gt;vendas = [20000, 12000, 8000, 5000]&lt;br&gt;plt.pie(vendas, labels=categorias, shadow=True)&lt;br&gt;plt.show()",
+        "correct": false
+      },
+      {
+        "description": "E. import matplotlib.pyplot as plt&lt;br&gt;categorias = ['Eletrônicos', 'Roupas', 'Alimentos', 'Outros']&lt;br&gt;vendas = [20000, 12000, 8000, 5000]&lt;br&gt;plt.pie(vendas, labels=categorias, explode=[0.1, 0, 0, 0])&lt;br&gt;plt.show()&lt;br&gt;Quais as alternaativaas corretaas destas questoes",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "type": "mc",
+    "text": "<p>O Censo Brasileiro começou no ano de 2022, ele abrange toda população brasileira, diversas variáveis estão sendo investigadas, dentre elas está a altura da população. Imagine que a altura de um grupo de pessoas analisadas segue uma distribuição normal com média 170 cm e desvio padrão 10 cm. Qual é a probabilidade de que uma pessoa selecionada ao acaso desse grupo tenha altura superior a 185 cm?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,0228.",
+        "correct": false
+      },
+      {
+        "description": "B. 0,0630.",
+        "correct": false
+      },
+      {
+        "description": "C. 0,1587.",
+        "correct": false
+      },
+      {
+        "description": "D. 0,2525.",
+        "correct": false
+      },
+      {
+        "description": "E. 0,0668.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "type": "mc",
+    "text": "<p>Um analista de dados está trabalhando em um projeto que envolve a análise de dados de vendas. Ele precisa criar um gráfico que mostre a distribuição de vendas por categoria de produto. Qual a função em Python que ele deve utilizar para plotar esse tipo de gráfico?</p>",
+    "alternatives": [
+      {
+        "description": "A. plt.hist()",
+        "correct": false
+      },
+      {
+        "description": "B. plt.bar()",
+        "correct": true
+      },
+      {
+        "description": "C. plt.boxplot()",
+        "correct": false
+      },
+      {
+        "description": "D. plt.scatter()",
+        "correct": false
+      },
+      {
+        "description": "E. plt.pie()",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "type": "mc",
+    "text": "<p>A análise exploratória de dados em Python frequentemente utiliza gráficos para entender padrões, correlações e distribuições. Suponha que um analista deseje avaliar a relação entre duas variáveis contínuas em um&lt;br&gt;conjunto de dados, verificando se existe alguma tendência linear ou não linear entre elas, além de identificar outliers ou agrupamentos.&lt;br&gt;Qual tipo de gráfico é mais adequado para esse objetivo?</p>",
+    "alternatives": [
+      {
+        "description": "A. A Gráfico de barras, pois destaca a frequência de categorias associadas a valores.",
+        "correct": false
+      },
+      {
+        "description": "B. Box plot, pois mostra a mediana e os quartis de uma única variável.",
+        "correct": false
+      },
+      {
+        "description": "C. Histograma, pois representa a distribuição de frequências de uma variável.",
+        "correct": false
+      },
+      {
+        "description": "D. Gráfico de dispersão (scatter plot), pois permite visualizar padrões e relações entre duas variáveis contínuas.",
+        "correct": true
+      },
+      {
+        "description": "E. Gráfico de linhas, pois conecta os dados para mostrar variações ao longo do tempo.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "type": "mc",
+    "text": "<p>Suponha que, em uma indústria de transformação, determinado produto é produzido e tem probabilidade de ser defeituoso com probabilidade de sucesso de 0,9%. Seja uma variável aleatória do número de produtos com defeitos em 30 verificações, sendo assim, a distribuição será uma binomial com n=30 e p=0,9%. Qual a probabilidade de selecionarmos no máximo uma peça defeituosa?</p>",
+    "alternatives": [
+      {
+        "description": "A. A probabilidade é de aproximadamente 0.79",
+        "correct": false
+      },
+      {
+        "description": "B. A probabilidade é de aproximadamente 0.68",
+        "correct": false
+      },
+      {
+        "description": "C. A probabilidade é de aproximadamente 0.77",
+        "correct": false
+      },
+      {
+        "description": "D. A probabilidade é de aproximadamente 0.97",
+        "correct": true
+      },
+      {
+        "description": "E. A probabilidade é de aproximadamente 0.88",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "type": "mc",
+    "text": "<p>O Prêmio de seguro é calculado a partir de todo gasto da seguradora. Uma seguradora deseja saber o número de acidentes de carro em um bairro, sabendo que o número médio de acidentes por dia seja 3. Qual é a probabilidade de ocorrerem 5 acidentes em um dia?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0.1008",
+        "correct": true
+      },
+      {
+        "description": "B. 0.0613",
+        "correct": false
+      },
+      {
+        "description": "C. 0.0292",
+        "correct": false
+      },
+      {
+        "description": "D. 0.008",
+        "correct": false
+      },
+      {
+        "description": "E. 0.0027",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "type": "mc",
+    "text": "<p>Suponha que um dado justo de seis faces seja lançado. Qual é a probabilidade de que o resultado seja um&lt;br&gt;número entre 2 e 4 (inclusive)?</p>",
+    "alternatives": [
+      {
+        "description": "A. 0,29",
+        "correct": false
+      },
+      {
+        "description": "B. 0,50",
+        "correct": true
+      },
+      {
+        "description": "C. 0,15",
+        "correct": false
+      },
+      {
+        "description": "D. 0,25",
+        "correct": false
+      },
+      {
+        "description": "E. 0,95",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "type": "mc",
+    "text": "<p>Um dado não viciado, com a forma de um cubo e com as faces numeradas de 1 até 6, foi lançado 3 vezes. Sabendo que a soma dos resultados obtidos foi igual a 5, qual é a probabilidade de o resultado do segundo lançamento do dado ter sido igual a 2?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/18",
+        "correct": false
+      },
+      {
+        "description": "B. 1/6",
+        "correct": false
+      },
+      {
+        "description": "C. 1/5",
+        "correct": false
+      },
+      {
+        "description": "D. 1/3",
+        "correct": true
+      },
+      {
+        "description": "E. 1/2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "type": "mc",
+    "text": "<p>Considere um conjunto de divisores positivos de 60. Escolhemos ao acaso um elemento desse conjunto. Qual a probabilidade desse elemento ser primo?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/4",
+        "correct": true
+      },
+      {
+        "description": "B. 1/2",
+        "correct": false
+      },
+      {
+        "description": "C. 1/8",
+        "correct": false
+      },
+      {
+        "description": "D. 1/12",
+        "correct": false
+      },
+      {
+        "description": "E. 1/6",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "type": "mc",
+    "text": "<p>Carlos tem probabilidade 2/3 de resolver um problema de probabilidade. Joana, sua colega de classe, tem probabilidade 3/4 de resolver o mesmo problema. Se os dois tentarem resolvê-lo de forma independente, qual é a probabilidade do problema ser solucionado?</p>",
+    "alternatives": [
+      {
+        "description": "A. 1/12",
+        "correct": false
+      },
+      {
+        "description": "B. 11/12",
+        "correct": true
+      },
+      {
+        "description": "C. 3/4",
+        "correct": false
+      },
+      {
+        "description": "D. 1/3",
+        "correct": false
+      },
+      {
+        "description": "E. 2/3",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "type": "mc",
+    "text": "<p>Observe os dados de produção diária dos 10 primeiros dias do mês de janeiro de uma fábrica de peças:&lt;br&gt;Dia Produção (mil)&lt;br&gt;1   80&lt;br&gt;2   90&lt;br&gt;3   100&lt;br&gt;4   60&lt;br&gt;10  40&lt;br&gt;6   70&lt;br&gt;7   90&lt;br&gt;8   100&lt;br&gt;9   80&lt;br&gt;10  110&lt;br&gt;11  120&lt;br&gt;12  130&lt;br&gt;13  90&lt;br&gt;14  60&lt;br&gt;15  80&lt;br&gt;16  70&lt;br&gt;17  90&lt;br&gt;18  60&lt;br&gt;19  80&lt;br&gt;20  100&lt;br&gt;A produção mediana foi de 85 mil unidades; o desvio padrão, aproximadamente 22 mil unidades; o total da produção, 1.700.000 unidades. Que códigos no Python estão corretos para esses resultados? Os dados foram carregados dessa forma:&lt;br&gt;dados = [80,90,100,60,40,70, 90, 100,80,&lt;br&gt;110,120,130,90, 60, 80,70, 90, 60, 80,100]</p>",
+    "alternatives": [
+      {
+        "description": "A. mediana (dados), dp (dados), soma (dados)",
+        "correct": false
+      },
+      {
+        "description": "B. median (dados), std (dados), sum (dados)",
+        "correct": true
+      },
+      {
+        "description": "C. mediana (dados), dp (dados), sum (dados)",
+        "correct": false
+      },
+      {
+        "description": "D. mediana (dados), sd (dados), soma (dados)",
+        "correct": false
+      },
+      {
+        "description": "E. median (dados), dp (dados), sum (dados)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "type": "mc",
+    "text": "<p>Uma grande empresa alimentícia, gostaria de saber a dispersão dos salários de seus funcionários, para isso deseja calcular a variância dos salários utilizando a linguagem Python. Qual função e biblioteca que pode ser usada para realizar este cálculo?</p>",
+    "alternatives": [
+      {
+        "description": "A. A função var() da biblioteca NumPy.",
+        "correct": true
+      },
+      {
+        "description": "B. A função mean() da biblioteca Pandas.",
+        "correct": false
+      },
+      {
+        "description": "C. A função scatter() da biblioteca Matplotlib.",
+        "correct": false
+      },
+      {
+        "description": "D. A função fit() da biblioteca Scikit-learn.",
+        "correct": false
+      },
+      {
+        "description": "E. A função dense() da biblioteca TensorFlow.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "type": "mc",
+    "text": "<p>O símbolo E() indica o operador esperança ou expectativa matemática. Sendo X e Y variáveis aleatórias, a expressão abaixo nem sempre válida é:</p>",
+    "alternatives": [
+      {
+        "description": "A. E(X+3)= E(X) + 3",
+        "correct": false
+      },
+      {
+        "description": "B. E(3X) = 3 E(X)",
+        "correct": false
+      },
+      {
+        "description": "C. E(XY) = E(X) E(Y)",
+        "correct": true
+      },
+      {
+        "description": "D. E(X + Y) = E(X) + E(Y)",
+        "correct": false
+      },
+      {
+        "description": "E. E(X-Y) = E(X) - E(Y)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "type": "mc",
+    "text": "<p>A variável aleatória contínua X tem a seguinte função de densidade de probabilidade:&lt;br&gt;f(x) { x/12 +k, se 0 ≤x≤3&lt;br&gt;0, para todos os outros valores de x&lt;br&gt;Sendo k uma constante, seu valor é igual a:</p>",
+    "alternatives": [
+      {
+        "description": "A. 1",
+        "correct": false
+      },
+      {
+        "description": "B. 3/4",
+        "correct": false
+      },
+      {
+        "description": "C. 2/3",
+        "correct": false
+      },
+      {
+        "description": "D. 5/24",
+        "correct": true
+      },
+      {
+        "description": "E. 1/12",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "type": "mc",
+    "text": "<p>Uma variável aleatória X é uniformemente distribuída no intervalo [1, 5]. A média e a variância correspondentes são, respectivamente:</p>",
+    "alternatives": [
+      {
+        "description": "A. 2 e 1/3",
+        "correct": false
+      },
+      {
+        "description": "B. 2 e 2/3",
+        "correct": false
+      },
+      {
+        "description": "C. 3 e 3/4",
+        "correct": false
+      },
+      {
+        "description": "D. 3 e 1/3",
+        "correct": false
+      },
+      {
+        "description": "E. 3 e 4/3",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "type": "mc",
+    "text": "<p>Em uma base dados de preços de um certo produto, existem vários erros de digitação. Para auxiliar a encontrá- los seria ideal fazer um gráfico. Qual a função em Python que é utilizada para fazer a identificação de&lt;br&gt;distribuição e outliers em dados?</p>",
+    "alternatives": [
+      {
+        "description": "A. plt.boxplot()",
+        "correct": true
+      },
+      {
+        "description": "B. plt.scatter()",
+        "correct": false
+      },
+      {
+        "description": "C. sns.violinplot()",
+        "correct": false
+      },
+      {
+        "description": "D. px.pie()",
+        "correct": false
+      },
+      {
+        "description": "E. plt.bar()",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "type": "mc",
+    "text": "<p>O Python possui uma quantidade enorme de bases de dados pré-carregadas ou acessíveis via bibliotecas. Para esse exercício, você vai precisar carregar uma base de dados chamada Iris, que apresenta dados sobre algumas espécies de plantas. Assinale a alternativa que apresenta a programação necessária para fazer um histograma da variável \"tamanho da pétala\" (petal_length) apenas para a espécie (species) do tipo Setosa.&lt;br&gt;Além disso, a cor do histograma deve ser verde, o eixo X deve estar no intervalo de (1, 2), o rótulo do eixo Y deve estar escrito \"Frequência\", o do eixo X escrito \"Tamanho da pétala\", a fonte configurada para \"Python\" e o título \"Histograma do tamanho da Pétala para a espécie Setosa\".</p>",
+    "alternatives": [
+      {
+        "description": "A. import seaborn as sns&lt;br&gt;iris = sns.load_dataset(\"iris\")&lt;br&gt;setosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]&lt;br&gt;sns.histplot(data=setosa_petal_length, color=\"green\")&lt;br&gt;sns.set(font=\"Python\")&lt;br&gt;sns.xlabel(\"Tamanho da pétala\")&lt;br&gt;sns.ylabel(\"Frequência\")",
+        "correct": false
+      },
+      {
+        "description": "B. import seaborn as sns&lt;br&gt;iris = sns.load_dataset(\"iris\")&lt;br&gt;sns.histplot(data=setosa_petal_length, color=\"green\")&lt;br&gt;sns.set(font=\"Python\")&lt;br&gt;sns.xlabel(\"Tamanho da pétala\")&lt;br&gt;sns.ylabel(\"Frequência\")&lt;br&gt;sns.title(\"Histograma do tamanho da Pétala para a espécie Setosa\")&lt;br&gt;sns.xlim(1, 2)",
+        "correct": false
+      },
+      {
+        "description": "C. import seaborn as sns&lt;br&gt;iris = sns.load_dataset(\"iris\")&lt;br&gt;setosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]&lt;br&gt;sns.title(\"Histograma do tamanho da Pétala para a espécie Setosa\")&lt;br&gt;sns.xlim(1, 2)",
+        "correct": false
+      },
+      {
+        "description": "D. import seaborn as sns&lt;br&gt;iris = sns.load_dataset(\"iris\")&lt;br&gt;setosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]&lt;br&gt;sns.histplot(data=setosa_petal_length, color=\"green\")&lt;br&gt;sns.set(font=\"Python\")&lt;br&gt;sns.xlabel(\"Tamanho da pétala\")&lt;br&gt;sns.ylabel(\"Frequência\")&lt;br&gt;sns.title(\"Histograma do tamanho da Pétala para a espécie Setosa\")&lt;br&gt;sns.xlim(1, 2)",
+        "correct": true
+      },
+      {
+        "description": "E. import seaborn as sns&lt;br&gt;setosa_petal_length = iris.loc[iris[\"species\"] == \"setosa\", \"petal_length\"]&lt;br&gt;sns.xlim(1, 2)",
         "correct": false
       }
     ]
